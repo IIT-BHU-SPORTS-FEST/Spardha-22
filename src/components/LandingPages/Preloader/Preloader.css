@@ -422,3 +422,50 @@ g {
   transform: translate(0px, 200px);
   -webkit-transform: translate(0px, 200px);
 }
+
+
+
+#Layer_1 {
+  left: 16vw;
+}
+
+@media only screen and (min-width: 320px) {
+  #Layer_1 {
+    left: 20vw;
+  }
+}
+@media only screen and (min-width: 375px) {
+  #Layer_1 {
+    left: 24vw;
+  }
+}
+@media only screen and (min-width: 425px) {
+  #Layer_1 {
+    left: 28vw;
+  }
+}
+@media only screen and (min-width: 525px) {
+  #Layer_1 {
+    left: 32vw;
+  }
+}
+@media only screen and (min-width: 625px) {
+  #Layer_1 {
+    left: 34vw;
+  }
+}
+@media only screen and (min-width: 768px) {
+  #Layer_1 {
+    left: 38vw;
+  }
+}
+@media only screen and (min-width: 1024px) {
+  #Layer_1 {
+    left: 40vw;
+  }
+}
+@media only screen and (min-width: 1600px) {
+  #Layer_1 {
+    left: 42vw;
+  }
+}

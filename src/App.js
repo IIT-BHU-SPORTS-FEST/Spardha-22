@@ -6,6 +6,7 @@ import { Suspense } from 'react/cjs/react.production.min';
 
 import ReactGA from 'react-ga';
 import InitializeReactGA from './helper/googleAnalytics.ts';
+import NotFound from './components/LandingPages/NotFound/NotFound';
 
 const LandingPages = React.lazy(() =>
   import('./components/LandingPages/LandingPages')
@@ -77,6 +78,12 @@ function App() {
     <>
       {/* <Router> */}
       <Routes>
+        <Route
+          path="*"
+          element={
+            <NotFound />
+          }
+        />
         <Route
           path="/"
           element={
