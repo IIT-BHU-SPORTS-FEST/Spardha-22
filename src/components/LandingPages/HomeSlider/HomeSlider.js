@@ -29,17 +29,17 @@ function HomeSlider() {
                   <img src="/images/logo/spardha-white.png" alt="spardha" />
                 </div>
                 <h1 className="mt-4 mb-1 text-overflow-center spardha-21">
-                  Spardha&nbsp;2021
+                  Spardha&nbsp;2022
                 </h1>
                 <h2 className="text-overflow-center home-spardha-subheading">
                   IIT (BHU), Varanasi
                 </h2>
-                <h2
+                {/* <h2
                   className="text-overflow-center home-spardha-subheading"
                   style={{ color: '#6db549' }}
                 >
-                  April 15-17, 2022
-                </h2>
+                  October 14-16, 2022
+                </h2> */}
                 <div className="container mt-5 pt-3 home-large-screen">
                   <div className="row">
                     <div className="col-6 ca">
@@ -92,17 +92,17 @@ function HomeSlider() {
                   <img src="/images/logo/spardha-white.png" alt="spardha" />
                 </div>
                 <h1 className="mt-4 mb-1 text-overflow-center spardha-21">
-                  Spardha&nbsp;2021
+                  Spardha&nbsp;2022
                 </h1>
                 <h2 className="text-overflow-center home-spardha-subheading">
                   IIT (BHU), Varanasi
                 </h2>
-                <h2
+                {/* <h2
                   className="text-overflow-center home-spardha-subheading"
                   style={{ color: '#6db549' }}
                 >
-                  April 15-17, 2022
-                </h2>
+                  October 14-16, 2022
+                </h2> */}
                 <div className="container mt-5 pt-3 home-large-screen">
                   <div className="row">
                     <div className="col-6 ca">
@@ -155,17 +155,17 @@ function HomeSlider() {
                   <img src="/images/logo/spardha-white.png" alt="spardha" />
                 </div>
                 <h1 className="mt-4 mb-1 text-overflow-center spardha-21">
-                  Spardha&nbsp;2021
+                  Spardha&nbsp;2022
                 </h1>
                 <h2 className="text-overflow-center home-spardha-subheading">
                   IIT (BHU), Varanasi
                 </h2>
-                <h2
+                {/* <h2
                   className="text-overflow-center home-spardha-subheading"
                   style={{ color: '#6db549' }}
                 >
-                  April 15-17, 2022
-                </h2>
+                  October 14-16, 2022
+                </h2> */}
                 <div className="container mt-5 pt-3 home-large-screen">
                   <div className="row">
                     <div className="col-6 ca">
@@ -218,17 +218,17 @@ function HomeSlider() {
                   <img src="/images/logo/spardha-white.png" alt="spardha" />
                 </div>
                 <h1 className="mt-4 mb-1 text-overflow-center spardha-21">
-                  Spardha&nbsp;2021
+                  Spardha&nbsp;2022
                 </h1>
                 <h2 className="text-overflow-center home-spardha-subheading">
                   IIT (BHU), Varanasi
                 </h2>
-                <h2
+                {/* <h2
                   className="text-overflow-center home-spardha-subheading"
                   style={{ color: '#6db549' }}
                 >
-                  April 15-17, 2022
-                </h2>
+                  October 14-16, 2022
+                </h2> */}
                 <div className="container mt-5 pt-3 home-large-screen">
                   <div className="row">
                     <div className="col-6 ca">

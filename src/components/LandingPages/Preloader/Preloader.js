@@ -35,13 +35,16 @@ const Preloader = () => {
         xmlnsXlink="http://www.w3.org/1999/xlink"
         x="0px"
         y="0px"
-        viewBox="0 0 3255 964"
+        viewBox="0 0 3000 964"
         enableBackground="new 0 0 955 364"
         xmlSpace="preserve"
         style={{
-          paddingLeft: 'calc(46vw - 130px)',
-          paddingTop: '55vh',
-          minWidth: '1000px',
+          // paddingLeft: 'calc(46vw - 130px)',
+          // paddingLeft: '40vw',
+          position: 'absolute',
+          top: '50vh',
+          minWidth: '600px',
+          maxWidth: '1000px',
         }}
       >
         <g id="itall">

@@ -53,6 +53,7 @@ function Header() {
               }.png`}
               alt="Sparhda Logo"
               height="60px"
+              // width="80px"
             />
           </NavHashLink>
         </NavbarBrand>

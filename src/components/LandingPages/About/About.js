@@ -110,7 +110,7 @@ const About = () => {
                       Hype&nbsp;Around Spardha
                     </h3>
                     <p className={`${styles.para1}`}>
-                      For starters, 2021 will witness the 36th edition of
+                      For starters, 2022 will witness the 36th edition of
                       Spardha, a festival which has grown from strength to
                       strength ever since its inception. After all these
                       successful editions, Spardha, today stands as the largest
