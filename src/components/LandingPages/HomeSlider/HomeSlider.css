@@ -397,7 +397,7 @@
 }
 
 .home-button:hover {
-  padding-top: 7px;
+  padding-top: 10px;
   color: white;
   background: transparent;
   border: 0.2rem solid white;
@@ -437,7 +437,7 @@ a.home-button1:hover {
 }
 
 .home-button1:hover {
-  padding-top: 7px;
+  padding-top: 10px;
   color: white;
   background: transparent;
   border: 0.2rem solid white;
