@@ -385,8 +385,8 @@
 .home-button {
   float: right;
   height: 55px;
-  width: 310px;
-  padding-top: 10px;
+  width: 260px;
+  padding-top: 13.5px;
   background: white;
   display: inline-block;
   font-size: 1.3em;
@@ -397,7 +397,7 @@
 }
 
 .home-button:hover {
-  padding-top: 7px;
+  padding-top: 10px;
   color: white;
   background: transparent;
   border: 0.2rem solid white;
@@ -416,10 +416,10 @@ a.home-button:hover {
 .home-button1 {
   float: left;
   height: 55px;
-  width: auto;
-  padding: 10px;
+  width: 260px;
+  padding-top: 13.5px;
   display: inline-block;
-  font-size: 1.15em;
+  font-size: 1.3em;
   font-weight: 700;
   text-decoration: none;
   border-radius: 4px;
@@ -437,7 +437,7 @@ a.home-button1:hover {
 }
 
 .home-button1:hover {
-  padding-top: 7px;
+  padding-top: 10px;
   color: white;
   background: transparent;
   border: 0.2rem solid white;

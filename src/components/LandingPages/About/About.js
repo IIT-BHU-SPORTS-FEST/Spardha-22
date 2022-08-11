@@ -63,7 +63,7 @@ const About = () => {
                       }}
                     >
                       Spardha is the annual sports festival of IIT (BHU),
-                      Varanasi. In its glorious history of over 32 years,
+                      Varanasi. In its glorious history of over 36 years,
                       Spardha has grown to become the largest and one of the
                       most awaited sports festival of northern India where
                       athletic competition is drawn from throughout the country.
@@ -110,7 +110,7 @@ const About = () => {
                       Hype&nbsp;Around Spardha
                     </h3>
                     <p className={`${styles.para1}`}>
-                      For starters, 2021 will witness the 36th edition of
+                      For starters, 2022 will witness the 37th edition of
                       Spardha, a festival which has grown from strength to
                       strength ever since its inception. After all these
                       successful editions, Spardha, today stands as the largest
@@ -147,7 +147,7 @@ const About = () => {
                     <p className={`${styles.para2}`}>
                       Each&nbsp;year&nbsp;thousands of participants at Spardha
                       put their hard work to test in a vast array of sports. If
-                      this doesn't catch your attention, the bustle of 35,000
+                      this doesn't catch your attention, the bustle of 45,000
                       people on the campus streets surely will. Its them who
                       make Spardha the festival it is, a celebration of four
                       long days.

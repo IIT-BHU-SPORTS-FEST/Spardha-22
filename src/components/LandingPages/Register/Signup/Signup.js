@@ -669,7 +669,7 @@ function Signup() {
                   target="_blank"
                   style={{ textDecoration: 'none' }}
                 >
-                  "Rules of Spardha 2021."{' '}
+                  "Rules of Spardha 2022."{' '}
                 </a>
               </Label>
             </FormGroup>

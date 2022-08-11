@@ -2,9 +2,11 @@
   background-color: rgba(256, 256, 256, 0.95);
   color: #555;
   padding: 0;
-  margin: 15px;
-  border-radius: 4px;
+  /* margin: 15px; */
+  border-radius: 10px;
   transition: all 0.3s ease;
+  max-width: 250px;
+  padding-bottom: 10px;
 }
 
 .staff .info {
@@ -17,6 +19,7 @@
   -moz-box-shadow: 0px 3px 66px -24px white;
   box-shadow: 0px 3px 66px -24px white;
   border-color: #fff;
+  transform: scale(1.01, 1.01);
 }
 
 .head {
@@ -35,10 +38,7 @@
   height: 250px;
   vertical-align: middle;
   border-style: none;
-}
-
-.img:hover {
-  transform: scale(1.01, 1.01);
+  border-radius: 10px;
 }
 
 .links {
