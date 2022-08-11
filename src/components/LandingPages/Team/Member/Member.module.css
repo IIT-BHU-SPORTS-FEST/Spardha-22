@@ -5,7 +5,7 @@
   /* margin: 15px; */
   border-radius: 10px;
   transition: all 0.3s ease;
-  width: 250px;
+  max-width: 250px;
   padding-bottom: 10px;
 }
 
