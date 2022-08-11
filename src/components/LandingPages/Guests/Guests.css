@@ -223,11 +223,21 @@
   height: auto;
   transition: 0.5s ease;
   backface-visibility: hidden;
+  margin: auto;
+  border-radius: 20px;
+}
+
+.img-guests:hover {
+  -webkit-box-shadow: 0px 3px 66px -24px white;
+  -moz-box-shadow: 0px 3px 66px -24px white;
+  box-shadow: 0px 3px 66px -24px white;
+  border-color: #fff;
+  transform: scale(1.01, 1.01);
 }
 
 .middle_guests {
   margin-bottom: 15px;
-  text-align: right;
+  text-align: center;
 }
 
 .guest-text {
