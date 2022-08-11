@@ -26,7 +26,7 @@ function HomeSlider() {
             >
               <div className="col-md-12 col-sm-12 col-12 ftco-animate text-center mt-5">
                 <div className="container col-lg-4 col-md-5 col-sm-9 col-9">
-                  <img src="/images/logo/spardha-white.png" alt="spardha" />
+                  <img src="/images/logo/spardha-white-home.png" alt="spardha" />
                 </div>
                 <h1 className="mt-4 mb-1 text-overflow-center spardha-21">
                   Spardha&nbsp;2022
@@ -89,7 +89,7 @@ function HomeSlider() {
             >
               <div className="col-md-12 col-sm-12 col-12 ftco-animate text-center mt-5">
                 <div className="container col-lg-4 col-md-5 col-sm-9 col-9">
-                  <img src="/images/logo/spardha-white.png" alt="spardha" />
+                  <img src="/images/logo/spardha-white-home.png" alt="spardha" />
                 </div>
                 <h1 className="mt-4 mb-1 text-overflow-center spardha-21">
                   Spardha&nbsp;2022
@@ -152,7 +152,7 @@ function HomeSlider() {
             >
               <div className="col-md-12 col-sm-12 col-12 ftco-animate text-center mt-5">
                 <div className="container col-lg-4 col-md-5 col-sm-9 col-9">
-                  <img src="/images/logo/spardha-white.png" alt="spardha" />
+                  <img src="/images/logo/spardha-white-home.png" alt="spardha" />
                 </div>
                 <h1 className="mt-4 mb-1 text-overflow-center spardha-21">
                   Spardha&nbsp;2022
@@ -215,7 +215,7 @@ function HomeSlider() {
             >
               <div className="col-md-12 col-sm-12 col-12 ftco-animate text-center mt-5">
                 <div className="container col-lg-4 col-md-5 col-sm-9 col-9">
-                  <img src="/images/logo/spardha-white.png" alt="spardha" />
+                  <img src="/images/logo/spardha-white-home.png" alt="spardha" />
                 </div>
                 <h1 className="mt-4 mb-1 text-overflow-center spardha-21">
                   Spardha&nbsp;2022
