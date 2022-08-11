@@ -147,7 +147,7 @@ const About = () => {
                     <p className={`${styles.para2}`}>
                       Each&nbsp;year&nbsp;thousands of participants at Spardha
                       put their hard work to test in a vast array of sports. If
-                      this doesn't catch your attention, the bustle of 35,000
+                      this doesn't catch your attention, the bustle of 45,000
                       people on the campus streets surely will. Its them who
                       make Spardha the festival it is, a celebration of four
                       long days.

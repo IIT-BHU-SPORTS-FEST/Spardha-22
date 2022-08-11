@@ -69,9 +69,9 @@ const Footer = () => {
                           wordSpacing: '0.4em',
                           textDecoration: 'none',
                         }}
-                        href="tel:+919548980225"
+                        href="tel:+919519228100"
                       >
-                        &emsp;&emsp;+91&#8209;9548980225
+                        &emsp;&emsp;+91&#8209;9519228100
                       </a>
                     </span>
 
@@ -87,9 +87,9 @@ const Footer = () => {
                           wordSpacing: '0.4em',
                           textDecoration: 'none',
                         }}
-                        href="tel:+919829634035"
+                        href="tel:+917004405828"
                       >
-                        &emsp;&emsp;+91&#8209;9829634035
+                        &emsp;&emsp;+91&#8209;7004405828
                       </a>
                     </span>
 
@@ -105,9 +105,9 @@ const Footer = () => {
                           wordSpacing: '0.4em',
                           textDecoration: 'none',
                         }}
-                        href="tel:+917683038420"
+                        href="tel:+919109520441"
                       >
-                        &emsp;&emsp;+91&#8209;7683038420
+                        &emsp;&emsp;+91&#8209;9109520441
                       </a>
                     </span>
 
@@ -150,9 +150,9 @@ const Footer = () => {
                           wordSpacing: '0.4em',
                           textDecoration: 'none',
                         }}
-                        href="tel:+919130170259"
+                        href="tel:+916387216629"
                       >
-                        &emsp;&emsp;+91&#8209;9130170259
+                        &emsp;&emsp;+91&#8209;6387216629
                       </a>
                     </span>
                     <br />
@@ -176,9 +176,9 @@ const Footer = () => {
                           wordSpacing: '0.4em',
                           textDecoration: 'none',
                         }}
-                        href="tel:+917995167691"
+                        href="tel:+917383345626"
                       >
-                        &emsp;&emsp;+91&#8209;7995167691
+                        &emsp;&emsp;+91&#8209;7383345626
                       </a>
                     </span>
                     {/* </div> */}
