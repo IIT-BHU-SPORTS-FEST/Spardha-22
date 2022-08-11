@@ -104,7 +104,7 @@ const CamAmb = () => {
                     connection circles by interacting with people from diverse
                     fields of various colleges across the country. It would be a
                     test of your managerial and leadership skills by being a
-                    face of Spardha '21 in your college.&nbsp;
+                    face of Spardha'22 in your college.&nbsp;
                     <br />
                     <br />
                   </p>
