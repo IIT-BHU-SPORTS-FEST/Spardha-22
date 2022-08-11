@@ -238,12 +238,12 @@ const CamAmb = () => {
                   >
                     <a
                       className="btn btn-success btn-xlg"
-                      href="https://forms.gle/eUzW9kgVZ3JHAHpN6"
+                      href="https://forms.gle/WkxB9v3amF3CU6jF8"
                       target="_blank"
                       rel="noopener noreferrer"
                       style={{ color: 'white' }}
                     >
-                      Register as a CA
+                       Register as a CA
                     </a>
                   </div>
                 </div>
