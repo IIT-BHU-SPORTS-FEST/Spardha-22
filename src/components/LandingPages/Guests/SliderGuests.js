@@ -58,7 +58,7 @@ const SliderGuests = () => {
                 </div>
               </div>
 
-              <div className="item">
+              {/* <div className="item">
                 <div className="testimony-wrap text-center py-4">
                   <div className="user-img mt-3 mb-4 bg_class_guest8"></div>
                   <div className="text p-3">
@@ -70,7 +70,7 @@ const SliderGuests = () => {
                     <span className="position">2010 World Title winner</span>
                   </div>
                 </div>
-              </div>
+              </div> */}
 
               <div className="item">
                 <div className="testimony-wrap text-center py-4">

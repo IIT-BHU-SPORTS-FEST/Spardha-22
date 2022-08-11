@@ -70,7 +70,7 @@ const Guests = () => {
               </div>
             </div>
             <div className="row_guests">
-              <div className="col-md-3 col-sm-3 col-6">
+              {/* <div className="col-md-3 col-sm-3 col-6">
                 <img
                   src="/images/guests/18.png"
                   className="img-fluid_guests img-guests"
@@ -79,7 +79,7 @@ const Guests = () => {
                 <div className="middle_guests">
                   <div className="guest-text">Sushil&nbsp;Kumar</div>
                 </div>
-              </div>
+              </div> */}
               <div className="col-md-3 col-sm-3 col-6">
                 <img
                   src="/images/guests/6.png"

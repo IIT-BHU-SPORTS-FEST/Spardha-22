@@ -352,7 +352,7 @@ const Gallery = () => {
               Closing Ceremony:
             </div>
             <div className="row_gallery">
-              <div
+              {/* <div
                 className="col-sm-6 col-md-4 imageMarginGallery"
                 onClick={() => {
                   localStorage.setItem('index', 18);
@@ -365,7 +365,7 @@ const Gallery = () => {
                     alt="gallery_image_alt"
                   />
                 </span>
-              </div>
+              </div> */}
               <div
                 className="col-sm-6 col-md-4 imageMarginGallery"
                 onClick={() => {
@@ -380,7 +380,7 @@ const Gallery = () => {
                   />
                 </span>
               </div>
-              <div
+              {/* <div
                 className="col-sm-6 col-md-4 imageMarginGallery"
                 onClick={() => {
                   localStorage.setItem('index', 20);
@@ -393,7 +393,7 @@ const Gallery = () => {
                     alt="gallery_image_alt"
                   />
                 </span>
-              </div>
+              </div> */}
               <div
                 className="col-sm-6 col-md-4 imageMarginGallery"
                 onClick={() => {
@@ -408,7 +408,7 @@ const Gallery = () => {
                   />
                 </span>
               </div>
-              <div
+              {/* <div
                 className="col-sm-6 col-md-4 imageMarginGallery"
                 onClick={() => {
                   localStorage.setItem('index', 22);
@@ -421,7 +421,7 @@ const Gallery = () => {
                     alt="gallery_image_alt"
                   />
                 </span>
-              </div>
+              </div> */}
             </div>
             <div className="row_gallery mb-3 mt-3 gallery-heading boldClass">
               Aquatics:
