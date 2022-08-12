@@ -3,21 +3,25 @@
 #home-slider-item-1 {
   background-image: url(./../../../assets/bg/bg_1.jpg);
   outline: 2px solid black;
+  display: flex;
 }
 
 #home-slider-item-2 {
   background-image: url(./../../../assets/bg/bg_2.jpg);
   outline: 2px solid black;
+  display: flex;
 }
 
 #home-slider-item-3 {
   background-image: url(./../../../assets/bg/bg_3.jpg);
   outline: 2px solid black;
+  display: flex;
 }
 
 #home-slider-item-4 {
   background-image: url(./../../../assets/bg/bg_4.jpg);
   outline: 2px solid black;
+  display: flex;
 }
 
 .owl-carousel {
@@ -543,7 +547,7 @@ a.home-button1:hover {
     margin-left: 0;
   } */
   .home-spardha-mainlogo {
-    padding-top: 200px !important;
+    padding-top: 0px !important;
   }
 }
 
