@@ -553,3 +553,12 @@ a.home-button1:hover {
     padding-top: 100px !important;
   }
 }
+
+@media screen and (max-height: 670px) {
+  .owl-carousel.home-slider{
+    min-height: 670px;
+  }
+  .owl-carousel.home-slider .home-slider-item{
+    min-height: 670px;
+  }
+}

@@ -11,11 +11,11 @@ function HomeSlider() {
       <OwlCarousel
         id="home-slider"
         className="owl-theme home-slider active"
-        loop
+        // loop
         items={1}
         animateIn="fadeIn"
         animateOut="fadeOut"
-        autoplay
+        // autoplay
       >
         <div id="home-slider-item-1" className="home-slider-item js-fullheight">
           <div className="home-overlay"></div>
