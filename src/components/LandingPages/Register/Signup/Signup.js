@@ -249,6 +249,17 @@ function Signup() {
           <strong>NOTE:</strong> Individual registrations are not entertained.
           Only one registration is allowed per college.
         </Alert>
+        <Alert
+          color="warning"
+          className="py-2"
+          style={{
+            fontSize: '14px',
+            fontFamily: 'Helvetica Neue,Helvetica,Arial,sans-serif',
+          }}
+        >
+          <strong>NOTE:</strong> If you cannot find your Institute name, then
+          type it manually.
+        </Alert>
       </div>
       <div class="col-sm-12 text-end">
         <span
