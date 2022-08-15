@@ -21,6 +21,7 @@ function EventsEdit() {
     Boxing_G: false,
     Carrom_M: false,
     Chess_M: false,
+    Cycling_M: false,
     Cricket_B: false,
     Football_B: false,
     Handball_B: false,
