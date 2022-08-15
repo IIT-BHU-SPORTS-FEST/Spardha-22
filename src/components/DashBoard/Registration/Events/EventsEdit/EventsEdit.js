@@ -9,33 +9,36 @@ function EventsEdit() {
   const navigate = useNavigate();
   const token = localStorage.getItem('token');
   const selectedGames = {
+    Aquatics_B: false,
+    Aquatics_G: false,
+    Athletics_B: false,
     Athletics_G: false,
+    Badminton_G: false,
+    Badminton_B: false,
+    Basketball_G: false,
+    Basketball_B: false,
+    Boxing_B: false,
     Boxing_G: false,
+    Carrom_M: false,
+    Chess_M: false,
+    Cricket_B: false,
+    Football_B: false,
+    Handball_B: false,
+    Hockey_B: false,
+    'Lawn Tennis_B': false,
+    'Lawn Tennis_G': false,
+    Kabaddi_B: false,
+    Kabaddi_G: false,
+    'Kho-Kho_B': false,
+    'Kho-Kho_G': false,
+    'Table Tennis_B': false,
+    'Table Tennis_G': false,
+    Taekwondo_B: false,
     Taekwondo_G: false,
     Volleyball_B: false,
     Volleyball_G: false,
-    'Lawn Tennis_G': false,
-    'Lawn Tennis_B': false,
-    'Table Tennis_B': false,
-    'Table Tennis_G': false,
-    'Kho-Kho_G': false,
-    'Kho-Kho_B': false,
-    Kabaddi_B: false,
-    Kabaddi_G: false,
-    Badminton_G: false,
-    Badminton_B: false,
-    Squash_B: false,
     Weightlifting_B: false,
-    Hockey_B: false,
-    Handball_B: false,
-    Football_B: false,
-    Cricket_B: false,
-    Taekwondo_B: false,
-    Boxing_B: false,
-    Athletics_B: false,
-    Chess_M: false,
-    Basketball_G: false,
-    Basketball_B: false,
+    // Squash_B: false,
   };
   const [showBoys, setShowBoys] = useState(true);
   const [showGirls, setShowGirls] = useState(true);
@@ -153,6 +156,21 @@ function EventsEdit() {
                         <FormGroup className={`${styles['input-wrapper']}`}>
                           <Input
                             type="checkbox"
+                            id="Aquatics_B"
+                            checked={games['Aquatics_B']}
+                            onChange={changeHandler}
+                          />
+                          <Label
+                            className={`${styles['sports-label']}`}
+                            for="Aquatics_B"
+                          >
+                            {' '}
+                            Aquatics{' '}
+                          </Label>
+                        </FormGroup>
+                        <FormGroup className={`${styles['input-wrapper']}`}>
+                          <Input
+                            type="checkbox"
                             id="Athletics_B"
                             checked={games['Athletics_B']}
                             onChange={changeHandler}
@@ -255,6 +273,8 @@ function EventsEdit() {
                             Handball{' '}
                           </Label>
                         </FormGroup>
+                      </div>
+                      <div className={`col-sm-6 ${styles.container}`}>
                         <FormGroup className={`${styles['input-wrapper']}`}>
                           <Input
                             type="checkbox"
@@ -270,8 +290,6 @@ function EventsEdit() {
                             Hockey{' '}
                           </Label>
                         </FormGroup>
-                      </div>
-                      <div className={`col-sm-6 ${styles.container}`}>
                         <FormGroup className={`${styles['input-wrapper']}`}>
                           <Input
                             type="checkbox"
@@ -302,7 +320,7 @@ function EventsEdit() {
                             Kho-Kho{' '}
                           </Label>
                         </FormGroup>
-                        <FormGroup className={`${styles['input-wrapper']}`}>
+                        {/* <FormGroup className={`${styles['input-wrapper']}`}>
                           <Input
                             type="checkbox"
                             id="Squash_B"
@@ -316,7 +334,7 @@ function EventsEdit() {
                             {' '}
                             Squash{' '}
                           </Label>
-                        </FormGroup>
+                        </FormGroup> */}
                         <FormGroup className={`${styles['input-wrapper']}`}>
                           <Input
                             type="checkbox"
@@ -416,6 +434,21 @@ function EventsEdit() {
                   <div className={`${styles['panel-body']}`}>
                     <div className="row xs-1 sm-2">
                       <div className={`col-sm-6 ${styles.container}`}>
+                        <FormGroup className={`${styles['input-wrapper']}`}>
+                          <Input
+                            type="checkbox"
+                            id="Athletics_G"
+                            checked={games['Aquatics_G']}
+                            onChange={changeHandler}
+                          />
+                          <Label
+                            className={`${styles['sports-label']}`}
+                            for="Aquatics_G"
+                          >
+                            {' '}
+                            Aquatics{' '}
+                          </Label>
+                        </FormGroup>
                         <FormGroup className={`${styles['input-wrapper']}`}>
                           <Input
                             type="checkbox"
@@ -606,6 +639,36 @@ function EventsEdit() {
                           >
                             {' '}
                             Chess{' '}
+                          </Label>
+                        </FormGroup>
+                        <FormGroup className={`${styles['input-wrapper']}`}>
+                          <Input
+                            type="checkbox"
+                            id="Carrom_M"
+                            checked={games['Carrom_M']}
+                            onChange={changeHandler}
+                          />
+                          <Label
+                            className={`${styles['sports-label']}`}
+                            for="Carrom_M"
+                          >
+                            {' '}
+                            Carrom{' '}
+                          </Label>
+                        </FormGroup>
+                        <FormGroup className={`${styles['input-wrapper']}`}>
+                          <Input
+                            type="checkbox"
+                            id="Cycling_M"
+                            checked={games['Cycling_M']}
+                            onChange={changeHandler}
+                          />
+                          <Label
+                            className={`${styles['sports-label']}`}
+                            for="Cycling_M"
+                          >
+                            {' '}
+                            Cycling{' '}
                           </Label>
                         </FormGroup>
                       </div>
