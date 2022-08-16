@@ -15,7 +15,7 @@ const Registration = () => {
     num_of_officials: '-',
   });
   const token = localStorage.getItem('token');
-  const baseUrl = 'https://api.spardha.co.in';
+  const baseUrl = process.env.REACT_APP_BASE_URL;
 
   useEffect(() => {
     axios
