@@ -438,7 +438,7 @@ function EventsEdit() {
                         <FormGroup className={`${styles['input-wrapper']}`}>
                           <Input
                             type="checkbox"
-                            id="Athletics_G"
+                            id="Aquatics_G"
                             checked={games['Aquatics_G']}
                             onChange={changeHandler}
                           />
