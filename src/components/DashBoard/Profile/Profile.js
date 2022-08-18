@@ -11,7 +11,7 @@ const Profile = () => {
   const navigate = useNavigate();
   const token = localStorage.getItem('token');
   console.log('token', token);
-  const baseUrl = 'https://api.spardha.co.in';
+  const baseUrl = process.env.REACT_APP_BASE_URL;
 
   const [user, setUser] = useState('');
   const [modal, setModal] = useState(false);

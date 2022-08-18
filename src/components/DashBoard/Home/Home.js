@@ -10,7 +10,7 @@ toast.configure();
 const Home = () => {
   const token = localStorage.getItem('token');
   console.log('token', token);
-  const baseUrl = 'https://api.spardha.co.in';
+  const baseUrl = process.env.REACT_APP_BASE_URL;
 
   const [user, setUser] = useState('');
   const [numevents, setNumEvents] = useState('10');
