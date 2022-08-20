@@ -274,6 +274,15 @@ function Login() {
             <FaPaperPlane color="white" className="me-1"></FaPaperPlane>
             LOGIN
           </Button>
+          <b  style={{
+            fontSize: '10px',
+            textAlign:'center',
+            fontWeight:'normal'
+          }}> Don't have an account?
+          <Link to="/register/Signup" style={{ textDecoration: 'none' }}>
+          {''} Sign up{' '}
+          </Link>
+          </b>
         </div>
       </Form>
     </div>
