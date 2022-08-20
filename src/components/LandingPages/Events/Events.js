@@ -868,9 +868,10 @@ const Events = () => {
 
       <div className={`${styles.container}`}>
         <div className={`${styles.row} ${styles.mt_5} ${styles.pt_5}`}>
-          <div className={`${styles.col_md_3}`}></div>
+          {/* <div className={`${styles.col_md_3}`}></div> */}
           <div className={`${styles.col_md_6}`}>
             <div className={`${styles.block_7}`}>
+            <img src={question} alt="" style={{ width: '150px' }} />
               <div className={`${styles.text_justify}`}>
                 <h2
                   style={{
@@ -879,7 +880,7 @@ const Events = () => {
                     fontWeight: '700',
                   }}
                 >
-                  <img src={question} alt="" style={{ width: '3rem' }} />
+                  
                   So, What are you thinking?
                 </h2>
                 <h4

@@ -24,7 +24,7 @@ const ContingentEdit = () => {
   // const [contdetails,setContDetails] = useState('');
   const navigate = useNavigate();
   const token = localStorage.getItem('token');
-  const baseUrl = 'https://api.spardha.co.in';
+  const baseUrl = process.env.REACT_APP_BASE_URL;
 
   const rep = JSON.stringify(localStorage.getItem('College_Rep'));
   // console.log('rep=',rep);
