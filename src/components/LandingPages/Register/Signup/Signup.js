@@ -711,10 +711,9 @@ function Signup() {
             fontSize: '10px',
             textAlign:'center',
             fontWeight:'normal'
-          }}> Have an account?
-          {' '}
+          }}>{`Have an account? `}
           <Link to="/register/login" style={{ textDecoration: 'none' }}>
-            Log in{' '}
+            {`Log in `}
           </Link>
           </b>
         </div>
