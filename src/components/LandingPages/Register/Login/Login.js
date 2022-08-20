@@ -278,9 +278,9 @@ function Login() {
             fontSize: '10px',
             textAlign:'center',
             fontWeight:'normal'
-          }}> Don't have an account?
+          }}>{`Don't have an account? `}
           <Link to="/register/Signup" style={{ textDecoration: 'none' }}>
-          {''} Sign up{' '}
+          {`Sign up `}
           </Link>
           </b>
         </div>
