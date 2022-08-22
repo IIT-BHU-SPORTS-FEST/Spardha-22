@@ -15,7 +15,7 @@ const NotFound = () => {
           <span className="top_Heading">ERROR</span>
           <span className="notFound_block">
             <div className="notFound_text">4</div>
-            <img classname="images" src="images/icons/404.gif" />
+            <img classname="images" src="images/icons/404.gif" alt="ball" />
             <div className="notFound_text">4</div>
           </span>
           <p className="sub_heading">
@@ -35,6 +35,7 @@ const NotFound = () => {
             href="https://www.facebook.com/Spardha.IIT.BHU/"
             target="_blank"
             className="fa fa-facebook "
+            rel="noreferrer"
           >
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -50,7 +51,8 @@ const NotFound = () => {
           <a
             href="https://www.linkedin.com/company/spardha/about/"
             target="_blank"
-            className="fa fa-linkedin "
+            className="fa fa-linkedin"
+            rel="noreferrer"
           >
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -66,7 +68,8 @@ const NotFound = () => {
           <a
             href="https://www.instagram.com/spardha_iitbhu/"
             target="_blank"
-            className="fa fa-instagram "
+            className="fa fa-instagram"
+            rel="noreferrer"
           >
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -82,7 +85,8 @@ const NotFound = () => {
           <a
             href="https://www.google.com/maps/place/IIT+Gymkhana/@25.2596848,82.9869263,17z/data=!3m1!4b1!4m5!3m4!1s0x398e322b4aa6f579:0x474e303ed2c26a4c!8m2!3d25.25968!4d82.989115"
             target="_blank"
-            className="fa fa-map-marker "
+            className="fa fa-map-marker"
+            rel="noreferrer"
           >
             <svg
               xmlns="http://www.w3.org/2000/svg"
