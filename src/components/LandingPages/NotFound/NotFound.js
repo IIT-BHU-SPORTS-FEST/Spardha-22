@@ -12,17 +12,10 @@ const NotFound = () => {
     <div class="main_container">
       <div className="sub_container">
         <div className="content_box">
-<<<<<<< HEAD
           <span className="top_Heading">OOPS!</span>
           <span className="notFound_block">
             <div className="notFound_text">4</div>
             <img className="images" src="images/icons/404.gif" alt="ball" />
-=======
-          <span className="top_Heading">ERROR</span>
-          <span className="notFound_block">
-            <div className="notFound_text">4</div>
-            <img classname="images" src="images/icons/404.gif" alt="ball" />
->>>>>>> 2666b93298e7be36e2ed671fe27f4325b2b79835
             <div className="notFound_text">4</div>
           </span>
           <p className="sub_heading">
