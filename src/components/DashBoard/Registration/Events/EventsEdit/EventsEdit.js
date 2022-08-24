@@ -39,7 +39,7 @@ function EventsEdit() {
     Volleyball_B: false,
     Volleyball_G: false,
     Weightlifting_B: false,
-    // Squash_B: false,
+    Squash_B: false,
   };
   const [showBoys, setShowBoys] = useState(true);
   const [showGirls, setShowGirls] = useState(true);
@@ -321,7 +321,7 @@ function EventsEdit() {
                             Kho-Kho{' '}
                           </Label>
                         </FormGroup>
-                        {/* <FormGroup className={`${styles['input-wrapper']}`}>
+                        <FormGroup className={`${styles['input-wrapper']}`}>
                           <Input
                             type="checkbox"
                             id="Squash_B"
@@ -335,7 +335,7 @@ function EventsEdit() {
                             {' '}
                             Squash{' '}
                           </Label>
-                        </FormGroup> */}
+                        </FormGroup>
                         <FormGroup className={`${styles['input-wrapper']}`}>
                           <Input
                             type="checkbox"

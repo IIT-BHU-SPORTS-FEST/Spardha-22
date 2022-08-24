@@ -12,10 +12,10 @@ const NotFound = () => {
     <div class="main_container">
       <div className="sub_container">
         <div className="content_box">
-          <span className="top_Heading">ERROR</span>
+          <span className="top_Heading">OOPS!</span>
           <span className="notFound_block">
             <div className="notFound_text">4</div>
-            <img classname="images" src="images/icons/404.gif" alt="ball" />
+            <img className="images" src="images/icons/404.gif" alt="ball" />
             <div className="notFound_text">4</div>
           </span>
           <p className="sub_heading">
