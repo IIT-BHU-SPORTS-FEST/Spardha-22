@@ -16,13 +16,12 @@ import HandballPDF from './HandBallPDF.pdf';
 import HockeyPDF from './HockeyPDF.pdf';
 import KabbadiPDF from './KabbadiPDF.pdf';
 import KhoKhoPDF from './KhoKhoPDF.pdf';
-//import SquashPDF from './SquashPDF.pdf';
+import SquashPDF from './SquashPDF.pdf';
 import TableTennisPDF from './TableTennisPDF.pdf';
 import TennisPDF from './TennisPDF.pdf';
 import VolleyballPDF from './VolleyBallPDF.pdf';
 import WeightliftingPDF from './WeightliftingPDF.pdf';
 import TaekwondoPDF from './TaekwondoPDF.pdf';
-
 
 const Aqautics = (props) => {
   return (
@@ -55,7 +54,7 @@ const Aqautics = (props) => {
                     </div>
                     <div className={`${styles.info} ${styles.rule}`}>
                       <h4> Rules </h4>
-                     {/* <a
+                      {/* <a
                      href={AthleticsPDF}//add aquatics rules pdf
                         target="_blank"
                         rel="noreferrer"
@@ -135,7 +134,7 @@ const Aqautics = (props) => {
                       className={`${styles.paragraph}`}
                       style={{ paddingBottom: '10px' }}
                     >
-                     <b>CAPTAIN</b>
+                      <b>CAPTAIN</b>
                       <br />
                       Rohit Diwakar
                       <br />
@@ -165,7 +164,7 @@ const Aqautics = (props) => {
                       8869038250
                       <br />
                       shivanjali.verma.mec19@itbhu.ac.in
-                    <br />
+                      <br />
                     </p>
                   </div>
                 </div>
@@ -736,7 +735,7 @@ const Boxing = (props) => {
   );
 };
 
-const Carrom = (props) => {
+const Squash = (props) => {
   return (
     <div className="row" style={{ marginLeft: '5px', marginRight: '5px' }}>
       <div
@@ -767,14 +766,14 @@ const Carrom = (props) => {
                   </div>
                   <div className={`${styles.info} ${styles.rule}`}>
                     <h4> Rules </h4>
-                    {/*<a
-                     href={HockeyPDF}
+                    <a
+                      href={SquashPDF}
                       target="_blank"
                       rel="noreferrer"
                       className={`${styles.rulebook}`}
                     >
                       CLICK HERE FOR RULES
-  </a> */}
+                    </a>
                     <br />
                     <br />
                     <br />
@@ -802,7 +801,7 @@ const Carrom = (props) => {
                   />
                 </div>
                 <div className={`${styles.info}`}>
-                  <h4>Carrom</h4>
+                  <h4>Squash</h4>
                   <p>
                     Coming Soon
                     <br />
@@ -2582,7 +2581,7 @@ export {
   Badminton,
   Basketball,
   Boxing,
-  Carrom,
+  // Carrom,
   Chess,
   Cricket,
   Cycling,
@@ -2591,7 +2590,7 @@ export {
   Hockey,
   Kabbadi,
   Khokho,
-  //Squash,
+  Squash,
   TableTennis,
   Taekwondo,
   Tennis,
