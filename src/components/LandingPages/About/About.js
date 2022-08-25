@@ -58,7 +58,7 @@ const About = () => {
                         fontFamily: 'Open Sans',
                         fontSize: '18px',
                         lineHeight: '1.8',
-                        fontWeight: '400',
+                        fontWeight: '500',
                         color: 'white',
                       }}
                     >
