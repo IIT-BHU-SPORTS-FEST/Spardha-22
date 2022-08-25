@@ -19,7 +19,7 @@ function EventsEdit() {
     Basketball_B: false,
     Boxing_B: false,
     Boxing_G: false,
-    Carrom_M: false,
+    // Carrom_M: false,
     Chess_M: false,
     Cycling_M: false,
     Cricket_B: false,
@@ -40,6 +40,7 @@ function EventsEdit() {
     Volleyball_G: false,
     Weightlifting_B: false,
     Squash_B: false,
+    Squash_G: false,
   };
   const [showBoys, setShowBoys] = useState(true);
   const [showGirls, setShowGirls] = useState(true);
@@ -602,6 +603,21 @@ function EventsEdit() {
                             Volleyball{' '}
                           </Label>
                         </FormGroup>
+                        <FormGroup className={`${styles['input-wrapper']}`}>
+                          <Input
+                            type="checkbox"
+                            id="Squash_G"
+                            checked={games['Squash_G']}
+                            onChange={changeHandler}
+                          />
+                          <Label
+                            className={`${styles['sports-label']}`}
+                            for="Squash_G"
+                          >
+                            {' '}
+                            Squash{' '}
+                          </Label>
+                        </FormGroup>
                       </div>
                     </div>
                   </div>
@@ -642,7 +658,7 @@ function EventsEdit() {
                             Chess{' '}
                           </Label>
                         </FormGroup>
-                        <FormGroup className={`${styles['input-wrapper']}`}>
+                        {/* <FormGroup className={`${styles['input-wrapper']}`}>
                           <Input
                             type="checkbox"
                             id="Carrom_M"
@@ -656,7 +672,7 @@ function EventsEdit() {
                             {' '}
                             Carrom{' '}
                           </Label>
-                        </FormGroup>
+                        </FormGroup> */}
                         <FormGroup className={`${styles['input-wrapper']}`}>
                           <Input
                             type="checkbox"
