@@ -1,8 +1,8 @@
 import React from 'react';
 import styles from './About.module.css';
-import trophy from './trophy.png';
-import newspaper from './newspaper.png';
-import accessory from './accessory.png';
+import talkofthetown from './talkoftown.jpg';
+import hype from './hype.png';
+import takeback from './takeback.png'
 import Greencounter from '../GreenCounter/Greencounter';
 
 const About = () => {
@@ -59,7 +59,7 @@ const About = () => {
                         fontSize: '18px',
                         lineHeight: '1.8',
                         fontWeight: '400',
-                        color: '#808080',
+                        color: 'white',
                       }}
                     >
                       Spardha is the annual sports festival of IIT (BHU),
@@ -90,10 +90,10 @@ const About = () => {
                 <div className={styles['block-7']}>
                   <div style={{ textAlign: 'center' }}>
                     <img
-                      src={trophy}
+                      src={hype}
                       alt="/"
                       style={{
-                        width: '20%',
+                        width: '22%',
                         marginLeft: 'auto',
                         marginRight: 'auto',
                       }}
@@ -102,7 +102,7 @@ const About = () => {
                       className={styles['text-wrap']}
                       style={{
                         fontSize: '22px',
-                        color: '#000',
+                        color: 'white',
                         lineHeight: '1.4',
                         fontWeight: 'bold',
                       }}
@@ -125,10 +125,10 @@ const About = () => {
                 <div className={styles['block-7']}>
                   <div style={{ textAlign: 'center' }}>
                     <img
-                      src={newspaper}
+                      src={talkofthetown}
                       alt="/"
                       style={{
-                        width: '20%',
+                        width: '21%',
                         marginLeft: 'auto',
                         marginRight: 'auto',
                       }}
@@ -137,7 +137,7 @@ const About = () => {
                       className={styles['text-wrap']}
                       style={{
                         fontSize: '22px',
-                        color: '#000',
+                        color: 'white',
                         lineHeight: '1.4',
                         fontWeight: 'bold',
                       }}
@@ -161,7 +161,7 @@ const About = () => {
                 <div className={styles['block-7']}>
                   <div style={{ textAlign: 'center' }}>
                     <img
-                      src={accessory}
+                      src={takeback}
                       alt="/"
                       style={{
                         width: '20%',
@@ -173,7 +173,7 @@ const About = () => {
                       className={styles['text-wrap']}
                       style={{
                         fontSize: '22px',
-                        color: '#000',
+                        color: 'white',
                         lineHeight: '1.4',
                         fontWeight: 'bold',
                       }}
