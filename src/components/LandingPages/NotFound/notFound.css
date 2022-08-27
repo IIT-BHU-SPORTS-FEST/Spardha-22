@@ -8,25 +8,25 @@
 }
 
 .main_container {
-  background: url("/public/images/bg/404.jpg") no-repeat;
+background: url("/public/images/bg/404.jpg") no-repeat;
   background-size: cover;
   -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
   -ms-background-size: cover;
   text-align: center;
   background-position: center;
-  background-attachment: fixed;
-  background-size: 100% 100%;
+background-attachment: fixed;
+background-size: 100% 100%;
 }
 
 .sub_container {
-  width: 50vw;
-  /* height: 85vh; */
+width: 50vw;
+/* height: 85vh; */
   position: absolute;
-  z-index: 100;
+z-index: 100;
   border-radius: 4px;
-  background-color: #fff;
+background-color: #fff;
   text-align: center;
   display: flex;
   flex-direction: column;
@@ -34,10 +34,10 @@
 }
 
 .content_box {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
 }
 
 .top_Heading {
@@ -225,7 +225,7 @@
   }
 
   .notFound_text {
-    font-size: 40px;
+  font-size: 40px;
   }
 
   .sub_container {
