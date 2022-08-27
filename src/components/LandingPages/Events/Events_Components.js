@@ -23,159 +23,159 @@ import VolleyballPDF from './VolleyBallPDF.pdf';
 import WeightliftingPDF from './WeightliftingPDF.pdf';
 import TaekwondoPDF from './TaekwondoPDF.pdf';
 
-const Aqautics = (props) => {
-  return (
-    <div>
-      <div className="row" style={{ marginLeft: '5px', marginRight: '5px' }}>
-        <div
-          className={`${styles.col_10} ${styles.text_center} ${styles.Main_block}`}
-        >
-          <button
-            className={`${styles.fa} ${styles.fa_times}`}
-            id="0x"
-            onClick={() => props.changeState(false)}
-          >
-            <FaTimes />
-          </button>
-          <div
-            className="row"
-            style={{ marginLeft: '15px', marginRight: '15px' }}
-          >
-            <div className={`${styles.col_md_4} ${styles.col_sm_4}`}>
-              <div className={`${styles.event_block}`}>
-                <div className={`${styles.rule_box}`}>
-                  <div className={`${styles.a_rule}`}>
-                    <div className={`${styles.image}`}>
-                      <img
-                        className={`${styles.img_responsive}`}
-                        src={rules}
-                        alt="img"
-                      />
-                    </div>
-                    <div className={`${styles.info} ${styles.rule}`}>
-                      <h4> Rules </h4>
-                      {/* <a
-                     href={AthleticsPDF}//add aquatics rules pdf
-                        target="_blank"
-                        rel="noreferrer"
-                        className={`${styles.rulebook}`}
-                      >
-                        CLICK HERE FOR RULES
-                      </a>*/}
-                      <br />
-                      <br />
-                      <br />
-                      <br />
-                      <br />
-                      <br />
-                      <br />
-                      <br />
-                      <br />
-                      <br />
-                      <br />
-                      <br />
-                      <br />
-                      <br />
-                      <br />
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
+// const Aqautics = (props) => {
+//   return (
+//     <div>
+//       <div className="row" style={{ marginLeft: '5px', marginRight: '5px' }}>
+//         <div
+//           className={`${styles.col_10} ${styles.text_center} ${styles.Main_block}`}
+//         >
+//           <button
+//             className={`${styles.fa} ${styles.fa_times}`}
+//             id="0x"
+//             onClick={() => props.changeState(false)}
+//           >
+//             <FaTimes />
+//           </button>
+//           <div
+//             className="row"
+//             style={{ marginLeft: '15px', marginRight: '15px' }}
+//           >
+//             <div className={`${styles.col_md_4} ${styles.col_sm_4}`}>
+//               <div className={`${styles.event_block}`}>
+//                 <div className={`${styles.rule_box}`}>
+//                   <div className={`${styles.a_rule}`}>
+//                     <div className={`${styles.image}`}>
+//                       <img
+//                         className={`${styles.img_responsive}`}
+//                         src={rules}
+//                         alt="img"
+//                       />
+//                     </div>
+//                     <div className={`${styles.info} ${styles.rule}`}>
+//                       <h4> Rules </h4>
+//                       {/* <a
+//                      href={AthleticsPDF}//add aquatics rules pdf
+//                         target="_blank"
+//                         rel="noreferrer"
+//                         className={`${styles.rulebook}`}
+//                       >
+//                         CLICK HERE FOR RULES
+//                       </a>*/}
+//                       <br />
+//                       <br />
+//                       <br />
+//                       <br />
+//                       <br />
+//                       <br />
+//                       <br />
+//                       <br />
+//                       <br />
+//                       <br />
+//                       <br />
+//                       <br />
+//                       <br />
+//                       <br />
+//                       <br />
+//                     </div>
+//                   </div>
+//                 </div>
+//               </div>
+//             </div>
 
-            <div className={`${styles.col_md_4} ${styles.col_sm_4}`}>
-              <div className={`${styles.event_block}`}>
-                <div className={`${styles.winner_box} ${styles.info}`}>
-                  <div className={`${styles.image}`}>
-                    <img
-                      className={`${styles.img_responsive}`}
-                      src={trophy}
-                      alt="img"
-                    />
-                  </div>
-                  <div className={`${styles.info}`}>
-                    <h4>Aqautics</h4>
-                    <p>
-                      Coming Soon
-                      <br />
-                      <br />
-                      <br />
-                      <br />
-                      <br />
-                      <br />
-                      <br />
-                      <br />
-                      <br />
-                      <br />
-                      <br />
-                      <br />
-                      <br />
-                      <br />
-                      <br />
-                    </p>
-                  </div>
-                </div>
-              </div>
-            </div>
+//             <div className={`${styles.col_md_4} ${styles.col_sm_4}`}>
+//               <div className={`${styles.event_block}`}>
+//                 <div className={`${styles.winner_box} ${styles.info}`}>
+//                   <div className={`${styles.image}`}>
+//                     <img
+//                       className={`${styles.img_responsive}`}
+//                       src={trophy}
+//                       alt="img"
+//                     />
+//                   </div>
+//                   <div className={`${styles.info}`}>
+//                     <h4>Aqautics</h4>
+//                     <p>
+//                       Coming Soon
+//                       <br />
+//                       <br />
+//                       <br />
+//                       <br />
+//                       <br />
+//                       <br />
+//                       <br />
+//                       <br />
+//                       <br />
+//                       <br />
+//                       <br />
+//                       <br />
+//                       <br />
+//                       <br />
+//                       <br />
+//                     </p>
+//                   </div>
+//                 </div>
+//               </div>
+//             </div>
 
-            <div className={`${styles.col_md_4} ${styles.col_sm_4}`}>
-              <div className={`${styles.event_block}`}>
-                <div className={`${styles.contact_box}`}>
-                  <div className={`${styles.image}`}>
-                    <img
-                      className={`${styles.img_responsive}`}
-                      src={contacts}
-                      alt="img"
-                    />
-                  </div>
-                  <div className={`${styles.info}`}>
-                    <h4>Contacts</h4>
-                    <p
-                      className={`${styles.paragraph}`}
-                      style={{ paddingBottom: '10px' }}
-                    >
-                      <b>CAPTAIN</b>
-                      <br />
-                      Rohit Diwakar
-                      <br />
-                      8827687934
-                      <br />
-                      rohit.diwakar.ece19@itbhu.ac.in
-                      <br />
-                      <br />
-                      Anshika Singh <b>(W)</b>
-                      <br />
-                      7985967630
-                      <br />
-                      anshika.singh.phy19@itbhu.ac.in
-                      <br />
-                      <br />
-                      <b>VICE-CAPTAIN</b>
-                      <br />
-                      Gurjot
-                      <br />
-                      7528980380
-                      <br />
-                      gurjot.student.ece19@itbhu.ac.in
-                      <br />
-                      <br />
-                      Shivanjali Verma <b>(W)</b>
-                      <br />
-                      8869038250
-                      <br />
-                      shivanjali.verma.mec19@itbhu.ac.in
-                      <br />
-                    </p>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  );
-};
+//             <div className={`${styles.col_md_4} ${styles.col_sm_4}`}>
+//               <div className={`${styles.event_block}`}>
+//                 <div className={`${styles.contact_box}`}>
+//                   <div className={`${styles.image}`}>
+//                     <img
+//                       className={`${styles.img_responsive}`}
+//                       src={contacts}
+//                       alt="img"
+//                     />
+//                   </div>
+//                   <div className={`${styles.info}`}>
+//                     <h4>Contacts</h4>
+//                     <p
+//                       className={`${styles.paragraph}`}
+//                       style={{ paddingBottom: '10px' }}
+//                     >
+//                       <b>CAPTAIN</b>
+//                       <br />
+//                       Rohit Diwakar
+//                       <br />
+//                       8827687934
+//                       <br />
+//                       rohit.diwakar.ece19@itbhu.ac.in
+//                       <br />
+//                       <br />
+//                       Anshika Singh <b>(W)</b>
+//                       <br />
+//                       7985967630
+//                       <br />
+//                       anshika.singh.phy19@itbhu.ac.in
+//                       <br />
+//                       <br />
+//                       <b>VICE-CAPTAIN</b>
+//                       <br />
+//                       Gurjot
+//                       <br />
+//                       7528980380
+//                       <br />
+//                       gurjot.student.ece19@itbhu.ac.in
+//                       <br />
+//                       <br />
+//                       Shivanjali Verma <b>(W)</b>
+//                       <br />
+//                       8869038250
+//                       <br />
+//                       shivanjali.verma.mec19@itbhu.ac.in
+//                       <br />
+//                     </p>
+//                   </div>
+//                 </div>
+//               </div>
+//             </div>
+//           </div>
+//         </div>
+//       </div>
+//     </div>
+//   );
+// };
 
 const Athletics = (props) => {
   return (
@@ -2576,7 +2576,7 @@ const WeightLifting = (props) => {
 };
 
 export {
-  Aqautics,
+  // Aqautics,
   Athletics,
   Badminton,
   Basketball,
