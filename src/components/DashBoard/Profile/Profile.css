@@ -77,6 +77,11 @@
   width: 100%;
 }
 
+@media only screen and (max-width: 430px) {
+  .welcome-text {
+    border: 0px;
+  }
+}
 /* .welcome-text button {
     background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
     border: 1px solid #dadee7;
