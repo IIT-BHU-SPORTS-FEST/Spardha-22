@@ -1,5 +1,5 @@
 import axios from 'axios';
-import React from 'react';
+import React, { useEffect, useRef } from 'react';
 import { FaAt, FaKey, FaPaperPlane, FaUser } from 'react-icons/fa';
 import { Link } from 'react-router-dom';
 import { useReducer } from 'react';
@@ -20,6 +20,17 @@ import styles from '../Signup/Signup.module.css';
 import { useNavigate } from 'react-router';
 
 function Login() {
+  const ref_container = useRef();
+  useEffect(() => {
+    window.scrollTo({
+      top: ref_container.current,
+      behavior: 'smooth',
+    });
+    // ref_container.current.scrollIntoView({
+    //   block: 'start',
+    //   behavior: 'smooth',
+    // });
+  }, []);
   const navigate = useNavigate();
 
   const submitHandler = (e) => {
@@ -105,7 +116,7 @@ function Login() {
   });
 
   return (
-    <div>
+    <div ref={ref_container}>
       <h3 className={`${styles.heading}`}> LOGIN </h3>
       <hr />
 
@@ -274,14 +285,17 @@ function Login() {
             <FaPaperPlane color="white" className="me-1"></FaPaperPlane>
             LOGIN
           </Button>
-          <b  style={{
-            fontSize: '10px',
-            textAlign:'center',
-            fontWeight:'normal'
-          }}> Don't have an account?
-          <Link to="/register/Signup" style={{ textDecoration: 'none' }}>
-          {''} Sign up{' '}
-          </Link>
+          <b
+            style={{
+              fontSize: '10px',
+              textAlign: 'center',
+              fontWeight: 'normal',
+            }}
+          >
+            {`Don't have an account? `}
+            <Link to="/register/Signup" style={{ textDecoration: 'none' }}>
+              {`Sign up `}
+            </Link>
           </b>
         </div>
       </Form>
