@@ -18,11 +18,6 @@ function EventsEdit() {
     Basketball_G: false,
     Basketball_B: false,
     Boxing_B: false,
-    Badminton_G: false,
-    Badminton_B: false,
-    Basketball_G: false,
-    Basketball_B: false,
-    Boxing_B: false,
     Boxing_G: false,
     // Carrom_M: false,
     Chess_M: false,
@@ -280,8 +275,6 @@ function EventsEdit() {
                             Handball{' '}
                           </Label>
                         </FormGroup>
-                      </div>
-                      <div className={`col-sm-6 ${styles.container}`}>
                         <FormGroup className={`${styles['input-wrapper']}`}>
                           <Input
                             type="checkbox"
@@ -297,6 +290,8 @@ function EventsEdit() {
                             Hockey{' '}
                           </Label>
                         </FormGroup>
+                      </div>
+                      <div className={`col-sm-6 ${styles.container}`}>
                         <FormGroup className={`${styles['input-wrapper']}`}>
                           <Input
                             type="checkbox"
@@ -327,7 +322,7 @@ function EventsEdit() {
                             Kho-Kho{' '}
                           </Label>
                         </FormGroup>
-                        {/* <FormGroup className={`${styles['input-wrapper']}`}>
+                        <FormGroup className={`${styles['input-wrapper']}`}>
                           <Input
                             type="checkbox"
                             id="Lawn Tennis_B"
@@ -341,7 +336,7 @@ function EventsEdit() {
                             {' '}
                             Lawn Tennis{' '}
                           </Label>
-                        </FormGroup> */}
+                        </FormGroup>
                         <FormGroup className={`${styles['input-wrapper']}`}>
                           <Input
                             type="checkbox"

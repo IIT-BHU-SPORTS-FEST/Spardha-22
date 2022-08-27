@@ -6,7 +6,7 @@ import './notFound.css';
 const NotFound = () => {
   const navigate = useNavigate();
   React.useEffect(() => {
-    document.title = `Error 404 | Spardha'22 | India's Largest Games and Sports Festival`;
+    document.title = `Page Not Found | Spardha'22 | India's Largest Games and Sports Festival`;
   }, []);
   return (
     <div class="main_container">
@@ -15,7 +15,7 @@ const NotFound = () => {
           <span className="top_Heading">OOPS!</span>
           <span className="notFound_block">
             <div className="notFound_text">4</div>
-            <img className="images" src="images/icons/404.gif" alt="ball" />
+            <img className="images" src="/images/icons/404.gif" alt="ball" />
             <div className="notFound_text">4</div>
           </span>
           <p className="sub_heading">
@@ -105,4 +105,4 @@ const NotFound = () => {
   );
 };
 
-export default NotFound;;
+export default NotFound;

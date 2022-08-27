@@ -14,7 +14,7 @@ import hockey from './hockey.png';
 import kabaddi from './kabaddi.png';
 import khokho from './kho-kho.png';
 import cycling from './cycling.png';
-//import squash from './squash.png';
+import squash from './squash.png';
 import tabletennis from './table-tennis.png';
 import taekwondo from './taekwondo.png';
 import tennis from './tennis.png';
@@ -37,7 +37,7 @@ import {
   Hockey,
   Kabbadi,
   Khokho,
- // Squash,
+  Squash,
   TableTennis,
   Taekwondo,
   Tennis,
@@ -506,7 +506,7 @@ const Events = () => {
           >
             <img
               className={`${styles.img_responsive} ${styles.hvr_buzz_out} ${styles.grayscale}`}
-              src={aquatics}
+              src={athletics}
               alt=""
               onClick={onClick0}
             />
@@ -518,7 +518,7 @@ const Events = () => {
           >
             <img
               className={`${styles.img_responsive} ${styles.hvr_buzz_out} ${styles.grayscale}`}
-              src={athletics}
+              src={badminton}
               alt=""
               onClick={onClick1}
             />
@@ -529,7 +529,7 @@ const Events = () => {
           >
             <img
               className={`${styles.img_responsive} ${styles.hvr_buzz_out} ${styles.grayscale}`}
-              src={badminton}
+              src={basketball}
               alt=""
               onClick={onClick2}
             />
@@ -540,7 +540,7 @@ const Events = () => {
           >
             <img
               className={`${styles.img_responsive} ${styles.hvr_buzz_out} ${styles.grayscale}`}
-              src={basketball}
+              src={boxing}
               alt=""
               onClick={onClick3}
             />
@@ -593,19 +593,19 @@ const Events = () => {
           >
             <img
               className={`${styles.img_responsive} ${styles.hvr_buzz_out} ${styles.grayscale}`}
-              src={boxing}
+              src={chess}
               alt=""
               onClick={onClick4}
             />
           </div>
 
-        <div
+          <div
             className={`${styles.col_2} ${styles.padding} ${styles.shake}`}
             id="1"
           >
             <img
               className={`${styles.img_responsive} ${styles.hvr_buzz_out} ${styles.grayscale}`}
-              src={carrom}
+              src={cricket}
               alt=""
               onClick={onClick5}
             />
@@ -616,7 +616,7 @@ const Events = () => {
           >
             <img
               className={`${styles.img_responsive} ${styles.hvr_buzz_out} ${styles.grayscale}`}
-              src={chess}
+              src={cycling}
               alt=""
               onClick={onClick6}
             />
@@ -627,7 +627,7 @@ const Events = () => {
           >
             <img
               className={`${styles.img_responsive} ${styles.hvr_buzz_out} ${styles.grayscale}`}
-              src={cricket}
+              src={football}
               alt=""
               onClick={onClick7}
             />
@@ -671,7 +671,7 @@ const Events = () => {
           >
             <img
               className={`${styles.img_responsive} ${styles.hvr_buzz_out} ${styles.grayscale}`}
-              src={cycling}
+              src={handball}
               alt=""
               onClick={onClick8}
             />
@@ -683,7 +683,7 @@ const Events = () => {
           >
             <img
               className={`${styles.img_responsive} ${styles.hvr_buzz_out} ${styles.grayscale}`}
-              src={football}
+              src={hockey}
               alt=""
               onClick={onClick9}
             />
@@ -694,7 +694,7 @@ const Events = () => {
           >
             <img
               className={`${styles.img_responsive} ${styles.hvr_buzz_out} ${styles.grayscale}`}
-              src={handball}
+              src={kabaddi}
               alt=""
               onClick={onClick10}
             />
@@ -706,7 +706,7 @@ const Events = () => {
           >
             <img
               className={`${styles.img_responsive} ${styles.hvr_buzz_out} ${styles.grayscale}`}
-              src={hockey}
+              src={khokho}
               alt=""
               onClick={onClick11}
             />
@@ -758,7 +758,7 @@ const Events = () => {
           >
             <img
               className={`${styles.img_responsive} ${styles.hvr_buzz_out} ${styles.grayscale}`}
-              src={kabaddi}
+              src={squash}
               alt=""
               onClick={onClick12}
             />
@@ -770,7 +770,7 @@ const Events = () => {
           >
             <img
               className={`${styles.img_responsive} ${styles.hvr_buzz_out} ${styles.grayscale}`}
-              src={khokho}
+              src={tabletennis}
               alt=""
               onClick={onClick13}
             />
@@ -782,7 +782,7 @@ const Events = () => {
           >
             <img
               className={`${styles.img_responsive} ${styles.hvr_buzz_out} ${styles.grayscale}`}
-              src={tabletennis}
+              src={taekwondo}
               alt=""
               onClick={onClick14}
             />
@@ -794,7 +794,7 @@ const Events = () => {
           >
             <img
               className={`${styles.img_responsive} ${styles.hvr_buzz_out} ${styles.grayscale}`}
-              src={taekwondo}
+              src={tennis}
               alt=""
               onClick={onClick15}
             />
@@ -814,7 +814,7 @@ const Events = () => {
             />
           ) : null}
           {showResults14 ? (
-            <TableTennis
+            <Taekwondo
               changeState={(showResult15) => setShowResults14(false)}
             />
           ) : null}
@@ -837,7 +837,7 @@ const Events = () => {
               className={`${styles.img_responsive} ${styles.hvr_buzz_out} ${styles.grayscale}`}
               src={volleyball}
               alt=""
-              onClick={onClick17}
+              onClick={onClick16}
             />
           </div>
 
@@ -849,7 +849,7 @@ const Events = () => {
               className={`${styles.img_responsive} ${styles.hvr_buzz_out} ${styles.grayscale}`}
               src={weightlifting}
               alt=""
-              onClick={onClick18}
+              onClick={onClick17}
             />
           </div>
 
@@ -876,7 +876,7 @@ const Events = () => {
 
       <div className={`${styles.container}`}>
         <div className={`${styles.row} ${styles.mt_5} ${styles.pt_5}`}>
-          {/* {/* <div className={`${styles.col_md_3}`}></div> */} */}
+          {/* <div className={`${styles.col_md_3}`}></div> */}
           <div className={`${styles.col_md_6}`}>
             <div className={`${styles.block_7}`}>
               <img src={question} alt="" style={{ width: '150px' }} />

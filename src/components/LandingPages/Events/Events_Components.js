@@ -16,7 +16,7 @@ import HandballPDF from './HandBallPDF.pdf';
 import HockeyPDF from './HockeyPDF.pdf';
 import KabbadiPDF from './KabbadiPDF.pdf';
 import KhoKhoPDF from './KhoKhoPDF.pdf';
-//import SquashPDF from './SquashPDF.pdf';
+import SquashPDF from './SquashPDF.pdf';
 import TableTennisPDF from './TableTennisPDF.pdf';
 import TennisPDF from './TennisPDF.pdf';
 import VolleyballPDF from './VolleyBallPDF.pdf';
@@ -773,7 +773,7 @@ const Squash = (props) => {
                       className={`${styles.rulebook}`}
                     >
                       CLICK HERE FOR RULES
-  </a> */}
+                    </a>
                     <br />
                     <br />
                     <br />
@@ -1044,7 +1044,6 @@ const Cricket = (props) => {
                     <br />
                     <br />
                     <br />
-                    <br />
                   </div>
                 </div>
               </div>
@@ -1065,7 +1064,6 @@ const Cricket = (props) => {
                   <h4>Cricket</h4>
                   <p>
                     Coming Soon
-                    <br />
                     <br />
                     <br />
                     <br />
@@ -1102,27 +1100,19 @@ const Cricket = (props) => {
                     <br />
                     Shashank S Prakash <br />
                     8368920987
-                    Shashank S Prakash <br />
-                    8368920987
                     <br />
-                    shashanksp.met18@iitbhu.ac.in
                     shashanksp.met18@iitbhu.ac.in
                     <br />
                     <br />
                     <b>VICE-CAPTAIN</b>
-                    <b>VICE-CAPTAIN</b>
                     <br />
-                    Satyendra Kumar Satyarthi <br />
-                    9877437762
                     Satyendra Kumar Satyarthi <br />
                     9877437762
                     <br />
                     satyendraks.rs.cer17@itbhu.ac.in
-                    satyendraks.rs.cer17@itbhu.ac.in
                     <br />
                     <br />
                     <br />
-                    {/* <br /> */}
                     {/* <br /> */}
                   </p>
                 </div>
@@ -1500,7 +1490,7 @@ const Handball = (props) => {
                     <br />
                     <br />
                     <br />
-                    {/* {/* <br /> */} */}
+                    {/* <br /> */}
                   </p>
                 </div>
               </div>
@@ -1562,8 +1552,6 @@ const Hockey = (props) => {
                     <br />
                     <br />
                     <br />
-                    <br />
-                    <br />
                   </div>
                 </div>
               </div>
@@ -1584,8 +1572,6 @@ const Hockey = (props) => {
                   <h4>Hockey</h4>
                   <p>
                     Coming Soon
-                    <br />
-                    <br />
                     <br />
                     <br />
                     <br />
@@ -1756,7 +1742,6 @@ const Kabbadi = (props) => {
                     <br />
                     <br />
                     Keloth Tejaswini <b>(W)</b>
-                    Keloth Tejaswini <b>(W)</b>
                     <br />
                     9177574613
                     <br />
@@ -1830,11 +1815,6 @@ const Khokho = (props) => {
                     <br />
                     <br />
                     <br />
-                    <br />
-                    <br />
-                    <br />
-                    <br />
-                    <br />
                   </div>
                 </div>
               </div>
@@ -1855,11 +1835,6 @@ const Khokho = (props) => {
                   <h4>Kho Kho</h4>
                   <p>
                     Coming Soon
-                    <br />
-                    <br />
-                    <br />
-                    <br />
-                    <br />
                     <br />
                     <br />
                     <br />
@@ -2615,7 +2590,7 @@ export {
   Hockey,
   Kabbadi,
   Khokho,
-  //Squash,
+  Squash,
   TableTennis,
   Taekwondo,
   Tennis,
