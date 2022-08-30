@@ -131,24 +131,24 @@ const Profile = () => {
                     <td className="left-column">Phone Number: </td>
                     <td className="right-column overHandle"> {user.phone}</td>
                   </tr>
-                  <tr>
+                  {/* <tr>
                     <td className="left-column"></td>
                     <td className="right-column overHandle"></td>
-                  </tr>
+                  </tr> */}
                   <tr className="mine_proDbs">
-                    <td>
+                    <td style={{ padding: '0px' }}>
                       <button
                         href="#"
                         className="register-now"
                         data-toggle="modal"
                         data-target="#change_username"
-                        style={{ marginRight: '0' }}
+                        style={{ marginRight: '0', padding: '8px' }}
                         onClick={changePass}
                       >
                         Change&nbsp;Password
                       </button>
                     </td>
-                    <td>
+                    <td style={{ padding: '8px' }}>
                       <button
                         href="#"
                         className="register-now"
@@ -157,6 +157,7 @@ const Profile = () => {
                         style={{
                           backgroundColor: 'red',
                           border: '1px solid red',
+                          padding: '8px',
                         }}
                         onClick={toggle}
                       >
