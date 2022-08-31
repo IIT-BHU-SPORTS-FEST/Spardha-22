@@ -34,7 +34,7 @@
 
   .user-dashboard .header-rightside {
     display: inline-block;
-    float: left;
+    /* float: left; */
     width: 100%;
   }
 
@@ -178,7 +178,7 @@
 }
 
 .profile-table .right-column {
-  padding-left: 0px;
+  padding-left: 15px;
 }
 
 td {
@@ -199,7 +199,7 @@ td {
 
 .register-now {
   background: limegreen none repeat scroll 0 0;
-  border-radius: 100px;
+  border-radius: 5px;
   color: #ffffff;
   font-size: 14px;
   font-weight: 600;
