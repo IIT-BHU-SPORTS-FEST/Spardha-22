@@ -136,7 +136,7 @@ const Profile = () => {
                     <td className="right-column overHandle"></td>
                   </tr> */}
                   <tr className="mine_proDbs">
-                    <td style={{ padding: '0px' }}>
+                    <td>
                       <button
                         href="#"
                         className="register-now"
@@ -148,7 +148,7 @@ const Profile = () => {
                         Change&nbsp;Password
                       </button>
                     </td>
-                    <td style={{ padding: '8px' }}>
+                    <td>
                       <button
                         href="#"
                         className="register-now"
