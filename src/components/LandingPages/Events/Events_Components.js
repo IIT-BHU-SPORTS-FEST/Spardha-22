@@ -16,6 +16,7 @@ import HandballPDF from './HandBallPDF.pdf';
 import HockeyPDF from './HockeyPDF.pdf';
 import KabbadiPDF from './KabbadiPDF.pdf';
 import KhoKhoPDF from './KhoKhoPDF.pdf';
+import PowerliftingPDF from './PowerliftingPDF.pdf';
 import SquashPDF from './SquashPDF.pdf';
 import TableTennisPDF from './TableTennisPDF.pdf';
 import TennisPDF from './TennisPDF.pdf';
@@ -724,136 +725,6 @@ const Boxing = (props) => {
                     <br />
                     <br />
                     <br />
-                  </p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  );
-};
-
-const Squash = (props) => {
-  return (
-    <div className="row" style={{ marginLeft: '5px', marginRight: '5px' }}>
-      <div
-        className={`${styles.col_10} ${styles.text_center} ${styles.Main_block}`}
-      >
-        <button
-          className={`${styles.fa} ${styles.fa_times}`}
-          id="0x"
-          onClick={() => props.changeState(false)}
-        >
-          <FaTimes />
-        </button>
-        <div
-          className="row"
-          style={{ marginLeft: 'auto', marginRight: 'auto' }}
-        >
-          <div className={`${styles.col_md_4} ${styles.col_sm_4}`}>
-            <div className={`${styles.event_block}`}>
-              <div className={`${styles.rule_box}`}>
-                <div className={`${styles.a_rule}`}>
-                  {/* Ye Upar Waali div actually <a> hai, so iska dhyan rakhna, styling hai iski kuch!!! */}
-                  <div className={`${styles.image}`}>
-                    <img
-                      className={`${styles.img_responsive}`}
-                      src={rules}
-                      alt="img"
-                    />
-                  </div>
-                  <div className={`${styles.info} ${styles.rule}`}>
-                    <h4> Rules </h4>
-                    <a
-                      href={SquashPDF}
-                      target="_blank"
-                      rel="noreferrer"
-                      className={`${styles.rulebook}`}
-                    >
-                      CLICK HERE FOR RULES
-                    </a>
-                    <br />
-                    <br />
-                    <br />
-                    <br />
-                    <br />
-                    <br />
-                    <br />
-                    <br />
-                    <br />
-                    <br />
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div className={`${styles.col_md_4} ${styles.col_sm_4}`}>
-            <div className={`${styles.event_block}`}>
-              <div className={`${styles.winner_box} ${styles.info}`}>
-                <div className={`${styles.image}`}>
-                  <img
-                    className={`${styles.img_responsive}`}
-                    src={trophy}
-                    alt="img"
-                  />
-                </div>
-                <div className={`${styles.info}`}>
-                  <h4>Squash</h4>
-                  <p>
-                    Coming Soon
-                    <br />
-                    <br />
-                    <br />
-                    <br />
-                    <br />
-                    <br />
-                    <br />
-                    <br />
-                    <br />
-                    <br />
-                  </p>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div className={`${styles.col_md_4} ${styles.col_sm_4}`}>
-            <div className={`${styles.event_block}`}>
-              <div className={`${styles.contact_box}`}>
-                <div className={`${styles.image}`}>
-                  <img
-                    className={`${styles.img_responsive}`}
-                    src={contacts}
-                    alt="img"
-                  />
-                </div>
-                <div className={`${styles.info}`}>
-                  <h4>Contacts</h4>
-                  <p
-                    className={`${styles.paragraph}`}
-                    style={{ paddingBottom: '12px' }}
-                  >
-                    <b>CAPTAIN</b>
-                    <br />
-                    Mack Mohan Verma <br />
-                    9548338599
-                    <br />
-                    mack.mohanverma.mec19@itbhu.ac.in
-                    <br />
-                    <br />
-                    <b>VICE-CAPTAIN</b>
-                    <br />
-                    Shaurya Panpalia <br />
-                    7877860896
-                    <br />
-                    shaurya.panpalia.mst19@itbhu.ac.in
-                    <br />
-                    <br />
-                    <br />
-                    {/* <br /> */}
                   </p>
                 </div>
               </div>
@@ -1914,6 +1785,266 @@ const Khokho = (props) => {
   );
 };
 
+const Powerlifting = (props) => {
+  return (
+    <div className="row" style={{ marginLeft: '5px', marginRight: '5px' }}>
+      <div
+        className={`${styles.col_10} ${styles.text_center} ${styles.Main_block}`}
+      >
+        <button
+          className={`${styles.fa} ${styles.fa_times}`}
+          id="0x"
+          onClick={() => props.changeState(false)}
+        >
+          <FaTimes />
+        </button>
+        <div
+          className="row"
+          style={{ marginLeft: 'auto', marginRight: 'auto' }}
+        >
+          <div className={`${styles.col_md_4} ${styles.col_sm_4}`}>
+            <div className={`${styles.event_block}`}>
+              <div className={`${styles.rule_box}`}>
+                <div className={`${styles.a_rule}`}>
+                  {/* Ye Upar Waali div actually <a> hai, so iska dhyan rakhna, styling hai iski kuch!!! */}
+                  <div className={`${styles.image}`}>
+                    <img
+                      className={`${styles.img_responsive}`}
+                      src={rules}
+                      alt="img"
+                    />
+                  </div>
+                  <div className={`${styles.info} ${styles.rule}`}>
+                    <h4> Rules </h4>
+                    <a
+                      href={PowerliftingPDF}
+                      target="_blank"
+                      rel="noreferrer"
+                      className={`${styles.rulebook}`}
+                    >
+                      CLICK HERE FOR RULES
+                    </a>
+                    <br />
+                    <br />
+                    <br />
+                    <br />
+                    <br />
+                    <br />
+                    <br />
+                    <br />
+                    <br />
+                    <br />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div className={`${styles.col_md_4} ${styles.col_sm_4}`}>
+            <div className={`${styles.event_block}`}>
+              <div className={`${styles.winner_box} ${styles.info}`}>
+                <div className={`${styles.image}`}>
+                  <img
+                    className={`${styles.img_responsive}`}
+                    src={trophy}
+                    alt="img"
+                  />
+                </div>
+                <div className={`${styles.info}`}>
+                  <h4>Powerlifting</h4>
+                  <p>
+                    Coming Soon
+                    <br />
+                    <br />
+                    <br />
+                    <br />
+                    <br />
+                    <br />
+                    <br />
+                    <br />
+                    <br />
+                    <br />
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div className={`${styles.col_md_4} ${styles.col_sm_4}`}>
+            <div className={`${styles.event_block}`}>
+              <div className={`${styles.contact_box}`}>
+                <div className={`${styles.image}`}>
+                  <img
+                    className={`${styles.img_responsive}`}
+                    src={contacts}
+                    alt="img"
+                  />
+                </div>
+                <div className={`${styles.info}`}>
+                  <h4>Contacts</h4>
+                  <p
+                    className={`${styles.paragraph}`}
+                    style={{ paddingBottom: '12px' }}
+                  >
+                    <b>CAPTAIN</b>
+                    <br />
+                    Mack Mohan Verma <br />
+                    9548338599
+                    <br />
+                    mack.mohanverma.mec19@itbhu.ac.in
+                    <br />
+                    <br />
+                    <b>VICE-CAPTAIN</b>
+                    <br />
+                    Shaurya Panpalia <br />
+                    7877860896
+                    <br />
+                    shaurya.panpalia.mst19@itbhu.ac.in
+                    <br />
+                    <br />
+                    <br />
+                    {/* <br /> */}
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  );
+};
+
+const Squash = (props) => {
+  return (
+    <div className="row" style={{ marginLeft: '5px', marginRight: '5px' }}>
+      <div
+        className={`${styles.col_10} ${styles.text_center} ${styles.Main_block}`}
+      >
+        <button
+          className={`${styles.fa} ${styles.fa_times}`}
+          id="0x"
+          onClick={() => props.changeState(false)}
+        >
+          <FaTimes />
+        </button>
+        <div
+          className="row"
+          style={{ marginLeft: 'auto', marginRight: 'auto' }}
+        >
+          <div className={`${styles.col_md_4} ${styles.col_sm_4}`}>
+            <div className={`${styles.event_block}`}>
+              <div className={`${styles.rule_box}`}>
+                <div className={`${styles.a_rule}`}>
+                  {/* Ye Upar Waali div actually <a> hai, so iska dhyan rakhna, styling hai iski kuch!!! */}
+                  <div className={`${styles.image}`}>
+                    <img
+                      className={`${styles.img_responsive}`}
+                      src={rules}
+                      alt="img"
+                    />
+                  </div>
+                  <div className={`${styles.info} ${styles.rule}`}>
+                    <h4> Rules </h4>
+                    <a
+                      href={SquashPDF}
+                      target="_blank"
+                      rel="noreferrer"
+                      className={`${styles.rulebook}`}
+                    >
+                      CLICK HERE FOR RULES
+                    </a>
+                    <br />
+                    <br />
+                    <br />
+                    <br />
+                    <br />
+                    <br />
+                    <br />
+                    <br />
+                    <br />
+                    <br />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div className={`${styles.col_md_4} ${styles.col_sm_4}`}>
+            <div className={`${styles.event_block}`}>
+              <div className={`${styles.winner_box} ${styles.info}`}>
+                <div className={`${styles.image}`}>
+                  <img
+                    className={`${styles.img_responsive}`}
+                    src={trophy}
+                    alt="img"
+                  />
+                </div>
+                <div className={`${styles.info}`}>
+                  <h4>Squash</h4>
+                  <p>
+                    Coming Soon
+                    <br />
+                    <br />
+                    <br />
+                    <br />
+                    <br />
+                    <br />
+                    <br />
+                    <br />
+                    <br />
+                    <br />
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div className={`${styles.col_md_4} ${styles.col_sm_4}`}>
+            <div className={`${styles.event_block}`}>
+              <div className={`${styles.contact_box}`}>
+                <div className={`${styles.image}`}>
+                  <img
+                    className={`${styles.img_responsive}`}
+                    src={contacts}
+                    alt="img"
+                  />
+                </div>
+                <div className={`${styles.info}`}>
+                  <h4>Contacts</h4>
+                  <p
+                    className={`${styles.paragraph}`}
+                    style={{ paddingBottom: '12px' }}
+                  >
+                    <b>CAPTAIN</b>
+                    <br />
+                    Mack Mohan Verma <br />
+                    9548338599
+                    <br />
+                    mack.mohanverma.mec19@itbhu.ac.in
+                    <br />
+                    <br />
+                    <b>VICE-CAPTAIN</b>
+                    <br />
+                    Shaurya Panpalia <br />
+                    7877860896
+                    <br />
+                    shaurya.panpalia.mst19@itbhu.ac.in
+                    <br />
+                    <br />
+                    <br />
+                    {/* <br /> */}
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  );
+};
+
 const TableTennis = (props) => {
   return (
     <div className="row" style={{ marginLeft: '5px', marginRight: '5px' }}>
@@ -2590,6 +2721,7 @@ export {
   Hockey,
   Kabbadi,
   Khokho,
+  Powerlifting,
   Squash,
   TableTennis,
   Taekwondo,
