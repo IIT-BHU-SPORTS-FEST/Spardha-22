@@ -808,7 +808,9 @@ const Events = () => {
             <Khokho changeState={(showResult13) => setShowResults13(false)} />
           ) : null} */}
           {showResults12 ? (
-            <Squash changeState={(showResult5) => setShowResults12(false)} />
+            <Powerlifting
+              changeState={(showResult5) => setShowResults12(false)}
+            />
           ) : null}
           {showResults13 ? (
             <Squash changeState={(showResult5) => setShowResults12(false)} />
