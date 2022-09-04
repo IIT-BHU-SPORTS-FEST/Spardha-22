@@ -563,16 +563,16 @@ const Events = () => {
             <Aqautics changeState={(showResult0) => setShowResults0(false)} />
           ) : null} */}
           {showResults0 ? (
-            <Athletics changeState={(showResult1) => setShowResults0(false)} />
+            <Athletics changeState={(showResult0) => setShowResults0(false)} />
           ) : null}
           {showResults1 ? (
-            <Badminton changeState={(showResult2) => setShowResults1(false)} />
+            <Badminton changeState={(showResult1) => setShowResults1(false)} />
           ) : null}
           {showResults2 ? (
-            <Basketball changeState={(showResult3) => setShowResults2(false)} />
+            <Basketball changeState={(showResult2) => setShowResults2(false)} />
           ) : null}
           {showResults3 ? (
-            <Boxing changeState={(showResult4) => setShowResults3(false)} />
+            <Boxing changeState={(showResult3) => setShowResults3(false)} />
           ) : null}
         </div>
 
@@ -653,16 +653,16 @@ const Events = () => {
             <Squash changeState={(showResult5) => setShowResults5(false)} />
           ) : null} */}
           {showResults4 ? (
-            <Chess changeState={(showResult6) => setShowResults4(false)} />
+            <Chess changeState={(showResult4) => setShowResults4(false)} />
           ) : null}
           {showResults5 ? (
-            <Cricket changeState={(showResult7) => setShowResults5(false)} />
+            <Cricket changeState={(showResult5) => setShowResults5(false)} />
           ) : null}
           {showResults6 ? (
-            <Cycling changeState={(showResult8) => setShowResults6(false)} />
+            <Cycling changeState={(showResult6) => setShowResults6(false)} />
           ) : null}
           {showResults7 ? (
-            <Football changeState={(showResult9) => setShowResults7(false)} />
+            <Football changeState={(showResult7) => setShowResults7(false)} />
           ) : null}
         </div>
 
@@ -740,16 +740,16 @@ const Events = () => {
           ) : null} */}
 
           {showResults8 ? (
-            <Handball changeState={(showResult10) => setShowResults8(false)} />
+            <Handball changeState={(showResult8) => setShowResults8(false)} />
           ) : null}
           {showResults9 ? (
-            <Hockey changeState={(showResult11) => setShowResults9(false)} />
+            <Hockey changeState={(showResult9) => setShowResults9(false)} />
           ) : null}
           {showResults10 ? (
-            <Kabbadi changeState={(showResult12) => setShowResults10(false)} />
+            <Kabbadi changeState={(showResult10) => setShowResults10(false)} />
           ) : null}
           {showResults11 ? (
-            <Khokho changeState={(showResult13) => setShowResults11(false)} />
+            <Khokho changeState={(showResult11) => setShowResults11(false)} />
           ) : null}
         </div>
 
@@ -768,7 +768,7 @@ const Events = () => {
 
           <div
             className={`${styles.col_2} ${styles.padding} ${styles.shake}`}
-            id="0"
+            id="1"
           >
             <img
               className={`${styles.img_responsive} ${styles.hvr_buzz_out} ${styles.grayscale}`}
@@ -780,7 +780,7 @@ const Events = () => {
 
           <div
             className={`${styles.col_2} ${styles.padding} ${styles.shake}`}
-            id="1"
+            id="2"
           >
             <img
               className={`${styles.img_responsive} ${styles.hvr_buzz_out} ${styles.grayscale}`}
@@ -792,7 +792,7 @@ const Events = () => {
 
           <div
             className={`${styles.col_2} ${styles.padding} ${styles.shake}`}
-            id="2"
+            id="3"
           >
             <img
               className={`${styles.img_responsive} ${styles.hvr_buzz_out} ${styles.grayscale}`}
@@ -809,20 +809,20 @@ const Events = () => {
           ) : null} */}
           {showResults12 ? (
             <Powerlifting
-              changeState={(showResult5) => setShowResults12(false)}
+              changeState={(showResult12) => setShowResults12(false)}
             />
           ) : null}
           {showResults13 ? (
-            <Squash changeState={(showResult5) => setShowResults12(false)} />
+            <Squash changeState={(showResult13) => setShowResults13(false)} />
           ) : null}
           {showResults14 ? (
             <TableTennis
-              changeState={(showResult14) => setShowResults13(false)}
+              changeState={(showResult14) => setShowResults14(false)}
             />
           ) : null}
           {showResults15 ? (
             <Taekwondo
-              changeState={(showResult15) => setShowResults14(false)}
+              changeState={(showResult15) => setShowResults15(false)}
             />
           ) : null}
         </div>
@@ -878,16 +878,16 @@ const Events = () => {
             <Tennis changeState={(showResult0) => setShowResults16(false)} />
           ) : null} */}
           {showResults16 ? (
-            <Tennis changeState={(showResult0) => setShowResults15(false)} />
+            <Tennis changeState={(showResult16) => setShowResults16(false)} />
           ) : null}
           {showResults17 ? (
             <Volleyball
-              changeState={(showResult1) => setShowResults16(false)}
+              changeState={(showResult17) => setShowResults17(false)}
             />
           ) : null}
           {showResults18 ? (
             <WeightLifting
-              changeState={(showResult2) => setShowResults17(false)}
+              changeState={(showResult18) => setShowResults18(false)}
             />
           ) : null}
         </div>
