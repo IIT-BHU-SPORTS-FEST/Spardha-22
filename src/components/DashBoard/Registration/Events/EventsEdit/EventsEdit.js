@@ -41,6 +41,7 @@ function EventsEdit() {
     Weightlifting_B: false,
     Squash_B: false,
     Squash_G: false,
+    Powerlifting_B: false,
   };
   const [showBoys, setShowBoys] = useState(true);
   const [showGirls, setShowGirls] = useState(true);
@@ -290,8 +291,6 @@ function EventsEdit() {
                             Hockey{' '}
                           </Label>
                         </FormGroup>
-                      </div>
-                      <div className={`col-sm-6 ${styles.container}`}>
                         <FormGroup className={`${styles['input-wrapper']}`}>
                           <Input
                             type="checkbox"
@@ -307,6 +306,8 @@ function EventsEdit() {
                             Kabaddi{' '}
                           </Label>
                         </FormGroup>
+                      </div>
+                      <div className={`col-sm-6 ${styles.container}`}>
                         <FormGroup className={`${styles['input-wrapper']}`}>
                           <Input
                             type="checkbox"
@@ -337,6 +338,22 @@ function EventsEdit() {
                             Lawn Tennis{' '}
                           </Label>
                         </FormGroup>
+                        <FormGroup className={`${styles['input-wrapper']}`}>
+                          <Input
+                            type="checkbox"
+                            id="Powerlifting_B"
+                            checked={games['Powerlifting_B']}
+                            onChange={changeHandler}
+                          />
+                          <Label
+                            className={`${styles['sports-label']}`}
+                            for="Powerlifting_B"
+                          >
+                            {' '}
+                            Powerlifting{' '}
+                          </Label>
+                        </FormGroup>
+
                         <FormGroup className={`${styles['input-wrapper']}`}>
                           <Input
                             type="checkbox"

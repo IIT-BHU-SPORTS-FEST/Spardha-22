@@ -13,33 +13,36 @@ import styles from './Events.module.css';
 const EventsDb = () => {
   const token = localStorage.getItem('token');
   const [showModals, setShowModals] = useState({
+    Athletics_B: false,
     Athletics_G: false,
+    Badminton_B: false,
+    Badminton_G: false,
+    Basketball_B: false,
+    Basketball_G: false,
+    Boxing_B: false,
     Boxing_G: false,
+    Chess_M: false,
+    Cycling_M: false,
+    Cricket_B: false,
+    Football_B: false,
+    Handball_B: false,
+    Hockey_B: false,
+    'Lawn Tennis_B': false,
+    'Lawn Tennis_G': false,
+    Kabaddi_B: false,
+    Kabaddi_G: false,
+    'Kho-Kho_B': false,
+    'Kho-Kho_G': false,
+    Powerlifting_B: false,
+    Squash_B: false,
+    Squash_G: false,
+    'Table Tennis_B': false,
+    'Table Tennis_G': false,
+    Taekwondo_B: false,
     Taekwondo_G: false,
     Volleyball_B: false,
     Volleyball_G: false,
-    'Lawn Tennis_G': false,
-    'Lawn Tennis_B': false,
-    'Table Tennis_B': false,
-    'Table Tennis_G': false,
-    'Kho-Kho_G': false,
-    'Kho-Kho_B': false,
-    Kabaddi_B: false,
-    Kabaddi_G: false,
-    Badminton_G: false,
-    Badminton_B: false,
-    Squash_B: false,
     Weightlifting_B: false,
-    Hockey_B: false,
-    Handball_B: false,
-    Football_B: false,
-    Cricket_B: false,
-    Taekwondo_B: false,
-    Boxing_B: false,
-    Athletics_B: false,
-    Chess_M: false,
-    Basketball_G: false,
-    Basketball_B: false,
   });
   const [Athletics_G, setAthletics_G] = useState({});
   const [Boxing_G, setBoxing_G] = useState({});
@@ -57,6 +60,7 @@ const EventsDb = () => {
   const [Badminton_G, setBadminton_G] = useState({});
   const [Badminton_B, setBadminton_B] = useState({});
   const [Squash_B, setSquash_B] = useState({});
+  const [Squash_G, setSquash_G] = useState({});
   const [Weightlifting_B, setWeightlifting_B] = useState({});
   const [Hockey_B, setHockey_B] = useState({});
   const [Handball_B, setHandball_B] = useState({});
@@ -66,8 +70,10 @@ const EventsDb = () => {
   const [Boxing_B, setBoxing_B] = useState({});
   const [Athletics_B, setAthletics_B] = useState({});
   const [Chess_M, setChess_M] = useState({});
+  const [Cycling_M, setCycling_M] = useState({});
   const [Basketball_G, setBasketball_G] = useState({});
   const [Basketball_B, setBasketball_B] = useState({});
+  const [Powerlifting_B, setPowerlifting_B] = useState({});
   const [boyTeams, setBoyTeams] = useState([]);
   const [girlTeams, setGirlTeams] = useState([]);
   const [mixedTeams, setMixedTeams] = useState([]);
@@ -89,6 +95,7 @@ const EventsDb = () => {
     Badminton_G: [Badminton_G, setBadminton_G],
     Badminton_B: [Badminton_B, setBadminton_B],
     Squash_B: [Squash_B, setSquash_B],
+    Squash_G: [Squash_G, setSquash_G],
     Weightlifting_B: [Weightlifting_B, setWeightlifting_B],
     Hockey_B: [Hockey_B, setHockey_B],
     Handball_B: [Handball_B, setHandball_B],
@@ -98,8 +105,10 @@ const EventsDb = () => {
     Boxing_B: [Boxing_B, setBoxing_B],
     Athletics_B: [Athletics_B, setAthletics_B],
     Chess_M: [Chess_M, setChess_M],
+    Cycling_M: [Cycling_M, setCycling_M],
     Basketball_G: [Basketball_G, setBasketball_G],
     Basketball_B: [Basketball_B, setBasketball_B],
+    Powerlifting_B: [Powerlifting_B, setPowerlifting_B],
   };
 
   const labels = {
