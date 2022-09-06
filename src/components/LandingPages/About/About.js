@@ -51,7 +51,7 @@ const About = () => {
 
             <div className={styles['row']}>
               <div className={styles['col-md-12']}>
-                <div className={styles['block-7']}>
+                <div className={styles['block-7'] } id={styles['borderline']}>
                   <div className={styles['text-justify']}>
                     <p
                       style={{
