@@ -174,7 +174,10 @@
   border-color: #000;
   /* margin-left: 55px;
     margin-right: 55px; */
-    border-radius: 3%;
+    border-radius: 7px;
+}
+#borderline{
+  border-radius: 6px;
 }
 
 .text-justify {
