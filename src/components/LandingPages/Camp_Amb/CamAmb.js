@@ -67,7 +67,7 @@ const CamAmb = () => {
                 <div className={`${styles.text_justify}`}>
                   <p
                     style={{
-                      color: '#808080',
+                      color: 'white',
                       fontSize: '18px',
                     }}
                   >
@@ -95,7 +95,7 @@ const CamAmb = () => {
                   </h3>
                   <p
                     style={{
-                      color: '#808080',
+                      color: 'white',
                       fontSize: '18.5px',
                     }}
                   >
@@ -134,23 +134,23 @@ const CamAmb = () => {
                   </h3>
                   <p
                     style={{
-                      color: '#808080',
+                      color: 'white',
                       fontSize: '18px',
                     }}
                   >
                     <ol>
                       <li>
-                        PUBLICIZE - The CA would be expected to publicize
+                        <u>PUBLICIZE</u> - The CA would be expected to publicize
                         Spardha'22 on all platforms, and means available.
                       </li>
                       <li>
-                        COORDINATE - The applicant would be working in hand with
-                        us to coordinate and lead their contingents.
+                        <u>COORDINATE</u> - The applicant would be working in
+                        hand with us to coordinate and lead their contingents.
                       </li>
                       <li>
-                        BRAINSTORM - The applicant would be working with the
-                        team to come up with fresh ideas together to make this
-                        edition of Spardha splendorous.
+                        <u>BRAINSTORM</u> - The applicant would be working with
+                        the team to come up with fresh ideas together to make
+                        this edition of Spardha splendorous.
                       </li>
                     </ol>
                   </p>
@@ -171,7 +171,7 @@ const CamAmb = () => {
                   </h3>
                   <p
                     style={{
-                      color: '#808080',
+                      color: 'white',
                       fontSize: '18px',
                     }}
                   >
@@ -202,7 +202,7 @@ const CamAmb = () => {
                   </h3>
                   <p
                     style={{
-                      color: '#808080',
+                      color: 'white',
                       fontSize: '18.5px',
                     }}
                   >
@@ -229,7 +229,7 @@ const CamAmb = () => {
                       &ensp; What Next ?{' '}
                     </p>
                   </h3>
-                  <h4 style={{ textAlign: 'center' }}>
+                  <h4 style={{ textAlign: 'center', color: 'white' }}>
                     Fill out this form to grab this wonderful opportunity
                   </h4>
                   <div
@@ -243,7 +243,7 @@ const CamAmb = () => {
                       rel="noopener noreferrer"
                       style={{ color: 'white' }}
                     >
-                       Register as a CA
+                      Register as a CA
                     </a>
                   </div>
                 </div>
