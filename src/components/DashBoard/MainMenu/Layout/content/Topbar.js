@@ -87,7 +87,7 @@ const Topbar = ({ toggleSidebar }) => {
             <div className="header-rightside">
               <ul className="list-inline header-top pull-right">
                 <li className="hidden-xs">
-                  <Link to="/dashboard/registration" className="register-now">
+                  <Link to="/dashboard/events" className="register-now">
                     Register Now
                   </Link>
                 </li>
