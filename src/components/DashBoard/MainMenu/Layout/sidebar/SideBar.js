@@ -92,7 +92,7 @@ const SideBar = ({ isOpen, toggle }) => {
             >
               {/* <FontAwesomeIcon icon={faBriefcase} className="mr-2 icon_bar" /> */}
               <FaTasks className="mr-2 icon_bar" />
-              Registration
+              Registrations
             </NavLink>
           </NavItem>
           {/* <SubMenu title="Pages" icon={faCopy} items={submenus[1]} /> */}
