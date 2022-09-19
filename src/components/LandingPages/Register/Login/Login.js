@@ -23,7 +23,7 @@ function Login() {
   const ref_container = useRef();
   useEffect(() => {
     window.scrollTo({
-      top: ref_container.current,
+      bottom: ref_container.current,
       behavior: 'smooth',
     });
     // ref_container.current.scrollIntoView({
