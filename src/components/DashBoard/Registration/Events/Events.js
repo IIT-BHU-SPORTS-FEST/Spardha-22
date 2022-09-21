@@ -205,7 +205,7 @@ const EventsDb = () => {
     if (!isNaN(name)) {
       const row = Math.floor(Number(name) / 2),
         col = Number(name) % 2;
-      console.log(row, col);
+      // console.log(row, col);
       inputFields[game][1]((prevState) => {
         const newState = { ...prevState };
         newState.players[row][col] = e.target.value;

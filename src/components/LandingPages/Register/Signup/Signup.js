@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect, useRef } from 'react';
 import { Link } from 'react-router-dom';
 import axios from 'axios';
 import {
@@ -33,6 +33,11 @@ import isPhone from 'validator/lib/isMobilePhone';
 import isAlpha from 'validator/lib/isAlpha';
 
 function Signup() {
+  const ref_container = useRef();
+  useEffect(() => {
+    const scrollDiv = document.getElementById('signUpDiv').offsetTop;
+    window.scrollTo({ top: scrollDiv + 600, behavior: 'smooth' });
+  }, []);
   const submitHandler = (e) => {
     e.preventDefault();
 
@@ -214,7 +219,7 @@ function Signup() {
   });
 
   return (
-    <>
+    <div id="signUpDiv" ref={ref_container}>
       <h3 className={`${styles.heading}`}> SIGN UP </h3>
       <hr />
       <div className="col-sm-12">
@@ -707,18 +712,21 @@ function Signup() {
             <FaPaperPlane color="white" className="me-1"></FaPaperPlane>
             Sign up
           </Button>
-          <b  style={{
-            fontSize: '10px',
-            textAlign:'center',
-            fontWeight:'normal'
-          }}>{`Have an account? `}
-          <Link to="/register/login" style={{ textDecoration: 'none' }}>
-            {`Log in `}
-          </Link>
+          <b
+            style={{
+              fontSize: '10px',
+              textAlign: 'center',
+              fontWeight: 'normal',
+            }}
+          >
+            {`Have an account? `}
+            <Link to="/register/login" style={{ textDecoration: 'none' }}>
+              {`Log in `}
+            </Link>
           </b>
         </div>
       </Form>
-    </>
+    </div>
   );
 }
 
