@@ -13,7 +13,7 @@ const Registration = () => {
     leader_name: '-',
     leader_contact_num: '-',
     num_of_faculty_members: '-',
-    num_of_coaches_PTI:'-',
+    num_of_coaches_pti:'-',
     num_of_supporting_staff:'-',
   });
   const token = localStorage.getItem('token');
@@ -100,7 +100,7 @@ const Registration = () => {
                       </b>{' '}
                     </td>
                     <td className="right-column">
-                      {contdetails.num_of_coaches_PTI}
+                      {contdetails.num_of_coaches_pti}
                     </td>
                   </tr>
                   <tr>
