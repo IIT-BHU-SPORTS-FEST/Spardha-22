@@ -25,7 +25,7 @@ const Gallery = () => {
   const [check, setCheck] = useState(false);
 
   useEffect(() => {
-    console.log('useEffect', check);
+    // console.log('useEffect', check);
     if (check) {
       if (!modal) {
         toggle();
@@ -558,7 +558,6 @@ const Gallery = () => {
                   />
                 </span>
               </div>
-              
             </div>
             <div className="row_gallery mb-3 mt-3 gallery-heading boldClass">
               Badminton:
@@ -681,7 +680,7 @@ const Gallery = () => {
                   />
                 </span>
               </div>
-            
+
               <div
                 className="col-sm-6 col-md-4 imageMarginGallery"
                 onClick={() => {
@@ -996,7 +995,8 @@ const Gallery = () => {
                     alt="gallery_image_alt"
                   />
                 </span>
-              </div> <div
+              </div>{' '}
+              <div
                 className="col-sm-6 col-md-4 imageMarginGallery"
                 onClick={() => {
                   localStorage.setItem('index', 62);
@@ -1009,7 +1009,8 @@ const Gallery = () => {
                     alt="gallery_image_alt"
                   />
                 </span>
-              </div> <div
+              </div>{' '}
+              <div
                 className="col-sm-6 col-md-4 imageMarginGallery"
                 onClick={() => {
                   localStorage.setItem('index', 63);
@@ -1022,7 +1023,8 @@ const Gallery = () => {
                     alt="gallery_image_alt"
                   />
                 </span>
-              </div> <div
+              </div>{' '}
+              <div
                 className="col-sm-6 col-md-4 imageMarginGallery"
                 onClick={() => {
                   localStorage.setItem('index', 64);
@@ -1096,7 +1098,8 @@ const Gallery = () => {
                     alt="gallery_image_alt"
                   />
                 </span>
-              </div> <div
+              </div>{' '}
+              <div
                 className="col-sm-6 col-md-4 imageMarginGallery"
                 onClick={() => {
                   localStorage.setItem('index', 69);
@@ -1109,7 +1112,8 @@ const Gallery = () => {
                     alt="gallery_image_alt"
                   />
                 </span>
-              </div> <div
+              </div>{' '}
+              <div
                 className="col-sm-6 col-md-4 imageMarginGallery"
                 onClick={() => {
                   localStorage.setItem('index', 70);
@@ -1183,7 +1187,8 @@ const Gallery = () => {
                     alt="gallery_image_alt"
                   />
                 </span>
-              </div> <div
+              </div>{' '}
+              <div
                 className="col-sm-6 col-md-4 imageMarginGallery"
                 onClick={() => {
                   localStorage.setItem('index', 75);
@@ -1257,7 +1262,8 @@ const Gallery = () => {
                     alt="gallery_image_alt"
                   />
                 </span>
-              </div><div
+              </div>
+              <div
                 className="col-sm-6 col-md-4 imageMarginGallery"
                 onClick={() => {
                   localStorage.setItem('index', 80);
@@ -1270,7 +1276,8 @@ const Gallery = () => {
                     alt="gallery_image_alt"
                   />
                 </span>
-              </div><div
+              </div>
+              <div
                 className="col-sm-6 col-md-4 imageMarginGallery"
                 onClick={() => {
                   localStorage.setItem('index', 81);

@@ -9,7 +9,7 @@ toast.configure();
 
 const Home = () => {
   const token = localStorage.getItem('token');
-  console.log('token', token);
+  // console.log('token', token);
   const baseUrl = process.env.REACT_APP_BASE_URL;
 
   const [user, setUser] = useState('');
@@ -23,9 +23,9 @@ const Home = () => {
         },
       })
       .then((res) => {
-        console.log('user data=', res.data);
+        // console.log('user data=', res.data);
         setUser(res.data);
-        console.log('user', user);
+        // console.log('user', user);
       })
       .catch((err) => {
         console.log('error=', err);
@@ -53,7 +53,7 @@ const Home = () => {
   }, []);
 
   const a = user['email'];
-  console.log('a=', a);
+  // console.log('a=', a);
   localStorage.setItem('College_Rep', a);
 
   return (

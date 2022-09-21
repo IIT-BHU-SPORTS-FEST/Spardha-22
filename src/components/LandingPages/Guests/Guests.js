@@ -11,9 +11,9 @@ const Guests = () => {
     } else {
       setIndex(index - 1);
     }
-    console.log('prev', videoArray[index]);
-    console.log('prev', msgArray[index]);
-    console.log('prev', index);
+    // console.log('prev', videoArray[index]);
+    // console.log('prev', msgArray[index]);
+    // console.log('prev', index);
   };
 
   const nextButton = () => {
@@ -22,9 +22,9 @@ const Guests = () => {
     } else {
       setIndex(index + 1);
     }
-    console.log('next', index);
-    console.log('next', videoArray[index]);
-    console.log('next', msgArray[index]);
+    // console.log('next', index);
+    // console.log('next', videoArray[index]);
+    // console.log('next', msgArray[index]);
   };
 
   const videoArray = [

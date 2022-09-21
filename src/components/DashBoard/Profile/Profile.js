@@ -10,7 +10,7 @@ toast.configure();
 const Profile = () => {
   const navigate = useNavigate();
   const token = localStorage.getItem('token');
-  console.log('token', token);
+  // console.log('token', token);
   const baseUrl = process.env.REACT_APP_BASE_URL;
 
   const [user, setUser] = useState('');
@@ -41,9 +41,9 @@ const Profile = () => {
         },
       })
       .then((res) => {
-        console.log('user data=', res.data);
+        // console.log('user data=', res.data);
         setUser(res.data);
-        console.log('user', user);
+        // console.log('user', user);
       })
       .catch((err) => {
         console.log('error=', err);
@@ -52,13 +52,13 @@ const Profile = () => {
   }, []);
 
   const delSucceed = () => {
-    console.log('delSucceed');
+    // console.log('delSucceed');
     localStorage.removeItem('token');
     navigate('/');
   };
 
   const deleteProfile = async () => {
-    console.log('delete');
+    // console.log('delete');
     await axios
       .get(`${baseUrl}/auth/delete/`, {
         headers: {
@@ -66,7 +66,7 @@ const Profile = () => {
         },
       })
       .then((res) => {
-        console.log('delete', res);
+        // console.log('delete', res);
         toggle();
         toast.success('Profile Deleted Successfully', {
           position: toast.POSITION.BOTTOM_RIGHT,
@@ -85,7 +85,7 @@ const Profile = () => {
   };
 
   const changePass = () => {
-    console.log('change');
+    // console.log('change');
     localStorage.removeItem('token');
     navigate('/register/forgot');
   };
