@@ -34,7 +34,7 @@ const ContingentEdit = () => {
     num_of_boys: '',
     num_of_girls: '',
     num_of_faculty_members: '',
-    num_of_coaches_PTI: '',
+    num_of_coaches_pti: '',
     num_of_supporting_staff:'',
     leader_name: '',
     leader_contact_num: '',
@@ -75,7 +75,7 @@ const ContingentEdit = () => {
       input.leader_name === '' ||
       input.leader_contact_num === '' ||
       input.num_of_faculty_members === ''||
-      input.num_of_coaches_PTI===''||
+      input.num_of_coaches_pti===''||
       input.num_of_supporting_staff===''
     ) {
       //console.log('wrong input');
@@ -106,7 +106,7 @@ const ContingentEdit = () => {
       });     
       
     }
-    else if (input.num_of_coaches_PTI < 0) {
+    else if (input.num_of_coaches_pti < 0) {
       //console.log('num coaches & PTI');
       toast.error('Number of Coaches & PTI in a team should be positive', {
         position: toast.POSITION.BOTTOM_RIGHT,
@@ -136,7 +136,7 @@ const ContingentEdit = () => {
           passed['num_of_boys'] = parseInt(passed['num_of_boys']);
           passed['num_of_girls'] = parseInt(passed['num_of_girls']);
           passed['num_of_faculty_members'] = parseInt(passed['num_of_faculty_members']);
-          passed['num_of_coaches_PTI'] = parseInt(passed['num_of_coaches_PTI']);
+          passed['num_of_coaches_pti'] = parseInt(passed['num_of_coaches_pti']);
           passed['num_of_supporting_staff'] = parseInt(passed['num_of_supporting_staff']);
           passed['college_rep'] = JSON.parse(rep);
 
@@ -275,18 +275,18 @@ const ContingentEdit = () => {
                           <Input
                             type="tel"
                             className="form-control_contDb"
-                            id="num_of_coaches_PTI"
-                            name="num_of_coaches_PTI"
+                            id="num_of_coaches_pti"
+                            name="num_of_coaches_pti"
                             placeholder="Enter total no. of Coaches & PTI"
-                            value={input.num_of_coaches_PTI}
+                            value={input.num_of_coaches_pti}
                             onChange={(e) => {
                               inputChangeHandler(e);
                             }}
                             valid={
-                              input.num_of_coaches_PTI !== '' && input.num_of_coaches_PTI >= 0
+                              input.num_of_coaches_pti !== '' && input.num_of_coaches_pti >= 0
                             }
                             invalid={
-                              input.num_of_coaches_PTI !== '' && input.num_of_coaches_PTI < 0
+                              input.num_of_coaches_pti !== '' && input.num_of_coaches_pti < 0
                             }
                           />
                         </FormGroup>
