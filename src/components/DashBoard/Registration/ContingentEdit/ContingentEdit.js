@@ -33,7 +33,9 @@ const ContingentEdit = () => {
   const [input, setInput] = useState({
     num_of_boys: '',
     num_of_girls: '',
-    num_of_officials: '',
+    num_of_faculty_members: '',
+    num_of_coaches_PTI: '',
+    num_of_supporting_staff:'',
     leader_name: '',
     leader_contact_num: '',
     college_rep: JSON.parse(rep),
@@ -66,35 +68,57 @@ const ContingentEdit = () => {
   };
 
   const submitButton = () => {
-    console.log('submit', input);
+   console.log('submit', input.leader_name.length);
     if (
       input.num_of_boys === '' ||
       input.num_of_girls === '' ||
       input.leader_name === '' ||
       input.leader_contact_num === '' ||
-      input.num_of_officials === ''
+      input.num_of_faculty_members === ''||
+      input.num_of_coaches_PTI===''||
+      input.num_of_supporting_staff===''
     ) {
-      console.log('wrong input');
+      //console.log('wrong input');
       toast.error('Please fill all the fields', {
         position: toast.POSITION.BOTTOM_RIGHT,
       });
     } else if (input.num_of_boys < 0) {
-      console.log('num boys');
+      //console.log('num boys');
       toast.error('Number of boys in a team should be positive', {
         position: toast.POSITION.BOTTOM_RIGHT,
       });
     } else if (input.num_of_girls < 0) {
-      console.log('num girls');
+     // console.log('num girls');
       toast.error('Number of girls in a team should be positive', {
         position: toast.POSITION.BOTTOM_RIGHT,
       });
-    } else if (input.num_of_officials < 0) {
-      console.log('num officials');
-      toast.error('Number of officials in a team should be positive', {
+    } else if (input.num_of_faculty_members < 0) {
+      //console.log('num faculty members');
+      toast.error('Number of Faculty members in a team should be positive', {
         position: toast.POSITION.BOTTOM_RIGHT,
-      });
-    } else if (!input.leader_contact_num.match(/^[0-9]{10}$/)) {
-      console.log('num contact');
+      });     
+      
+    }
+    else if (input.leader_name.length<3 ) {
+      //console.log('num faculty members');
+      toast.error('Please enter a valid name', {
+        position: toast.POSITION.BOTTOM_RIGHT,
+      });     
+      
+    }
+    else if (input.num_of_coaches_PTI < 0) {
+      //console.log('num coaches & PTI');
+      toast.error('Number of Coaches & PTI in a team should be positive', {
+        position: toast.POSITION.BOTTOM_RIGHT,
+      });           
+    } 
+    else if (input.num_of_supporting_staff< 0) {
+      //console.log('num supporting staff');
+      toast.error('Number of Supporting Staff in a team should be positive', {
+        position: toast.POSITION.BOTTOM_RIGHT,
+      });           
+    }else if (!input.leader_contact_num.match(/^[0-9]{10}$/)) {
+      //console.log('num contact');
       toast.error('Please enter a valid contact number', {
         position: toast.POSITION.BOTTOM_RIGHT,
       });
@@ -106,15 +130,17 @@ const ContingentEdit = () => {
           },
         })
         .then((res) => {
-          console.log('deleted');
+          //console.log('deleted');
           const passed = input;
 
           passed['num_of_boys'] = parseInt(passed['num_of_boys']);
           passed['num_of_girls'] = parseInt(passed['num_of_girls']);
-          passed['num_of_officials'] = parseInt(passed['num_of_officials']);
+          passed['num_of_faculty_members'] = parseInt(passed['num_of_faculty_members']);
+          passed['num_of_coaches_PTI'] = parseInt(passed['num_of_coaches_PTI']);
+          passed['num_of_supporting_staff'] = parseInt(passed['num_of_supporting_staff']);
           passed['college_rep'] = JSON.parse(rep);
 
-          console.log('passed', passed);
+          //console.log('passed', passed);
 
           axios
             .post(`${baseUrl}/teams/contingent/details/`, passed, {
@@ -123,7 +149,7 @@ const ContingentEdit = () => {
               },
             })
             .then((res) => {
-              console.log('successful');
+              //console.log('successful');
               navigate('/dashboard/registration');
             })
             .catch((err) => {
@@ -164,7 +190,7 @@ const ContingentEdit = () => {
                       <td className="right-column" width="30%">
                         <FormGroup>
                           <Input
-                            type="number"
+                            type="tel"
                             className="form-control_contDb"
                             id="num_of_boys"
                             name="num_of_boys"
@@ -191,7 +217,7 @@ const ContingentEdit = () => {
                       <td className="right-column" width="30%">
                         <FormGroup>
                           <Input
-                            type="number"
+                            type="tel"
                             className="form-control_contDb"
                             id="num_of_girls"
                             name="num_of_girls"
@@ -212,34 +238,87 @@ const ContingentEdit = () => {
                         </FormGroup>
                       </td>
                     </tr>
+                    
                     <tr>
                       <td className="left-column" style={{ textAlign: 'left' }}>
-                        Total Number of officials accompanying the contingent :{' '}
+                        Total Number of Faculty members :{' '}
                       </td>
                       <td className="right-column" width="30%">
                         <FormGroup>
                           <Input
-                            type="number"
+                            type="tel"
                             className="form-control_contDb"
-                            id="num_of_officials"
-                            name="num_of_officials"
-                            placeholder="Enter total no. of Officials"
-                            value={input.num_of_officials}
+                            id="num_of_faculty_members"
+                            name="num_of_faculty_members"
+                            placeholder="Enter total no. of Faculty members"
+                            value={input.num_of_faculty_members}
                             onChange={(e) => {
                               inputChangeHandler(e);
                             }}
                             valid={
-                              input.num_of_officials !== '' &&
-                              input.num_of_officials >= 0
+                              input.num_of_faculty_members !== '' && input.num_of_faculty_members >= 0
                             }
                             invalid={
-                              input.num_of_officials !== '' &&
-                              input.num_of_officials < 0
+                              input.num_of_faculty_members !== '' && input.num_of_faculty_members < 0
                             }
                           />
                         </FormGroup>
                       </td>
                     </tr>
+                  
+                    <tr>
+                      <td className="left-column" style={{ textAlign: 'left' }}>
+                        Total Number of Coaches & PTI :{' '}
+                      </td>
+                      <td className="right-column" width="30%">
+                        <FormGroup>
+                          <Input
+                            type="tel"
+                            className="form-control_contDb"
+                            id="num_of_coaches_PTI"
+                            name="num_of_coaches_PTI"
+                            placeholder="Enter total no. of Coaches & PTI"
+                            value={input.num_of_coaches_PTI}
+                            onChange={(e) => {
+                              inputChangeHandler(e);
+                            }}
+                            valid={
+                              input.num_of_coaches_PTI !== '' && input.num_of_coaches_PTI >= 0
+                            }
+                            invalid={
+                              input.num_of_coaches_PTI !== '' && input.num_of_coaches_PTI < 0
+                            }
+                          />
+                        </FormGroup>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td className="left-column" style={{ textAlign: 'left' }}>
+                        Total Number of Supporting Staff :{' '}
+                      </td>
+                      <td className="right-column" width="30%">
+                        <FormGroup>
+                          <Input
+                            type="tel"
+                            className="form-control_contDb"
+                            id="num_of_supporting_staff"
+                            name="num_of_supporting_staff"
+                            placeholder="Enter total no. of Supporting Staff"
+                            value={input.num_of_supporting_staff}
+                            onChange={(e) => {
+                              inputChangeHandler(e);
+                            }}
+                            valid={
+                              input.num_of_supporting_staff !== '' && input.num_of_supporting_staff >= 0
+                            }
+                            invalid={
+                              input.num_of_supporting_staff !== '' && input.num_of_supporting_staff < 0
+                            }
+                          />
+                        </FormGroup>
+                      </td>
+                    </tr>
+
                     <tr>
                       <td className="left-column" style={{ textAlign: 'left' }}>
                         Full Name of Contingent Leader{' '}
@@ -258,7 +337,7 @@ const ContingentEdit = () => {
                               inputChangeHandler(e);
                             }}
                             valid={input.leader_name !== ''}
-                            invalid={input.leader_name === ''}
+                            invalid={input.leader_name === ''||input.leader_name.length<3}
                           />
                         </FormGroup>
                       </td>
@@ -271,7 +350,7 @@ const ContingentEdit = () => {
                       <td className="right-column" width="30%">
                         <FormGroup>
                           <Input
-                            type="text"
+                            type="tel"
                             className="form-control_contDb"
                             id="leader_contact_num"
                             name="leader_contact_num"
