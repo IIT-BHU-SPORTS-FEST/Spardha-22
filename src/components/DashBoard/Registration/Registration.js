@@ -13,8 +13,8 @@ const Registration = () => {
     leader_name: '-',
     leader_contact_num: '-',
     num_of_faculty_members: '-',
-    num_of_coaches_pti: '-',
-    num_of_supporting_staff: '-',
+    num_of_coaches_pti:'-',
+    num_of_supporting_staff:'-',
   });
   const token = localStorage.getItem('token');
   const baseUrl = process.env.REACT_APP_BASE_URL;
