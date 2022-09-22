@@ -12,12 +12,12 @@ import { Link } from 'react-router-dom';
 const Topbar = ({ toggleSidebar }) => {
   const [open, setOpen] = useState(false);
   const toggleOpen = () => {
-    console.log('toggleOpen');
+    // console.log('toggleOpen');
     setOpen(!open);
   };
 
   const token = localStorage.getItem('token');
-  console.log('token', token);
+  // console.log('token', token);
   const baseUrl = 'https://api.spardha.co.in';
 
   const [user, setUser] = useState('');
@@ -31,9 +31,9 @@ const Topbar = ({ toggleSidebar }) => {
         },
       })
       .then((res) => {
-        console.log('user data=', res.data);
+        // console.log('user data=', res.data);
         setUser(res.data);
-        console.log('user', user);
+        // console.log('user', user);
       })
       .catch((err) => {
         console.log('error=', err);

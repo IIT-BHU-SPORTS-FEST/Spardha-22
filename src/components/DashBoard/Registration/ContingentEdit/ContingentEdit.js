@@ -42,7 +42,7 @@ const ContingentEdit = () => {
   });
 
   useEffect(() => {
-    console.log('input=', input);
+    // console.log('input=', input);
     axios
       .get(`${baseUrl}/teams/contingent/details/`, {
         headers: {
@@ -50,7 +50,7 @@ const ContingentEdit = () => {
         },
       })
       .then((res) => {
-        console.log('contdetails data=', res.data);
+        // console.log('contdetails data=', res.data);
         setInput(res.data);
         // console.log('input=',input);
       })
@@ -62,13 +62,13 @@ const ContingentEdit = () => {
   }, []);
 
   const cancelButton = () => {
-    console.log('cancel');
+    // console.log('cancel');
     // redirect to registration page
     navigate('/dashboard/registration');
   };
 
   const submitButton = () => {
-   console.log('submit', input.leader_name.length);
+    // console.log('submit', input.leader_name.length);
     if (
       input.num_of_boys === '' ||
       input.num_of_girls === '' ||
@@ -88,7 +88,7 @@ const ContingentEdit = () => {
         position: toast.POSITION.BOTTOM_RIGHT,
       });
     } else if (input.num_of_girls < 0) {
-     // console.log('num girls');
+      // console.log('num girls');
       toast.error('Number of girls in a team should be positive', {
         position: toast.POSITION.BOTTOM_RIGHT,
       });
@@ -96,10 +96,8 @@ const ContingentEdit = () => {
       //console.log('num faculty members');
       toast.error('Number of Faculty members in a team should be positive', {
         position: toast.POSITION.BOTTOM_RIGHT,
-      });     
-      
-    }
-    else if (input.leader_name.length<3 ) {
+      });
+    } else if (input.leader_name.length < 3) {
       //console.log('num faculty members');
       toast.error('Please enter a valid name', {
         position: toast.POSITION.BOTTOM_RIGHT,
@@ -110,14 +108,13 @@ const ContingentEdit = () => {
       //console.log('num coaches & PTI');
       toast.error('Number of Coaches & PTI in a team should be positive', {
         position: toast.POSITION.BOTTOM_RIGHT,
-      });           
-    } 
-    else if (input.num_of_supporting_staff< 0) {
+      });
+    } else if (input.num_of_supporting_staff < 0) {
       //console.log('num supporting staff');
       toast.error('Number of Supporting Staff in a team should be positive', {
         position: toast.POSITION.BOTTOM_RIGHT,
-      });           
-    }else if (!input.leader_contact_num.match(/^[0-9]{10}$/)) {
+      });
+    } else if (!input.leader_contact_num.match(/^[0-9]{10}$/)) {
       //console.log('num contact');
       toast.error('Please enter a valid contact number', {
         position: toast.POSITION.BOTTOM_RIGHT,
@@ -238,7 +235,7 @@ const ContingentEdit = () => {
                         </FormGroup>
                       </td>
                     </tr>
-                    
+
                     <tr>
                       <td className="left-column" style={{ textAlign: 'left' }}>
                         Total Number of Faculty members :{' '}
@@ -256,16 +253,18 @@ const ContingentEdit = () => {
                               inputChangeHandler(e);
                             }}
                             valid={
-                              input.num_of_faculty_members !== '' && input.num_of_faculty_members >= 0
+                              input.num_of_faculty_members !== '' &&
+                              input.num_of_faculty_members >= 0
                             }
                             invalid={
-                              input.num_of_faculty_members !== '' && input.num_of_faculty_members < 0
+                              input.num_of_faculty_members !== '' &&
+                              input.num_of_faculty_members < 0
                             }
                           />
                         </FormGroup>
                       </td>
                     </tr>
-                  
+
                     <tr>
                       <td className="left-column" style={{ textAlign: 'left' }}>
                         Total Number of Coaches & PTI :{' '}
@@ -309,10 +308,12 @@ const ContingentEdit = () => {
                               inputChangeHandler(e);
                             }}
                             valid={
-                              input.num_of_supporting_staff !== '' && input.num_of_supporting_staff >= 0
+                              input.num_of_supporting_staff !== '' &&
+                              input.num_of_supporting_staff >= 0
                             }
                             invalid={
-                              input.num_of_supporting_staff !== '' && input.num_of_supporting_staff < 0
+                              input.num_of_supporting_staff !== '' &&
+                              input.num_of_supporting_staff < 0
                             }
                           />
                         </FormGroup>
@@ -337,7 +338,10 @@ const ContingentEdit = () => {
                               inputChangeHandler(e);
                             }}
                             valid={input.leader_name !== ''}
-                            invalid={input.leader_name === ''||input.leader_name.length<3}
+                            invalid={
+                              input.leader_name === '' ||
+                              input.leader_name.length < 3
+                            }
                           />
                         </FormGroup>
                       </td>

@@ -21,20 +21,20 @@ const SideBar = ({ isOpen, toggle }) => {
   const [mobile, setMobile] = useState(false);
 
   useEffect(() => {
-    console.log('mobile=', isMobile);
+    // console.log('mobile=', isMobile);
     if (isMobile) {
       setMobile(true);
     }
   }, []);
 
   const handleClick = () => {
-    console.log('handle click');
+    // console.log('handle click');
     if (mobile) {
       toggle();
     }
   };
   const handleClick2 = () => {
-    console.log('handle click');
+    // console.log('handle click');
     if (mobile) {
       toggle();
     }

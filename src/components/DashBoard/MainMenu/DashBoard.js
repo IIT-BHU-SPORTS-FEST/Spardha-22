@@ -18,7 +18,7 @@ const App = () => {
   const toggleSidebar = () => setSidebarOpen(!sidebarIsOpen);
 
   useEffect(() => {
-    console.log('mobile=', isMobile);
+    // console.log('mobile=', isMobile);
     if (isMobile) {
       setSidebarOpen(false);
     }

@@ -27,9 +27,9 @@ const Registration = () => {
         },
       })
       .then((res) => {
-        console.log('contdetails data=', res.data);
+        // console.log('contdetails data=', res.data);
         setContDetails(res.data);
-        console.log('contdetails', contdetails);
+        // console.log('contdetails', contdetails);
       })
       .catch((err) => {
         console.log('error=', err);
@@ -76,14 +76,15 @@ const Registration = () => {
                     </td>
                     <td className="right-column">{contdetails.num_of_girls}</td>
                   </tr>
-                 
+
                   <tr>
                     <td
                       className="left-column"
                       style={{ textAlign: 'left', lineHeight: '1.5' }}
                     >
                       <b>
-                        Total Number of Faculty members accompanying the contingent
+                        Total Number of Faculty members accompanying the
+                        contingent
                       </b>{' '}
                     </td>
                     <td className="right-column">
@@ -109,7 +110,8 @@ const Registration = () => {
                       style={{ textAlign: 'left', lineHeight: '1.5' }}
                     >
                       <b>
-                        Total Number of Supporting Staff accompanying the contingent
+                        Total Number of Supporting Staff accompanying the
+                        contingent
                       </b>{' '}
                     </td>
                     <td className="right-column">
