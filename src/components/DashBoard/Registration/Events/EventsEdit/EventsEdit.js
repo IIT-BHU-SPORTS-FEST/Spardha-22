@@ -70,6 +70,7 @@ function EventsEdit() {
       });
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
+  
 
   const changeHandler = (e) => {
     const game = e.target.id;
