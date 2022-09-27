@@ -1888,18 +1888,18 @@ const Powerlifting = (props) => {
                   >
                     <b>CAPTAIN</b>
                     <br />
-                    Mack Mohan Verma <br />
-                    9548338599
+                    Dhahal Brahma <br />
+                    9101401340
                     <br />
-                    mack.mohanverma.mec19@itbhu.ac.in
+                    dhalal.brahma.cer19@itbhu.ac.in
                     <br />
                     <br />
                     <b>VICE-CAPTAIN</b>
                     <br />
-                    Shaurya Panpalia <br />
-                    7877860896
+                    Harsh Agrawal<br />
+                    9759877847
                     <br />
-                    shaurya.panpalia.mst19@itbhu.ac.in
+                    harsh.agrawal.phe20@itbhu.ac.in
                     <br />
                     <br />
                     <br />
@@ -2018,22 +2018,23 @@ const Squash = (props) => {
                   >
                     <b>CAPTAIN</b>
                     <br />
-                    Mack Mohan Verma <br />
-                    9548338599
+                    B.Rohith Netha <br />
+                    8331891203
                     <br />
-                    mack.mohanverma.mec19@itbhu.ac.in
+                   brohithnetha.mec19@itbhu.ac.in
+                    <br />
+                    
+                    <br />
+                    <br/>
+                    <br />
+                    <br/>
+                    <br />
+                    <br/>
                     <br />
                     <br />
-                    <b>VICE-CAPTAIN</b>
                     <br />
-                    Shaurya Panpalia <br />
-                    7877860896
-                    <br />
-                    shaurya.panpalia.mst19@itbhu.ac.in
-                    <br />
-                    <br />
-                    <br />
-                    {/* <br /> */}
+
+                    
                   </p>
                 </div>
               </div>
