@@ -36,7 +36,7 @@
 
   .user-dashboard .header-rightside {
     display: inline-block;
-    float: left;
+    /* float: left; */
     width: 100%;
   }
 
@@ -48,7 +48,7 @@
           font-size: 10px;
       } */
 
-  .user-dashboard .btn.btn-secondary.btn-lg.dropdown-toggle > span {
+  .user-dashboard .btn.btn-secondary.btn-lg.dropdown-toggle>span {
     font-size: 12px;
   }
 
@@ -118,7 +118,7 @@
   box-shadow: none;
 }
 
-.welcome-text .dropdown-menu > a {
+.welcome-text .dropdown-menu>a {
   color: rgb(0, 78, 0);
   display: inline-block;
   font-weight: 800;
@@ -127,7 +127,7 @@
   width: 100%;
 }
 
-.welcome-text .dropdown-menu > a:hover {
+.welcome-text .dropdown-menu>a:hover {
   color: limegreen;
 }
 
@@ -141,7 +141,7 @@
     padding: 0 0 0;
   }
 
-  .user-dashboard .btn.btn-secondary.btn-lg.dropdown-toggle > span {
+  .user-dashboard .btn.btn-secondary.btn-lg.dropdown-toggle>span {
     font-size: 11px;
   }
 
@@ -260,6 +260,7 @@
 .events-table .left-column {
   padding-right: 10px;
   line-height: 1;
+  min-width: 215px;
 }
 
 .events-table .right-column {
@@ -311,4 +312,22 @@ td {
   text-align: left;
   background-color: darkslategray;
   color: white;
+}
+
+@media only screen and (max-width: 426px) {
+  .events-table .right-column {
+    min-width: 208px;
+  }
+}
+
+@media only screen and (max-width: 376px) {
+  .events-table .right-column {
+    min-width: 180px;
+  }
+}
+
+@media only screen and (max-width: 320px) {
+  .events-table .right-column {
+    min-width: 150px;
+  }
 }
