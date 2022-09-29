@@ -1890,6 +1890,7 @@ const Powerlifting = (props) => {
                     <br />
                     Mack Mohan Verma <br />
                     9548338599
+                    
                     <br />
                     mack.mohanverma.mec19@itbhu.ac.in
                     <br />
