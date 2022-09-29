@@ -330,7 +330,7 @@ const EventsDb = () => {
                 <td>
                   <b>{team.game.substr(0, team.game.length - 2)}</b>
                 </td>
-                <td style={{ textAlign: 'left' }}>
+                <td>
                   {team.captain_name && (
                     <b>
                       Captain / Leader: {team.captain_name}{' '}
@@ -619,7 +619,7 @@ const EventsDb = () => {
                 <td>
                   <b>{team.game.substr(0, team.game.length - 2)}</b>
                 </td>
-                <td style={{ textAlign: 'left' }}>
+                <td>
                   {team.captain_name && (
                     <b>
                       Captain / Leader: {team.captain_name}{' '}
@@ -905,7 +905,7 @@ const EventsDb = () => {
                 <td>
                   <b>{team.game.substr(0, team.game.length - 2)}</b>
                 </td>
-                <td style={{ textAlign: 'left' }}>
+                <td>
                   {team.captain_name && (
                     <b>
                       Captain / Leader: {team.captain_name}{' '}
