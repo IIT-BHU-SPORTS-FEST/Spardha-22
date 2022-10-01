@@ -195,9 +195,9 @@ const Footer = () => {
                           wordSpacing: '0.4em',
                           textDecoration: 'none',
                         }}
-                        href="mailto: convener.spardha@iitbhu.ac.in"
+                        href="mailto: spardha@itbhu.ac.in"
                       >
-                        convener.spardha@iitbhu.ac.in
+                        spardha@itbhu.ac.in
                       </a>
                     </span>
                   </div>
