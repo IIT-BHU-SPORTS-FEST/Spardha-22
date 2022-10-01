@@ -21,20 +21,20 @@ const SideBar = ({ isOpen, toggle }) => {
   const [mobile, setMobile] = useState(false);
 
   useEffect(() => {
-    console.log('mobile=', isMobile);
+    // console.log('mobile=', isMobile);
     if (isMobile) {
       setMobile(true);
     }
   }, []);
 
   const handleClick = () => {
-    console.log('handle click');
+    // console.log('handle click');
     if (mobile) {
       toggle();
     }
   };
   const handleClick2 = () => {
-    console.log('handle click');
+    // console.log('handle click');
     if (mobile) {
       toggle();
     }
@@ -92,7 +92,7 @@ const SideBar = ({ isOpen, toggle }) => {
             >
               {/* <FontAwesomeIcon icon={faBriefcase} className="mr-2 icon_bar" /> */}
               <FaTasks className="mr-2 icon_bar" />
-              Registration
+              Registrations
             </NavLink>
           </NavItem>
           {/* <SubMenu title="Pages" icon={faCopy} items={submenus[1]} /> */}

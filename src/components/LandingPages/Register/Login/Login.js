@@ -22,10 +22,13 @@ import { useNavigate } from 'react-router';
 function Login() {
   const ref_container = useRef();
   useEffect(() => {
-    window.scrollTo({
-      top: ref_container.current,
-      behavior: 'smooth',
-    });
+    const scrollDiv = document.getElementById('loginDiv').offsetTop;
+    window.scrollTo({ top: scrollDiv + 600, behavior: 'smooth' });
+    // window.scrollTo({
+    //   top: ref_container.current,
+    //   behavior: 'smooth',
+    // });
+    // register
     // ref_container.current.scrollIntoView({
     //   block: 'start',
     //   behavior: 'smooth',
@@ -116,7 +119,7 @@ function Login() {
   });
 
   return (
-    <div ref={ref_container}>
+    <div id="loginDiv" ref={ref_container}>
       <h3 className={`${styles.heading}`}> LOGIN </h3>
       <hr />
 

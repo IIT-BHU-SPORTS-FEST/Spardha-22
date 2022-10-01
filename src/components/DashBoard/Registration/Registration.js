@@ -12,7 +12,9 @@ const Registration = () => {
     college_rep: '-',
     leader_name: '-',
     leader_contact_num: '-',
-    num_of_officials: '-',
+    num_of_faculty_members: '-',
+    num_of_coaches_pti:'-',
+    num_of_supporting_staff:'-',
   });
   const token = localStorage.getItem('token');
   const baseUrl = process.env.REACT_APP_BASE_URL;
@@ -25,9 +27,9 @@ const Registration = () => {
         },
       })
       .then((res) => {
-        console.log('contdetails data=', res.data);
+        // console.log('contdetails data=', res.data);
         setContDetails(res.data);
-        console.log('contdetails', contdetails);
+        // console.log('contdetails', contdetails);
       })
       .catch((err) => {
         console.log('error=', err);
@@ -74,17 +76,46 @@ const Registration = () => {
                     </td>
                     <td className="right-column">{contdetails.num_of_girls}</td>
                   </tr>
+
                   <tr>
                     <td
                       className="left-column"
                       style={{ textAlign: 'left', lineHeight: '1.5' }}
                     >
                       <b>
-                        Total Number of officials accompanying the contingent
+                        Total Number of Faculty members accompanying the
+                        contingent
                       </b>{' '}
                     </td>
                     <td className="right-column">
-                      {contdetails.num_of_officials}
+                      {contdetails.num_of_faculty_members}
+                    </td>
+                  </tr>
+                  <tr>
+                    <td
+                      className="left-column"
+                      style={{ textAlign: 'left', lineHeight: '1.5' }}
+                    >
+                      <b>
+                        {`Total Number of Coaches & PTI accompanying the contingent`}
+                      </b>{' '}
+                    </td>
+                    <td className="right-column">
+                      {contdetails.num_of_coaches_pti}
+                    </td>
+                  </tr>
+                  <tr>
+                    <td
+                      className="left-column"
+                      style={{ textAlign: 'left', lineHeight: '1.5' }}
+                    >
+                      <b>
+                        Total Number of Supporting Staff accompanying the
+                        contingent
+                      </b>{' '}
+                    </td>
+                    <td className="right-column">
+                      {contdetails.num_of_supporting_staff}
                     </td>
                   </tr>
                   <tr>
