@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect, useRef } from 'react';
 import axios from 'axios';
 import { FaEnvelope, FaPaperPlane, FaUser } from 'react-icons/fa';
 import { Link } from 'react-router-dom';
@@ -18,6 +18,11 @@ import {
 import styles from '../Signup/Signup.module.css';
 
 function Forgot() {
+  const ref_container = useRef();
+  useEffect(() => {
+    const scrollDiv = document.getElementById('forgotDiv').offsetTop;
+    window.scrollTo({ top: scrollDiv + 600, behavior: 'smooth' });
+  }, []);
   const submitHandler = (e) => {
     e.preventDefault();
 
@@ -76,7 +81,7 @@ function Forgot() {
   });
 
   return (
-    <>
+    <div id="forgotDiv" ref={ref_container}>
       <h3 className={`${styles.heading}`}> FORGOT PASSWORD </h3>
       <hr />
 
@@ -208,7 +213,7 @@ function Forgot() {
           </Button>
         </div>
       </Form>
-    </>
+    </div>
   );
 }
 
