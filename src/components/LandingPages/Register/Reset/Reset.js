@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect, useRef } from 'react';
 import axios from 'axios';
 import styles from '../Signup/Signup.module.css';
 import {
@@ -17,6 +17,11 @@ import { FaKey, FaPaperPlane, FaUser } from 'react-icons/fa';
 import { useReducer } from 'react';
 
 function Reset() {
+  const ref_container = useRef();
+  useEffect(() => {
+    const scrollDiv = document.getElementById('resetDiv').offsetTop;
+    window.scrollTo({ top: scrollDiv + 600, behavior: 'smooth' });
+  }, []);
   const [searchParams] = useSearchParams();
 
   const submitHandler = (e) => {
@@ -98,7 +103,7 @@ function Reset() {
   });
 
   return (
-    <>
+    <div id="resetDiv" ref={ref_container}>
       <h3 className={`${styles.heading}`}> UPDATE PASSWORD </h3>
       <hr />
 
@@ -263,7 +268,7 @@ function Reset() {
           </Button>
         </div>
       </Form>
-    </>
+    </div>
   );
 }
 
