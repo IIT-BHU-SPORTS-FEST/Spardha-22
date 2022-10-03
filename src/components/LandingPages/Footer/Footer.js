@@ -197,7 +197,7 @@ const Footer = () => {
                         }}
                         href="mailto: convener.spardha@iitbhu.ac.in"
                       >
-                        convener.spardha@iitbhu.ac.in
+                        spardha@iitbhu.ac.in
                       </a>
                     </span>
                   </div>
