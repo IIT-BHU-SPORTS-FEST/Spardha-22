@@ -28,6 +28,7 @@
 @media (min-width: 992px) {
   .container_gallery {
     max-width: 960px;
+    /* max-width: 960px; */
   }
 }
 
