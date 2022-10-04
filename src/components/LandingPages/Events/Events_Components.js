@@ -1091,14 +1091,25 @@ const Cycling = (props) => {
                 </div>
                 <div className={`${styles.info}`}>
                   <h4>Contacts</h4>
-                  <p>
-                    Coming Soon
+                  <p
+                    className={`${styles.paragraph}`}
+                    style={{ paddingBottom: '15px' }}
+                  >
+                    <b>CAPTAIN</b>
+                    <br />
+                    Abhishek <br />
+                    9417044824
+                    <br />
+                    abhishek.student.cer20@iitbhu.ac.in
                     <br />
                     <br />
+                    <b>VICE-CAPTAIN</b>
                     <br />
+                    Aditya Kulkarni
                     <br />
+                    8669136556
                     <br />
-                    <br />
+                    aditya.kulkarni.cd.civ20@itbhu.ac.in
                     <br />
                     <br />
                     <br />
@@ -1888,10 +1899,10 @@ const Powerlifting = (props) => {
                   >
                     <b>CAPTAIN</b>
                     <br />
-                    Dhahal Brahma<br />
-                    9101401340
-                    
-                    git<br />
+                    Dhahal Brahma
+                    <br />
+                    9101401340 git
+                    <br />
                     dhahal.brahma.cer19@itbhu.ac.in
                     <br />
                     <br />
@@ -2025,11 +2036,10 @@ const Squash = (props) => {
                     brohith.netha.mec19@itbhu.ac.in
                     <br />
                     <br />
-                    <br/>
                     <br />
-                    <br/>
                     <br />
-                    
+                    <br />
+                    <br />
                     <br />
                     <br />
                     <br />
