@@ -1062,25 +1062,14 @@ const Cycling = (props) => {
                 </div>
                 <div className={`${styles.info}`}>
                   <h4>Cycling</h4>
-                  <p
-                    className={`${styles.paragraph}`}
-                    style={{ paddingBottom: '15px' }}
-                  >
-                    <b>CAPTAIN</b>
-                    <br />
-                    Abhishek <br />
-                    9417044824
-                    <br />
-                    abhishek.student.cer20@iitbhu.ac.in
+                  <p>
+                    Coming Soon
                     <br />
                     <br />
-                    <b>VICE-CAPTAIN</b>
                     <br />
-                    Aditya Kulkarni
                     <br />
-                    8669136556
                     <br />
-                    aditya.kulkarni.cd.civ20@itbhu.ac.in
+                    <br />
                     <br />
                     <br />
                     <br />
@@ -1102,14 +1091,23 @@ const Cycling = (props) => {
                 </div>
                 <div className={`${styles.info}`}>
                   <h4>Contacts</h4>
-                  <p>
-                    Coming Soon
+                  <p className={`${styles.paragraph}`} style={{ paddingBottom: '15px' }}>
+                    <b>CAPTAIN</b>
+                    <br />
+                    Abhishek 
+                    <br />
+                    9417044824
+                    <br />
+                    abhishek.student.cer20@iitbhu.ac.in
                     <br />
                     <br />
+                    <b>VICE-CAPTAIN</b>
                     <br />
+                    Aditya Kulkarni
                     <br />
+                    8669136556
                     <br />
-                    <br />
+                    aditya.kulkarni.cd.civ20@itbhu.ac.in
                     <br />
                     <br />
                     <br />
