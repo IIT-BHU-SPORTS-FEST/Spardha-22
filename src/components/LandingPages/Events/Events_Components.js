@@ -1062,14 +1062,25 @@ const Cycling = (props) => {
                 </div>
                 <div className={`${styles.info}`}>
                   <h4>Cycling</h4>
-                  <p>
-                    Coming Soon
+                  <p
+                    className={`${styles.paragraph}`}
+                    style={{ paddingBottom: '15px' }}
+                  >
+                    <b>CAPTAIN</b>
+                    <br />
+                    Abhishek <br />
+                    9417044824
+                    <br />
+                    abhishek.student.cer20@iitbhu.ac.in
                     <br />
                     <br />
+                    <b>VICE-CAPTAIN</b>
                     <br />
+                    Aditya Kulkarni
                     <br />
+                    8669136556
                     <br />
-                    <br />
+                    aditya.kulkarni.cd.civ20@itbhu.ac.in
                     <br />
                     <br />
                     <br />
@@ -1888,18 +1899,19 @@ const Powerlifting = (props) => {
                   >
                     <b>CAPTAIN</b>
                     <br />
-                    Mack Mohan Verma <br />
-                    9548338599
+                    Dhahal Brahma
                     <br />
-                    mack.mohanverma.mec19@itbhu.ac.in
+                    9101401340
+                    <br />
+                    dhahal.brahma.cer19@itbhu.ac.in
                     <br />
                     <br />
                     <b>VICE-CAPTAIN</b>
                     <br />
-                    Shaurya Panpalia <br />
-                    7877860896
+                    Harsh Agrawal <br />
+                    9759877847
                     <br />
-                    shaurya.panpalia.mst19@itbhu.ac.in
+                    harsh.agrawal.phe20@itbhu.ac.in
                     <br />
                     <br />
                     <br />
@@ -2018,18 +2030,16 @@ const Squash = (props) => {
                   >
                     <b>CAPTAIN</b>
                     <br />
-                    Mack Mohan Verma <br />
-                    9548338599
+                    B Rohith Netha <br />
+                    8331891203
                     <br />
-                    mack.mohanverma.mec19@itbhu.ac.in
+                    brohith.netha.mec19@itbhu.ac.in
                     <br />
                     <br />
-                    <b>VICE-CAPTAIN</b>
                     <br />
-                    Shaurya Panpalia <br />
-                    7877860896
                     <br />
-                    shaurya.panpalia.mst19@itbhu.ac.in
+                    <br />
+                    <br />
                     <br />
                     <br />
                     <br />

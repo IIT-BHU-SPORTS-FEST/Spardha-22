@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect, useRef } from 'react';
 import axios from 'axios';
 import { FaEnvelope, FaPaperPlane, FaUser } from 'react-icons/fa';
 import { Link } from 'react-router-dom';
@@ -18,6 +18,12 @@ import {
 import styles from '../Signup/Signup.module.css';
 
 function Verify() {
+  const ref_container = useRef();
+  useEffect(() => {
+    const scrollDiv = document.getElementById('verifyDiv').offsetTop;
+    window.scrollTo({ top: scrollDiv + 600, behavior: 'smooth' });
+  }, []);
+
   const submitHandler = (e) => {
     e.preventDefault();
 
@@ -76,7 +82,7 @@ function Verify() {
   });
 
   return (
-    <>
+    <div id="verifyDiv" ref={ref_container}>
       <h3 className={`${styles.heading}`}> VERIFY EMAIL </h3>
       <hr />
 
@@ -208,7 +214,7 @@ function Verify() {
           </Button>
         </div>
       </Form>
-    </>
+    </div>
   );
 }
 
