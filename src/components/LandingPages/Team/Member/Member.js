@@ -5,7 +5,9 @@ import { FaFacebookF, FaEnvelope, FaLinkedin } from 'react-icons/fa';
 function Member({ post, name, phone, id, mail, image, linkedin }) {
   return (
     <>
-      <div className="col-lg-3 col-md-3 col-sm-4 col-6 px-1 py-1">
+      <div
+        className={`${styles.mobile} col-lg-3 col-md-3 col-sm-4 col-6 px-1 py-1`}
+      >
         <div className={`${styles.staff} justify-content-center`}>
           <img
             src={`${image}`}
