@@ -437,3 +437,22 @@ fieldset:disabled a.btn_guests {
     font-weight: 500;
   }
 }
+/* Adding brightness of darken images */
+#sardar-singh{
+  filter: brightness(3);
+}
+#deepa-malik{
+  filter: brightness(1.5);
+}
+#sajjan{
+  filter: brightness(1.7);
+}
+#dilip{
+  filter: brightness(1.5);
+}
+#dhanraj{
+  filter: brightness(1.2);
+}
+#shikha{
+  filter: brightness(1.4);
+}
