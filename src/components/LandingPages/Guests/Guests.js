@@ -235,7 +235,7 @@ const Guests = () => {
               <div className="col-md-3 col-sm-3 col-6">
                 <img
                   src="/images/guests/11.png"
-                  className="img-fluid_guests img-guests"
+                  className="img-fluid_guests img-guests" id='praveen'
                   alt="guest_image_alt"
                 />
                 <div className="middle_guests">
@@ -255,7 +255,7 @@ const Guests = () => {
               <div className="col-md-3 col-sm-3 col-6">
                 <img
                   src="/images/guests/19.png"
-                  className="img-fluid_guests img-guests"
+                  className="img-fluid_guests img-guests" id='sushma'
                   alt="guest_image_alt"
                 />
                 <div className="middle_guests">
@@ -265,7 +265,7 @@ const Guests = () => {
               <div className="col-md-3 col-sm-3 col-6">
                 <img
                   src="/images/guests/2.png"
-                  className="img-fluid_guests img-guests"
+                  className="img-fluid_guests img-guests" id='amit'
                   alt="guest_image_alt"
                 />
                 <div className="middle_guests">
@@ -275,7 +275,7 @@ const Guests = () => {
               <div className="col-md-3 col-sm-3 col-6">
                 <img
                   src="/images/guests/3.png"
-                  className="img-fluid_guests img-guests"
+                  className="img-fluid_guests img-guests" id='anjum'
                   alt="guest_image_alt"
                 />
                 <div className="middle_guests">
@@ -285,7 +285,7 @@ const Guests = () => {
               <div className="col-md-3 col-sm-3 col-6">
                 <img
                   src="/images/guests/20.png"
-                  className="img-fluid_guests img-guests"
+                  className="img-fluid_guests img-guests" id='tania'
                   alt="guest_image_alt"
                 />
                 <div className="middle_guests">
