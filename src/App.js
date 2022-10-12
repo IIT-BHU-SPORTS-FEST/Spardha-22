@@ -34,9 +34,9 @@ const Guests = React.lazy(() =>
 const Register = React.lazy(() =>
   import('./components/LandingPages/Register/Register')
 );
-const Signup = React.lazy(() =>
-  import('./components/LandingPages/Register/Signup/Signup')
-);
+// const Signup = React.lazy(() =>
+//   import('./components/LandingPages/Register/Signup/Signup')
+// );
 const Login = React.lazy(() =>
   import('./components/LandingPages/Register/Login/Login')
 );
@@ -103,7 +103,7 @@ function App() {
               </Suspense>
             }
           >
-            <Route
+            {/* <Route
               exact
               path="signup"
               element={
@@ -111,7 +111,7 @@ function App() {
                   <Signup />
                 </Suspense>
               }
-            />
+            /> */}
             <Route
               exact
               path="login"
