@@ -49,10 +49,11 @@ function HomeSlider() {
                     </div>
                     <div className="col-6 reg">
                       <HashLink
-                        to="/register/signup#register"
+                        // to="/register/signup#register"
+                        to="/register/login"
                         className="home-button"
                       >
-                        REGISTER&nbsp;/&nbsp;LOGIN
+                        {/* REGISTER&nbsp;/&nbsp;LOGIN */}LOGIN
                       </HashLink>
                     </div>
                   </div>
@@ -63,10 +64,11 @@ function HomeSlider() {
                 <div className="home-small-screen container">
                   <div className="reg">
                     <HashLink
-                      to="/register/signup#register"
+                      // to="/register/signup#register"
+                      to="/register/login"
                       className="home-button"
                     >
-                      REGISTER&nbsp;/&nbsp;LOGIN
+                      {/* REGISTER&nbsp;/&nbsp;LOGIN */}LOGIN
                     </HashLink>
                   </div>
                   <div className="ca">
@@ -112,10 +114,11 @@ function HomeSlider() {
                     </div>
                     <div className="col-6 reg">
                       <HashLink
-                        to="/register/signup#register"
+                        // to="/register/signup#register"
+                        to="/register/login"
                         className="home-button"
                       >
-                        REGISTER&nbsp;/&nbsp;LOGIN
+                        {/* REGISTER&nbsp;/&nbsp;LOGIN */}LOGIN
                       </HashLink>
                     </div>
                   </div>
@@ -175,10 +178,11 @@ function HomeSlider() {
                     </div>
                     <div className="col-6 reg">
                       <HashLink
-                        to="/register/signup#register"
+                        // to="/register/signup#register"
+                        to="/register/login"
                         className="home-button"
                       >
-                        REGISTER&nbsp;/&nbsp;LOGIN
+                        {/* REGISTER&nbsp;/&nbsp;LOGIN */}LOGIN
                       </HashLink>
                     </div>
                   </div>
@@ -189,10 +193,11 @@ function HomeSlider() {
                 <div className="home-small-screen container">
                   <div className="reg">
                     <HashLink
-                      to="/register/signup#register"
+                      // to="/register/signup#register"
+                      to="/register/login"
                       className="home-button"
                     >
-                      REGISTER&nbsp;/&nbsp;LOGIN
+                        {/* REGISTER&nbsp;/&nbsp;LOGIN */}LOGIN
                     </HashLink>
                   </div>
                   <div className="ca">
@@ -238,10 +243,11 @@ function HomeSlider() {
                     </div>
                     <div className="col-6 reg">
                       <HashLink
-                        to="/register/signup#register"
+                        // to="/register/signup#register"
+                        to="/register/login"
                         className="home-button"
                       >
-                        REGISTER&nbsp;/&nbsp;LOGIN
+                        {/* REGISTER&nbsp;/&nbsp;LOGIN */}LOGIN
                       </HashLink>
                     </div>
                   </div>
@@ -252,10 +258,11 @@ function HomeSlider() {
                 <div className="home-small-screen container">
                   <div className="reg">
                     <HashLink
-                      to="/register/signup#register"
+                      // to="/register/signup#register"
+                      to="/register/login"
                       className="home-button"
                     >
-                      REGISTER&nbsp;/&nbsp;LOGIN
+                        {/* REGISTER&nbsp;/&nbsp;LOGIN */}LOGIN
                     </HashLink>
                   </div>
                   <div className="ca">
