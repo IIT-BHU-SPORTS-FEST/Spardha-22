@@ -131,13 +131,13 @@ function Login() {
         }}
         className="py-2"
       >
-        <b> Account not yet created? </b>
+        {/* <b> Account not yet created? </b>
         Click{' '}
         <Link to="/register/signup" style={{ textDecoration: 'none' }}>
           here{' '}
         </Link>{' '}
         to create one
-        <br />
+        <br /> */}
         <strong> Account not activated? </strong>
         Click{' '}
         <Link to="/register/verify" style={{ textDecoration: 'none' }}>
@@ -288,7 +288,7 @@ function Login() {
             <FaPaperPlane color="white" className="me-1"></FaPaperPlane>
             LOGIN
           </Button>
-          <b
+          {/* <b
             style={{
               fontSize: '10px',
               textAlign: 'center',
@@ -299,7 +299,7 @@ function Login() {
             <Link to="/register/Signup" style={{ textDecoration: 'none' }}>
               {`Sign up `}
             </Link>
-          </b>
+          </b> */}
         </div>
       </Form>
     </div>
