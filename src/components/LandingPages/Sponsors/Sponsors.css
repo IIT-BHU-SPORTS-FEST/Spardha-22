@@ -5,6 +5,52 @@
   border-radius: 20px;
   box-shadow: 0 8px 15px rgba(0, 0, 0, 0.06);
 }
+.img-sponsor_top {
+  opacity: 1;
+  display: block;
+  width: auto;
+  height: auto;
+  transition: 0.5s ease;
+  backface-visibility: hidden;
+}
+.row_one{
+   width:20vw;
+}
+@media (max-width: 426px){
+  .row_one{
+    width: 35vw;
+  }
+}
+@media (max-width: 769px){
+  .row_one{
+    width: 38vw;
+  }
+}
+@media (max-width: 1025px){
+  .row_one{
+    width: 30vw;
+  }
+}
+/* .row_two{
+  width:20vw;
+  height:28vh;
+} */
+.align_center_row{
+  /* width: 10vw;
+  text-align: center;
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: center; */
+}
+.align_center_col{
+  /* width: 100%;
+  text-align: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center; */
+}
 
 .ftco-section_sponsors {
   padding: 7em 0;

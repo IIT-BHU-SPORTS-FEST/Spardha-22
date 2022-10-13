@@ -15,19 +15,272 @@ const Sponsors = () => {
             </div>
           </div>
 
-          <div className="row_sponsors align-items-baseline justify-content-center pb-5 div-sponsor">
+          <div className="row_sponsors align-items-baseline justify-content-center  div-sponsor ">
 
-
-            <div className="col-lg-3 col-md-3 col-4 pt-5">
+            <div className="col-lg-4 col-md-4 col-4 row_one">
               <a href="https://myrankers.com/">
                 <img
-                  src="/images/sponsors/2022/rankersjee.jpg"
+                  src="/images/sponsors/2022/rankers.png"
+                  className="img-fluid_sponsors img-sponsor_top"
+                  width='0'
+                  alt="image_alt"
+                />
+              </a>
+            </div>
+            <div className="col-lg-4 col-md-4 col-4  row_one">
+              <a href="https://iitiantrader.com/">
+                <img
+                  src="/images/sponsors/2022/iitianTrader.png"
+                  className="img-fluid_sponsors img-sponsor_top"
+                  alt="image_alt"
+                />
+              </a>
+            </div>
+          </div>
+
+          <div className="row_sponsors align-items-baseline justify-content-center div-sponsor ">
+            <div className="col-lg-3 col-md-3 col-4  ">
+              <a href="https://amul.com/">
+                <img
+                  src="/images/sponsors/2022/amul.png"
                   className="img-fluid_sponsors img-sponsor"
                   alt="image_alt"
                 />
               </a>
             </div>
-            <div className="col-lg-3 col-md-3 col-4 pt-5">
+            <div className="col-lg-3 col-md-3 col-4 ">
+              <a href="https://www.ktmindia.com/">
+                <img
+                  src="/images/sponsors/2022/KTM_Logo.png
+                  "
+                  className="img-fluid_sponsors img-sponsor"
+                  alt="image_alt"
+                />
+              </a>
+            </div>
+            <div className="col-lg-3 col-md-3 col-4 ">
+              <a href="https://www.toyotabharat.com/">
+                <img
+                  src="/images/sponsors/2022/toyota.png
+                  "
+                  className="img-fluid_sponsors img-sponsor"
+                  alt="image_alt"
+                />
+              </a>
+            </div>
+          </div>
+          <div className="row_sponsors align-items-baseline justify-content-center pb-5 div-sponsor">
+            <div className="col-lg-3 col-md-3 col-4 pt-5 ">
+              <a href="https://www.amarujala.com/">
+                <img
+                  src="/images/sponsors/2022/AmarUjala.jpg"
+                  className="img-fluid_sponsors img-sponsor"
+                  alt="image_alt"
+                />
+              </a>
+            </div>
+            <div className="col-lg-3 col-md-3 col-4 pt-5 ">
+              <a href="#">
+                <img
+                  src="/images/sponsors/2022/ipsator.png
+                  "
+                  className="img-fluid_sponsors img-sponsor"
+                  alt="image_alt"
+                />
+              </a>
+            </div>
+            <div className="col-lg-3 col-md-3 col-4 pt-5 ">
+              <a href="https://www.ballebaazi.com/">
+                <img
+                  src="/images/sponsors/2022/ballebaazi_logo.png
+                  "
+                  className="img-fluid_sponsors img-sponsor"
+                  alt="image_alt"
+                />
+              </a>
+            </div>
+            <div className="col-lg-3 col-md-3 col-4 pt-5 ">
+              <a href="https://hotelcastillo.in/">
+                <img
+                  src="/images/sponsors/2022/castillo.jpeg
+                  "
+                  className="img-fluid_sponsors img-sponsor"
+                  alt="image_alt"
+                />
+              </a>
+            </div>
+          </div>
+          <div className="row_sponsors align-items-baseline justify-content-center pb-5 div-sponsor">
+            <div className="col-lg-3 col-md-3 col-4 pt-5 ">
+              <a href="https://www.paramountdealz.com/">
+                <img
+                  src="/images/sponsors/2022/paramountdealz.jpeg"
+                  className="img-fluid_sponsors img-sponsor"
+                  alt="image_alt"
+                />
+              </a>
+            </div>
+            <div className="col-lg-3 col-md-3 col-4 pt-5 ">
+              <a href="#">
+                <img
+                  src="/images/sponsors/2022/cut-&-looks-.png
+                  "
+                  className="img-fluid_sponsors img-sponsor"
+                  alt="image_alt"
+                />
+              </a>
+            </div>
+            <div className="col-lg-3 col-md-3 col-4 pt-5 ">
+              <a href="#">
+                <img
+                  src="/images/sponsors/2022/DGPcafe.png
+                  "
+                  className="img-fluid_sponsors img-sponsor"
+                  alt="image_alt"
+                />
+              </a>
+            </div>
+            <div className="col-lg-3 col-md-3 col-4 pt-5 ">
+              <a href="https://pahuna-kitchen.business.site/">
+                <img
+                  src="/images/sponsors/2022/NamahPahuna.jpeg
+                  "
+                  className="img-fluid_sponsors img-sponsor"
+                  alt="image_alt"
+                />
+              </a>
+            </div>
+          </div>
+          <div className="row_sponsors align-items-baseline justify-content-center pb-5 div-sponsor">
+            <div className="col-lg-3 col-md-3 col-4 pt-5 ">
+              <a href="https://terracottacafe.in/">
+                <img
+                  src="/images/sponsors/2022/TERRACOTTA.png"
+                  className="img-fluid_sponsors img-sponsor"
+                  alt="image_alt"
+                />
+              </a>
+            </div>
+            <div className="col-lg-3 col-md-3 col-4 pt-5 ">
+              <a href="https://sumangaljewellers.business.site/">
+                <img
+                  src="/images/sponsors/2022/sumangaljewellers.jpg
+                  "
+                  className="img-fluid_sponsors img-sponsor"
+                  alt="image_alt"
+                />
+              </a>
+            </div>
+            <div className="col-lg-3 col-md-3 col-4 pt-5 ">
+              <a href="#">
+                <img
+                  src="/images/sponsors/2022/Shri_rajbandhu.png
+                  "
+                  className="img-fluid_sponsors img-sponsor"
+                  alt="image_alt"
+                />
+              </a>
+            </div>
+            <div className="col-lg-3 col-md-3 col-4 pt-5 ">
+              <a href="#">
+                <img
+                  src="/images/sponsors/2022/VishalBakers.jpeg
+                  "
+                  className="img-fluid_sponsors img-sponsor"
+                  alt="image_alt"
+                />
+              </a>
+            </div>
+          </div>
+          <div className="row_sponsors align-items-baseline justify-content-center pb-5 div-sponsor">
+            <div className="col-lg-3 col-md-3 col-4 pt-5 ">
+              <a href="#">
+                <img
+                  src="/images/sponsors/2022/sandeep_sports.png"
+                  className="img-fluid_sponsors img-sponsor"
+                  alt="image_alt"
+                />
+              </a>
+            </div>
+            <div className="col-lg-3 col-md-3 col-4 pt-5 ">
+              <a href="#">
+                <img
+                  src="/images/sponsors/2022/Sankalan.jpeg"
+                  className="img-fluid_sponsors img-sponsor"
+                  alt="image_alt"
+                />
+              </a>
+            </div>
+            <div className="col-lg-3 col-md-3 col-4 pt-5 ">
+              <a href="#">
+                <img
+                  src="/images/sponsors/2022/laxmi_cycle.png"
+                  className="img-fluid_sponsors img-sponsor"
+                  alt="image_alt"
+                />
+              </a>
+            </div>
+            <div className="col-lg-3 col-md-3 col-4 pt-5 ">
+              <a href="#">
+                <img
+                  src="/images/sponsors/2022/englishmasala.jpg "
+                  className="img-fluid_sponsors img-sponsor"
+                  alt="image_alt"
+                />
+              </a>
+            </div>
+          </div>
+          <div className="row_sponsors align-items-baseline justify-content-center pb-5 div-sponsor">
+            <div className="col-lg-3 col-md-3 col-4 pt-5 ">
+              <a href="#">
+                <img
+                  src="/images/sponsors/2022/cafeDeCoop.jpeg"
+                  className="img-fluid_sponsors img-sponsor"
+                  alt="image_alt"
+                />
+              </a>
+            </div>
+            <div className="col-lg-3 col-md-3 col-4 pt-5 ">
+              <a href="#">
+                <img
+                  src="/images/sponsors/2022/aao_ji.png"
+                  className="img-fluid_sponsors img-sponsor"
+                  alt="image_alt"
+                />
+              </a>
+            </div>
+            {/* <div className="col-lg-3 col-md-3 col-4 pt-5 ">
+              <a href="#">
+                <img
+                  src="/images/sponsors/2022/laxmicycle.jpeg"
+                  className="img-fluid_sponsors img-sponsor"
+                  alt="image_alt"
+                />
+              </a>
+            </div> */}
+            {/* <div className="col-lg-3 col-md-3 col-4 pt-5 ">
+              <a href="#">
+                <img
+                  src="/images/sponsors/2022/englishmasala.jpg
+                  "
+                  className="img-fluid_sponsors img-sponsor"
+                  alt="image_alt"
+                />
+              </a>
+            </div> */}
+          </div>
+          {/* <div className="col-lg-3 col-md-3 col-4 pt-5 ">
+              <a href="https://iitiantrader.com/">
+                <img
+                  src="/images/sponsors/2022/KTM.jpeg
+                  "
+                  className="img-fluid_sponsors img-sponsor"
+                  alt="image_alt"
+                />
+              </a>
+            </div> */}
+
+          {/* <div className="col-lg-3 col-md-3 col-4 pt-5 ">
               <a href="https://paytm.com/">
                 <img
                   src="/images/sponsors/others/paytm.png"
@@ -36,8 +289,16 @@ const Sponsors = () => {
                 />
               </a>
             </div>
+            <div className="col-lg-3 col-md-3 col-4 pt-5 ">
+              <a href="https://paytm.com/">
+                <img
+                  src="/images/sponsors/others/paytm.png"
+                  className="img-fluid_sponsors img-sponsor"
+                  alt="image_alt"
+                />
+              </a>
+            </div> */}
 
-          </div>
 
 
 
@@ -53,7 +314,7 @@ const Sponsors = () => {
           </div>
           {/* <hr style="margin-left: 30px; margin-right: 30px;"/> */}
           <div className="row_sponsors align-items-baseline justify-content-center pb-5 div-sponsor">
-            <div className="col-lg-3 col-md-3 col-4 pt-5">
+            <div className="col-lg-3 col-md-3 col-4 pt-5 ">
               <a href="https://www.jkcement.com/">
                 <img
                   src="/images/sponsors/2018/jkcement.png"
@@ -62,7 +323,7 @@ const Sponsors = () => {
                 />
               </a>
             </div>
-            <div className="col-lg-3 col-md-3 col-4 pt-5">
+            <div className="col-lg-3 col-md-3 col-4 pt-5 ">
               <a href="https://paytm.com/">
                 <img
                   src="/images/sponsors/others/paytm.png"
@@ -71,7 +332,7 @@ const Sponsors = () => {
                 />
               </a>
             </div>
-            <div className="col-lg-3 col-md-3 col-4 pt-5">
+            <div className="col-lg-3 col-md-3 col-4 pt-5 ">
               <a href="https://www.pepsico.com/">
                 <img
                   src="/images/sponsors/others/pepsi.png"
@@ -80,7 +341,7 @@ const Sponsors = () => {
                 />
               </a>
             </div>
-            <div className="col-lg-3 col-md-3 col-4 pt-5">
+            <div className="col-lg-3 col-md-3 col-4 pt-5 ">
               <a href="https://in.puma.com/">
                 <img
                   src="/images/sponsors/others/puma.png"
@@ -89,7 +350,7 @@ const Sponsors = () => {
                 />
               </a>
             </div>
-            <div className="col-lg-3 col-md-3 col-4 pt-5">
+            <div className="col-lg-3 col-md-3 col-4 pt-5 ">
               <a href="https://www.redbull.com/">
                 <img
                   src="/images/sponsors/others/redbull.png"
@@ -98,7 +359,7 @@ const Sponsors = () => {
                 />
               </a>
             </div>
-            <div className="col-lg-3 col-md-3 col-4 pt-5">
+            <div className="col-lg-3 col-md-3 col-4 pt-5 ">
               <a href="https://www.reebok.com/us">
                 <img
                   src="/images/sponsors/others/reebok.png"
@@ -107,7 +368,7 @@ const Sponsors = () => {
                 />
               </a>
             </div>
-            <div className="col-lg-3 col-md-3 col-4 pt-5">
+            <div className="col-lg-3 col-md-3 col-4 pt-5 ">
               <a href="https://www.mahindra.com/">
                 <img
                   src="/images/sponsors/others/mahindra.png"
@@ -116,7 +377,7 @@ const Sponsors = () => {
                 />
               </a>
             </div>
-            <div className="col-lg-3 col-md-3 col-4 pt-5">
+            <div className="col-lg-3 col-md-3 col-4 pt-5 ">
               <a href="https://www.heromotocorp.com/en-in/">
                 <img
                   src="/images/sponsors/others/hero.png"
@@ -125,7 +386,7 @@ const Sponsors = () => {
                 />
               </a>
             </div>
-            <div className="col-lg-3 col-md-3 col-4 pt-5">
+            <div className="col-lg-3 col-md-3 col-4 pt-5 ">
               <a href="https://www.fastrack.in/">
                 <img
                   src="/images/sponsors/2018/fastrack.jpg"
@@ -134,7 +395,7 @@ const Sponsors = () => {
                 />
               </a>
             </div>
-            <div className="col-lg-3 col-md-3 col-4 pt-5">
+            <div className="col-lg-3 col-md-3 col-4 pt-5 ">
               <a href="https://www.ntpc.co.in/">
                 <img
                   src="/images/sponsors/2018/ntpc.png"
@@ -143,7 +404,7 @@ const Sponsors = () => {
                 />
               </a>
             </div>
-            <div className="col-lg-3 col-md-3 col-4 pt-5">
+            <div className="col-lg-3 col-md-3 col-4 pt-5 ">
               <a href="https://www.sail.co.in/">
                 <img
                   src="/images/sponsors/2018/sail.png"
@@ -152,7 +413,7 @@ const Sponsors = () => {
                 />
               </a>
             </div>
-            <div className="col-lg-3 col-md-3 col-4 pt-5">
+            <div className="col-lg-3 col-md-3 col-4 pt-5 ">
               <a href="https://www.iocl.com/">
                 <img
                   src="/images/sponsors/2018/iocl.png"
@@ -161,7 +422,7 @@ const Sponsors = () => {
                 />
               </a>
             </div>
-            <div className="col-lg-3 col-md-3 col-4 pt-5">
+            <div className="col-lg-3 col-md-3 col-4 pt-5 ">
               <a href="https://www.hindustanpetroleum.com/">
                 <img
                   src="/images/sponsors/2018/hpcl.png"
@@ -170,7 +431,7 @@ const Sponsors = () => {
                 />
               </a>
             </div>
-            <div className="col-lg-3 col-md-3 col-4 pt-5">
+            <div className="col-lg-3 col-md-3 col-4 pt-5 ">
               <a href="https://www.obcindia.co.in/">
                 <img
                   src="/images/sponsors/2018/orientalbank.jpg"
@@ -180,7 +441,7 @@ const Sponsors = () => {
               </a>
             </div>
 
-            <div className="col-lg-3 col-md-3 col-4 pt-5">
+            <div className="col-lg-3 col-md-3 col-4 pt-5 ">
               <a href="https://www.adityabirla.com/">
                 <img
                   src="/images/sponsors/others/adityabirla.png"
@@ -189,7 +450,7 @@ const Sponsors = () => {
                 />
               </a>
             </div>
-            <div className="col-lg-3 col-md-3 col-4 pt-5">
+            <div className="col-lg-3 col-md-3 col-4 pt-5 ">
               <a href="https://www.swiggy.com/">
                 <img
                   src="/images/sponsors/2018/swiggy.jpg"
@@ -198,7 +459,7 @@ const Sponsors = () => {
                 />
               </a>
             </div>
-            <div className="col-lg-3 col-md-3 col-4 pt-5">
+            <div className="col-lg-3 col-md-3 col-4 pt-5 ">
               <a href="https://amul.com/">
                 <img
                   src="/images/sponsors/others/amul.png"
@@ -207,7 +468,7 @@ const Sponsors = () => {
                 />
               </a>
             </div>
-            <div className="col-lg-3 col-md-3 col-4 pt-5">
+            <div className="col-lg-3 col-md-3 col-4 pt-5 ">
               <a href="https://www.bankofindia.co.in/">
                 <img
                   src="/images/sponsors/2018/boi.png"
@@ -216,7 +477,7 @@ const Sponsors = () => {
                 />
               </a>
             </div>
-            <div className="col-lg-3 col-md-3 col-4 pt-5">
+            <div className="col-lg-3 col-md-3 col-4 pt-5 ">
               <a href="https://www.ucobank.com/">
                 <img
                   src="/images/sponsors/2018/ucobank.png"
@@ -225,7 +486,7 @@ const Sponsors = () => {
                 />
               </a>
             </div>
-            <div className="col-lg-3 col-md-3 col-4 pt-5">
+            <div className="col-lg-3 col-md-3 col-4 pt-5 ">
               <a href="https://www.facebook.com/patna95bigfm/">
                 <img
                   src="/images/sponsors/2018/bigfm.png"
@@ -234,7 +495,7 @@ const Sponsors = () => {
                 />
               </a>
             </div>
-            <div className="col-lg-3 col-md-3 col-4 pt-5">
+            <div className="col-lg-3 col-md-3 col-4 pt-5 ">
               <a href="https://www.vlccwellness.com/India/">
                 <img
                   src="/images/sponsors/2018/vlcc.jpg"
@@ -243,7 +504,7 @@ const Sponsors = () => {
                 />
               </a>
             </div>
-            <div className="col-lg-3 col-md-3 col-4 pt-5">
+            <div className="col-lg-3 col-md-3 col-4 pt-5 ">
               <a href="https://zebronics.com/">
                 <img
                   src="/images/sponsors/2018/zebronics.png"
@@ -252,7 +513,7 @@ const Sponsors = () => {
                 />
               </a>
             </div>
-            <div className="col-lg-3 col-md-3 col-4 pt-5">
+            <div className="col-lg-3 col-md-3 col-4 pt-5 ">
               <a href="https://heinisports.com/">
                 <img
                   src="/images/sponsors/2018/heini.png"
@@ -261,7 +522,7 @@ const Sponsors = () => {
                 />
               </a>
             </div>
-            <div className="col-lg-3 col-md-3 col-4 pt-5">
+            <div className="col-lg-3 col-md-3 col-4 pt-5 ">
               <a href="http://www.aquvio.com/">
                 <img
                   src="/images/sponsors/others/aquvio.png"
@@ -270,7 +531,7 @@ const Sponsors = () => {
                 />
               </a>
             </div>
-            <div className="col-lg-3 col-md-3 col-4 pt-5">
+            <div className="col-lg-3 col-md-3 col-4 pt-5 ">
               <a href="https://www.bankofbaroda.com/">
                 <img
                   src="/images/sponsors/others/bankofbaroda.png"
@@ -279,7 +540,7 @@ const Sponsors = () => {
                 />
               </a>
             </div>
-            <div className="col-lg-3 col-md-3 col-4 pt-5">
+            <div className="col-lg-3 col-md-3 col-4 pt-5 ">
               <a href="https://bsa.in/">
                 <img
                   src="/images/sponsors/others/bsa.png"
@@ -289,7 +550,7 @@ const Sponsors = () => {
               </a>
             </div>
 
-            <div className="col-lg-3 col-md-3 col-4 pt-5">
+            <div className="col-lg-3 col-md-3 col-4 pt-5 ">
               <a href="https://www.cafecoffeeday.com/">
                 <img
                   src="/images/sponsors/others/ccd.png"
@@ -298,7 +559,7 @@ const Sponsors = () => {
                 />
               </a>
             </div>
-            <div className="col-lg-3 col-md-3 col-4 pt-5">
+            <div className="col-lg-3 col-md-3 col-4 pt-5 ">
               <a href="https://www.cosco.in/">
                 <img
                   src="/images/sponsors/others/cosco.png"
@@ -307,7 +568,7 @@ const Sponsors = () => {
                 />
               </a>
             </div>
-            <div className="col-lg-3 col-md-3 col-4 pt-5">
+            <div className="col-lg-3 col-md-3 col-4 pt-5 ">
               <a href="https://www.hindustantimes.com/">
                 <img
                   src="/images/sponsors/others/hindustantimes.png"
@@ -316,7 +577,7 @@ const Sponsors = () => {
                 />
               </a>
             </div>
-            <div className="col-lg-3 col-md-3 col-4 pt-5">
+            <div className="col-lg-3 col-md-3 col-4 pt-5 ">
               <a href="https://timesofindia.indiatimes.com/">
                 <img
                   src="/images/sponsors/others/toi.png"
@@ -325,7 +586,7 @@ const Sponsors = () => {
                 />
               </a>
             </div>
-            <div className="col-lg-3 col-md-3 col-4 pt-5">
+            <div className="col-lg-3 col-md-3 col-4 pt-5 ">
               <a href="https://www.sbi.co.in/">
                 <img
                   src="/images/sponsors/others/sbi.png"
@@ -334,7 +595,7 @@ const Sponsors = () => {
                 />
               </a>
             </div>
-            <div className="col-lg-3 col-md-3 col-4 pt-5">
+            <div className="col-lg-3 col-md-3 col-4 pt-5 ">
               <a href="https://hercules.in/">
                 <img
                   src="/images/sponsors/others/hercules.png"
@@ -343,7 +604,7 @@ const Sponsors = () => {
                 />
               </a>
             </div>
-            <div className="col-lg-3 col-md-3 col-4 pt-5">
+            <div className="col-lg-3 col-md-3 col-4 pt-5 ">
               <a href="https://in.linkedin.com/company/geosenz">
                 <img
                   src="/images/sponsors/others/geosenz.png"
@@ -352,7 +613,7 @@ const Sponsors = () => {
                 />
               </a>
             </div>
-            <div className="col-lg-3 col-md-3 col-4 pt-5">
+            <div className="col-lg-3 col-md-3 col-4 pt-5 ">
               <a href="https://www.godrej.com/">
                 <img
                   src="/images/sponsors/others/godrej.png"
@@ -361,7 +622,7 @@ const Sponsors = () => {
                 />
               </a>
             </div>
-            <div className="col-lg-3 col-md-3 col-4 pt-5">
+            <div className="col-lg-3 col-md-3 col-4 pt-5 ">
               <a href="https://www.dominos.co.in/">
                 <img
                   src="/images/sponsors/others/dominos.png"
@@ -370,7 +631,7 @@ const Sponsors = () => {
                 />
               </a>
             </div>
-            <div className="col-lg-3 col-md-3 col-4 pt-5">
+            <div className="col-lg-3 col-md-3 col-4 pt-5 ">
               <a href="https://www8.hp.com/in/en/home.html">
                 <img
                   src="/images/sponsors/others/hp.png"
@@ -379,7 +640,7 @@ const Sponsors = () => {
                 />
               </a>
             </div>
-            <div className="col-lg-3 col-md-3 col-4 pt-5">
+            <div className="col-lg-3 col-md-3 col-4 pt-5 ">
               <a href="http://inextepaper.jagran.com/">
                 <img
                   src="/images/sponsors/others/inext.png"
@@ -388,7 +649,7 @@ const Sponsors = () => {
                 />
               </a>
             </div>
-            <div className="col-lg-3 col-md-3 col-4 pt-5">
+            <div className="col-lg-3 col-md-3 col-4 pt-5 ">
               <a href="https://www.intel.in/">
                 <img
                   src="/images/sponsors/others/intel.png"
@@ -397,7 +658,7 @@ const Sponsors = () => {
                 />
               </a>
             </div>
-            <div className="col-lg-3 col-md-3 col-4 pt-5">
+            <div className="col-lg-3 col-md-3 col-4 pt-5 ">
               <a href="https://www.itcportal.com/">
                 <img
                   src="/images/sponsors/others/itc.png"
@@ -406,7 +667,7 @@ const Sponsors = () => {
                 />
               </a>
             </div>
-            <div className="col-lg-3 col-md-3 col-4 pt-5">
+            <div className="col-lg-3 col-md-3 col-4 pt-5 ">
               <a href="https://www.jabong.com/">
                 <img
                   src="/images/sponsors/others/jabong.png"
@@ -416,7 +677,7 @@ const Sponsors = () => {
               </a>
             </div>
 
-            <div className="col-lg-3 col-md-3 col-4 pt-5">
+            <div className="col-lg-3 col-md-3 col-4 pt-5 ">
               <a href="https://www.microsoft.com/en-in">
                 <img
                   src="/images/sponsors/others/microsoft.png"
@@ -425,7 +686,7 @@ const Sponsors = () => {
                 />
               </a>
             </div>
-            <div className="col-lg-3 col-md-3 col-4 pt-5">
+            <div className="col-lg-3 col-md-3 col-4 pt-5 ">
               <a href="https://www.grabon.in/">
                 <img
                   src="/images/sponsors/others/grabon.png"
@@ -435,7 +696,7 @@ const Sponsors = () => {
               </a>
             </div>
 
-            <div className="col-lg-3 col-md-3 col-4 pt-5">
+            <div className="col-lg-3 col-md-3 col-4 pt-5 ">
               <a href="https://www.pizzahut.com/">
                 <img
                   src="/images/sponsors/others/pizza.png"
@@ -444,7 +705,7 @@ const Sponsors = () => {
                 />
               </a>
             </div>
-            <div className="col-lg-3 col-md-3 col-4 pt-5">
+            <div className="col-lg-3 col-md-3 col-4 pt-5 ">
               <a href="https://www.uspolo.org/">
                 <img
                   src="/images/sponsors/others/uspolo.png"
@@ -453,7 +714,7 @@ const Sponsors = () => {
                 />
               </a>
             </div>
-            <div className="col-lg-3 col-md-3 col-4 pt-5">
+            <div className="col-lg-3 col-md-3 col-4 pt-5 ">
               <a href="https://www.smilefoundationindia.org/">
                 <img
                   src="/images/sponsors/others/smilefoundation.png"
@@ -462,7 +723,7 @@ const Sponsors = () => {
                 />
               </a>
             </div>
-            <div className="col-lg-3 col-md-3 col-4 pt-5">
+            <div className="col-lg-3 col-md-3 col-4 pt-5 ">
               <a href="http://www.upsacs.in/">
                 <img
                   src="/images/sponsors/others/upsacs.png"
@@ -471,7 +732,7 @@ const Sponsors = () => {
                 />
               </a>
             </div>
-            <div className="col-lg-3 col-md-3 col-4 pt-5">
+            <div className="col-lg-3 col-md-3 col-4 pt-5 ">
               <a href="https://toniguy.com/">
                 <img
                   src="/images/sponsors/others/toniguy.png"
@@ -480,7 +741,7 @@ const Sponsors = () => {
                 />
               </a>
             </div>
-            <div className="col-lg-3 col-md-3 col-4 pt-5">
+            <div className="col-lg-3 col-md-3 col-4 pt-5 ">
               <a href="https://fistosports.com/">
                 <img
                   src="/images/sponsors/2018/fisto.png"
@@ -489,7 +750,7 @@ const Sponsors = () => {
                 />
               </a>
             </div>
-            <div className="col-lg-3 col-md-3 col-4 pt-5">
+            <div className="col-lg-3 col-md-3 col-4 pt-5 ">
               <a href="https://ntdin.tv/">
                 <img
                   src="/images/sponsors/2018/ntd.png"
@@ -498,7 +759,7 @@ const Sponsors = () => {
                 />
               </a>
             </div>
-            <div className="col-lg-3 col-md-3 col-4 pt-5">
+            <div className="col-lg-3 col-md-3 col-4 pt-5 ">
               <a href="http://www.unitefoundation.co.uk/">
                 <img
                   src="/images/sponsors/others/unitefoundation.png"
@@ -507,7 +768,7 @@ const Sponsors = () => {
                 />
               </a>
             </div>
-            <div className="col-lg-3 col-md-3 col-4 pt-5">
+            <div className="col-lg-3 col-md-3 col-4 pt-5 ">
               <a href="https://www.petaindia.com/">
                 <img
                   src="/images/sponsors/others/peta.png"
@@ -516,7 +777,7 @@ const Sponsors = () => {
                 />
               </a>
             </div>
-            <div className="col-lg-3 col-md-3 col-4 pt-5">
+            <div className="col-lg-3 col-md-3 col-4 pt-5 ">
               <a href="http://www.newstimes.co.in/">
                 <img
                   src="/images/sponsors/others/newstimes.png"
@@ -525,7 +786,7 @@ const Sponsors = () => {
                 />
               </a>
             </div>
-            <div className="col-lg-3 col-md-3 col-4 pt-5">
+            <div className="col-lg-3 col-md-3 col-4 pt-5 ">
               <a href="https://www.facebook.com/Indian-Idol-Academy-Patna-807443452643835/">
                 <img
                   src="/images/sponsors/2018/indian-idol.jpg"
@@ -534,7 +795,7 @@ const Sponsors = () => {
                 />
               </a>
             </div>
-            <div className="col-lg-3 col-md-3 col-4 pt-5">
+            <div className="col-lg-3 col-md-3 col-4 pt-5 ">
               <a href="https://www.geetjewels.in/">
                 <img
                   src="/images/sponsors/2018/geet.png"
@@ -543,7 +804,7 @@ const Sponsors = () => {
                 />
               </a>
             </div>
-            <div className="col-lg-3 col-md-3 col-4 pt-5">
+            <div className="col-lg-3 col-md-3 col-4 pt-5 ">
               <a href="https://www.jagran.com/">
                 <img
                   src="/images/sponsors/others/dainikjagran.png"
@@ -552,7 +813,7 @@ const Sponsors = () => {
                 />
               </a>
             </div>
-            <div className="col-lg-3 col-md-3 col-4 pt-5">
+            <div className="col-lg-3 col-md-3 col-4 pt-5 ">
               <a href="https://www.amarujala.com/">
                 <img
                   src="/images/sponsors/2018/amarujala.png"
@@ -561,7 +822,7 @@ const Sponsors = () => {
                 />
               </a>
             </div>
-            <div className="col-lg-3 col-md-3 col-4 pt-5">
+            <div className="col-lg-3 col-md-3 col-4 pt-5 ">
               <a href="https://manpasand.co.in/">
                 <img
                   src="/images/sponsors/2018/manpasand.jpg"
@@ -570,7 +831,7 @@ const Sponsors = () => {
                 />
               </a>
             </div>
-            <div className="col-lg-3 col-md-3 col-4 pt-5">
+            <div className="col-lg-3 col-md-3 col-4 pt-5 ">
               <a href="https://byjus.com/">
                 <img
                   src="/images/sponsors/2018/byjus.jpg"
@@ -579,7 +840,7 @@ const Sponsors = () => {
                 />
               </a>
             </div>
-            <div className="col-lg-3 col-md-3 col-4 pt-5">
+            <div className="col-lg-3 col-md-3 col-4 pt-5 ">
               <a href="https://www.ambitiongurukul.com/">
                 <img
                   src="/images/sponsors/2018/ambition-gurukul.jpg"
@@ -588,7 +849,7 @@ const Sponsors = () => {
                 />
               </a>
             </div>
-            <div className="col-lg-3 col-md-3 col-4 pt-5">
+            <div className="col-lg-3 col-md-3 col-4 pt-5 ">
               <a href="https://www.imsindia.com/">
                 <img
                   src="/images/sponsors/2018/ims.jpg"
@@ -597,7 +858,7 @@ const Sponsors = () => {
                 />
               </a>
             </div>
-            <div className="col-lg-3 col-md-3 col-4 pt-5">
+            <div className="col-lg-3 col-md-3 col-4 pt-5 ">
               <a href="https://www.extramarks.com/">
                 <img
                   src="/images/sponsors/2018/extramarks.png"
@@ -606,7 +867,7 @@ const Sponsors = () => {
                 />
               </a>
             </div>
-            <div className="col-lg-3 col-md-3 col-4 pt-5">
+            <div className="col-lg-3 col-md-3 col-4 pt-5 ">
               <a href="https://iesmaster.org/">
                 <img
                   src="/images/sponsors/2018/ies-master.jpg"
@@ -615,7 +876,7 @@ const Sponsors = () => {
                 />
               </a>
             </div>
-            <div className="col-lg-3 col-md-3 col-4 pt-5">
+            <div className="col-lg-3 col-md-3 col-4 pt-5 ">
               <a href="https://www.aakash.ac.in/">
                 <img
                   src="/images/sponsors/others/aakash.png"
@@ -624,7 +885,7 @@ const Sponsors = () => {
                 />
               </a>
             </div>
-            <div className="col-lg-3 col-md-3 col-4 pt-5">
+            <div className="col-lg-3 col-md-3 col-4 pt-5 ">
               <a href="https://whataftercollege.com/">
                 <img
                   src="/images/sponsors/2018/wac.png"
@@ -633,7 +894,7 @@ const Sponsors = () => {
                 />
               </a>
             </div>
-            <div className="col-lg-3 col-md-3 col-4 pt-5">
+            <div className="col-lg-3 col-md-3 col-4 pt-5 ">
               <a href="http://www.doorpix.in/">
                 <img
                   src="/images/sponsors/others/doorpix.png"
@@ -642,7 +903,7 @@ const Sponsors = () => {
                 />
               </a>
             </div>
-            <div className="col-lg-3 col-md-3 col-4 pt-5">
+            <div className="col-lg-3 col-md-3 col-4 pt-5 ">
               <a href="https://www.heritagehospitals.com/">
                 <img
                   src="/images/sponsors/2018/heritage.png"
@@ -651,7 +912,7 @@ const Sponsors = () => {
                 />
               </a>
             </div>
-            <div className="col-lg-3 col-md-3 col-4 pt-5">
+            <div className="col-lg-3 col-md-3 col-4 pt-5 ">
               <a href="https://www.diamondhotel.co.in/">
                 <img
                   src="/images/sponsors/2018/diamond.png"
@@ -660,7 +921,7 @@ const Sponsors = () => {
                 />
               </a>
             </div>
-            <div className="col-lg-3 col-md-3 col-4 pt-5">
+            <div className="col-lg-3 col-md-3 col-4 pt-5 ">
               <a href="https://hotelgrapevine.in/">
                 <img
                   src="/images/sponsors/2018/grapevine.jpeg"
@@ -669,7 +930,7 @@ const Sponsors = () => {
                 />
               </a>
             </div>
-            <div className="col-lg-3 col-md-3 col-4 pt-5">
+            <div className="col-lg-3 col-md-3 col-4 pt-5 ">
               <a href="https://chetmani.com/">
                 <img
                   src="/images/sponsors/2018/chetmani.jpg"
@@ -678,7 +939,7 @@ const Sponsors = () => {
                 />
               </a>
             </div>
-            <div className="col-lg-3 col-md-3 col-4 pt-5">
+            <div className="col-lg-3 col-md-3 col-4 pt-5 ">
               <a href="https://in.linkedin.com/company/the-education-tree">
                 <img
                   src="/images/sponsors/2018/the-education-tree.jpg"
@@ -687,7 +948,7 @@ const Sponsors = () => {
                 />
               </a>
             </div>
-            <div className="col-lg-3 col-md-3 col-4 pt-5">
+            <div className="col-lg-3 col-md-3 col-4 pt-5 ">
               <a href="https://www.baskinrobbinsindia.com/">
                 <img
                   src="/images/sponsors/others/br.png"
@@ -696,7 +957,7 @@ const Sponsors = () => {
                 />
               </a>
             </div>
-            <div className="col-lg-3 col-md-3 col-4 pt-5">
+            <div className="col-lg-3 col-md-3 col-4 pt-5 ">
               <a href="http://www.btwindia.com/">
                 <img
                   src="/images/sponsors/others/btw.png"
@@ -705,7 +966,7 @@ const Sponsors = () => {
                 />
               </a>
             </div>
-            <div className="col-lg-3 col-md-3 col-4 pt-5">
+            <div className="col-lg-3 col-md-3 col-4 pt-5 ">
               <a href="https://www.thebelgianwaffle.co/">
                 <img
                   src="/images/sponsors/2018/belgian.png"
@@ -714,7 +975,7 @@ const Sponsors = () => {
                 />
               </a>
             </div>
-            <div className="col-lg-3 col-md-3 col-4 pt-5">
+            <div className="col-lg-3 col-md-3 col-4 pt-5 ">
               <a href="https://gopaljee.com">
                 <img
                   src="/images/sponsors/others/gopaljee.png"
@@ -723,7 +984,7 @@ const Sponsors = () => {
                 />
               </a>
             </div>
-            <div className="col-lg-3 col-md-3 col-4 pt-5">
+            <div className="col-lg-3 col-md-3 col-4 pt-5 ">
               <a href="https://knockoutvns.com/">
                 <img
                   src="/images/sponsors/2018/knockout.png"
@@ -732,7 +993,7 @@ const Sponsors = () => {
                 />
               </a>
             </div>
-            <div className="col-lg-3 col-md-3 col-4 pt-5">
+            <div className="col-lg-3 col-md-3 col-4 pt-5 ">
               <a href="https://www.prestogifts.com/">
                 <img
                   src="/images/sponsors/2018/presto.png"
@@ -741,7 +1002,7 @@ const Sponsors = () => {
                 />
               </a>
             </div>
-            <div className="col-lg-3 col-md-3 col-4 pt-5">
+            <div className="col-lg-3 col-md-3 col-4 pt-5 ">
               <a href="https://www.doodhbooth.com/">
                 <img
                   src="/images/sponsors/2018/doodh-booth.png"
@@ -750,7 +1011,7 @@ const Sponsors = () => {
                 />
               </a>
             </div>
-            <div className="col-lg-3 col-md-3 col-4 pt-5">
+            <div className="col-lg-3 col-md-3 col-4 pt-5 ">
               <a href="https://www.zomato.com/varanasi/ming-garden-lanka/menu">
                 <img
                   src="/images/sponsors/2018/ming-garden.jpg"
@@ -759,7 +1020,7 @@ const Sponsors = () => {
                 />
               </a>
             </div>
-            <div className="col-lg-3 col-md-3 col-4 pt-5">
+            <div className="col-lg-3 col-md-3 col-4 pt-5 ">
               <a href="https://www.facebook.com/basantbahardelight/">
                 <img
                   src="/images/sponsors/2018/basant-bahar.jpg"
@@ -768,7 +1029,7 @@ const Sponsors = () => {
                 />
               </a>
             </div>
-            <div className="col-lg-3 col-md-3 col-4 pt-5">
+            <div className="col-lg-3 col-md-3 col-4 pt-5 ">
               <a href="https://www.shriinfotec.com/">
                 <img
                   src="/images/sponsors/others/infotec.png"
@@ -777,7 +1038,7 @@ const Sponsors = () => {
                 />
               </a>
             </div>
-            <div className="col-lg-3 col-md-3 col-4 pt-5">
+            <div className="col-lg-3 col-md-3 col-4 pt-5 ">
               <a href="https://www.facebook.com/OranzBodySpaSalon/">
                 <img
                   src="/images/sponsors/others/oranz.png"
@@ -786,7 +1047,7 @@ const Sponsors = () => {
                 />
               </a>
             </div>
-            <div className="col-lg-3 col-md-3 col-4 pt-5">
+            <div className="col-lg-3 col-md-3 col-4 pt-5 ">
               <a href="https://www.redfmindia.in/">
                 <img
                   src="/images/sponsors/others/redfm.png"
@@ -795,7 +1056,7 @@ const Sponsors = () => {
                 />
               </a>
             </div>
-            <div className="col-lg-3 col-md-3 col-4 pt-5">
+            <div className="col-lg-3 col-md-3 col-4 pt-5 ">
               <a href="https://sapphirewatches.com/">
                 <img
                   src="/images/sponsors/others/sapphire.png"
@@ -805,7 +1066,7 @@ const Sponsors = () => {
               </a>
             </div>
 
-            <div className="col-lg-3 col-md-3 col-4 pt-5">
+            <div className="col-lg-3 col-md-3 col-4 pt-5 ">
               <a href="https://www.seedinfotech.com/">
                 <img
                   src="/images/sponsors/others/seed.png"
@@ -814,7 +1075,7 @@ const Sponsors = () => {
                 />
               </a>
             </div>
-            <div className="col-lg-3 col-md-3 col-4 pt-5">
+            <div className="col-lg-3 col-md-3 col-4 pt-5 ">
               <a href="https://www.indiamart.com/she-creations-varanasi/">
                 <img
                   src="/images/sponsors/others/shecreations.png"
@@ -824,7 +1085,7 @@ const Sponsors = () => {
               </a>
             </div>
 
-            <div className="col-lg-3 col-md-3 col-4 pt-5">
+            <div className="col-lg-3 col-md-3 col-4 pt-5 ">
               <a href="https://webcomsystem.net/">
                 <img
                   src="/images/sponsors/others/webcom.png"
@@ -834,7 +1095,7 @@ const Sponsors = () => {
               </a>
             </div>
 
-            <div className="col-lg-3 col-md-3 col-4 pt-5">
+            <div className="col-lg-3 col-md-3 col-4 pt-5 ">
               <a href="https://www.sitinetworks.com/">
                 <img
                   src="/images/sponsors/others/siti.png"
@@ -844,7 +1105,7 @@ const Sponsors = () => {
               </a>
             </div>
 
-            <div className="col-lg-3 col-md-3 col-4 pt-5">
+            <div className="col-lg-3 col-md-3 col-4 pt-5 ">
               <a href="https://www.thesouledstore.com/">
                 <img
                   src="/images/sponsors/others/souledstore.png"
@@ -854,7 +1115,7 @@ const Sponsors = () => {
               </a>
             </div>
 
-            <div className="col-lg-3 col-md-3 col-4 pt-5">
+            <div className="col-lg-3 col-md-3 col-4 pt-5 ">
               <a href="http://www.vmart.co.in/">
                 <img
                   src="/images/sponsors/others/vmart.png"
@@ -865,7 +1126,7 @@ const Sponsors = () => {
             </div>
           </div>
         </div>
-      </section>
+      </section >
     </>
   );
 };
