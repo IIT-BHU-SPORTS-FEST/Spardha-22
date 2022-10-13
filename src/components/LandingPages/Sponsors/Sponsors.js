@@ -11,6 +11,43 @@ const Sponsors = () => {
               <h3 className="subheading" style={{ color: '#6db549' }}>
                 The People Who Have Our Back
               </h3>
+              <h2 className="mb-1">Our Current Sponsors</h2>
+            </div>
+          </div>
+
+          <div className="row_sponsors align-items-baseline justify-content-center pb-5 div-sponsor">
+
+
+            <div className="col-lg-3 col-md-3 col-4 pt-5">
+              <a href="https://myrankers.com/">
+                <img
+                  src="/images/sponsors/2022/rankersjee.jpg"
+                  className="img-fluid_sponsors img-sponsor"
+                  alt="image_alt"
+                />
+              </a>
+            </div>
+            <div className="col-lg-3 col-md-3 col-4 pt-5">
+              <a href="https://paytm.com/">
+                <img
+                  src="/images/sponsors/others/paytm.png"
+                  className="img-fluid_sponsors img-sponsor"
+                  alt="image_alt"
+                />
+              </a>
+            </div>
+
+          </div>
+
+
+
+
+
+
+
+
+          <div className="row_sponsors justify-content-center pt-5">
+            <div className="col-md-7 heading-section_sponsors text-center ftco-animate_sponsors">
               <h2 className="mb-1">Our Past Sponsors</h2>
             </div>
           </div>
