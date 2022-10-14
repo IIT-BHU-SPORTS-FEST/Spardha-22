@@ -51,7 +51,7 @@ const Sponsors = () => {
             <div className="col-lg-3 col-md-3 col-4 ">
               <a href="https://www.ktmindia.com/">
                 <img
-                  src="/images/sponsors/2022/KTM_Logo.png
+                  src="/images/sponsors/2022/ktm.png
                   "
                   className="img-fluid_sponsors img-sponsor"
                   alt="image_alt"
