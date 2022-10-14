@@ -27,11 +27,11 @@ function HomeSlider() {
               <div className="col-md-12 col-sm-12 col-12 ftco-animate text-center mt-5" style={{width:"78vw"}}>
                 <div id="row" className="">
                   <a href="https://myrankers.com">
-                    <img id="column1" src="/images/logo/pow.svg" alt="Rankers" />
+                    <img id="column1" src="/images/logo/powered.svg" alt="Rankers" />
                   </a>
                   <img id="columnLogo" src="/images/logo/spardha-white-home.png" alt="spardha" />
                   <a href="https://iitiantrader.in/">
-                    <img id="column2" src="/images/logo/co.svg" alt="Iitian Traders" />
+                    <img id="column2" src="/images/logo/co-powered.svg" alt="Iitian Traders" />
                   </a>
                 </div>
                 <h1 className="mb-1 text-overflow-center spardha-21">
@@ -42,11 +42,11 @@ function HomeSlider() {
                 </h2>
                 <div id="rowM" className="">
                   <a href="https://myrankers.com">
-                    <img id="column1M" src="/images/logo/pow.svg" alt="Rankers" />
+                    <img id="column1M" src="/images/logo/powered.svg" alt="Rankers" />
                   </a>
 
                   <a href="https://iitiantrader.in/">
-                    <img id="column2M" src="/images/logo/co.svg" alt="Iitian Traders" />
+                    <img id="column2M" src="/images/logo/co-powered.svg" alt="Iitian Traders" />
                   </a>
                 </div>
                 <h2
@@ -107,11 +107,11 @@ function HomeSlider() {
               <div className="col-md-12 col-sm-12 col-12 ftco-animate text-center mt-5" style={{width:"78vw"}}>
                 <div id="row" className="">
                   <a href="https://myrankers.com">
-                    <img id="column1" src="/images/logo/pow.svg" alt="Rankers" />
+                    <img id="column1" src="/images/logo/powered.svg" alt="Rankers" />
                   </a>
                   <img id="columnLogo" src="/images/logo/spardha-white-home.png" alt="spardha" />
                   <a href="https://iitiantrader.in/">
-                    <img id="column2" src="/images/logo/co.svg" alt="Iitian Traders" />
+                    <img id="column2" src="/images/logo/co-powered.svg" alt="Iitian Traders" />
                   </a>
                 </div>
                 <h1 className="mb-1 text-overflow-center spardha-21">
@@ -122,10 +122,10 @@ function HomeSlider() {
                 </h2>
                 <div id="rowM" className="">
                   <a href="https://myrankers.com">
-                    <img id="column1M" src="/images/logo/pow.svg" alt="Rankers" />
+                    <img id="column1M" src="/images/logo/powered.svg" alt="Rankers" />
                   </a>
                   <a href="https://iitiantrader.in/">
-                    <img id="column2M" src="/images/logo/co.svg" alt="Iitian Traders" />
+                    <img id="column2M" src="/images/logo/co-powered.svg" alt="Iitian Traders" />
                   </a>
                 </div>
                 <h2
@@ -185,11 +185,11 @@ function HomeSlider() {
               <div className="col-md-12 col-sm-12 col-12 ftco-animate text-center mt-5" style={{width:"78vw"}}>
                 <div id="row" className="">
                   <a href="https://myrankers.com">
-                    <img id="column1" src="/images/logo/pow.svg" alt="Rankers" />
+                    <img id="column1" src="/images/logo/powered.svg" alt="Rankers" />
                   </a>
                   <img id="columnLogo" src="/images/logo/spardha-white-home.png" alt="spardha" />
                   <a href="https://iitiantrader.in/">
-                    <img id="column2" src="/images/logo/co.svg" alt="Iitian Traders" />
+                    <img id="column2" src="/images/logo/co-powered.svg" alt="Iitian Traders" />
                   </a>
                 </div>
                 <h1 className="mb-1 text-overflow-center spardha-21">
@@ -200,10 +200,10 @@ function HomeSlider() {
                 </h2>
                 <div id="rowM" className="">
                   <a href="https://myrankers.com">
-                    <img id="column1M" src="/images/logo/pow.svg" alt="Rankers" />
+                    <img id="column1M" src="/images/logo/powered.svg" alt="Rankers" />
                   </a>
                   <a href="https://iitiantrader.in/">
-                    <img id="column2M" src="/images/logo/co.svg" alt="Iitian Traders" />
+                    <img id="column2M" src="/images/logo/co-powered.svg" alt="Iitian Traders" />
                   </a>
                 </div>
                 <h2
@@ -264,11 +264,11 @@ function HomeSlider() {
               <div className="col-md-12 col-sm-12 col-12 ftco-animate text-center mt-5" style={{width:"78vw"}}>
                 <div id="row" className="">
                   <a href="https://myrankers.com">
-                    <img id="column1" src="/images/logo/pow.svg" alt="Rankers" />
+                    <img id="column1" src="/images/logo/powered.svg" alt="Rankers" />
                   </a>
                   <img id="columnLogo" src="/images/logo/spardha-white-home.png" alt="spardha" />
                   <a href="https://iitiantrader.in/">
-                    <img id="column2" src="/images/logo/co.svg" alt="Iitian Traders" />
+                    <img id="column2" src="/images/logo/co-powered.svg" alt="Iitian Traders" />
                   </a>
                 </div>
                 <h1 className="mb-1 text-overflow-center spardha-21">
@@ -279,10 +279,10 @@ function HomeSlider() {
                 </h2>
                 <div id="rowM" className="">
                   <a href="https://myrankers.com">
-                    <img id="column1M" src="/images/logo/pow.svg" alt="Rankers" />
+                    <img id="column1M" src="/images/logo/powered.svg" alt="Rankers" />
                   </a>
                   <a href="https://iitiantrader.in/">
-                    <img id="column2M" src="/images/logo/co.svg" alt="Iitian Traders" />
+                    <img id="column2M" src="/images/logo/co-powered.svg" alt="Iitian Traders" />
                   </a>
                 </div>
                 <h2
