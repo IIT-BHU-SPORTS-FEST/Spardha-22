@@ -15,7 +15,7 @@ const Sponsors = () => {
             </div>
           </div>
 
-          <div className="row_sponsors align-items-baseline justify-content-center  div-sponsor ">
+          <div className="row_sponsors align-items-center justify-content-center  div-sponsor ">
 
             <div className="col-lg-4 col-md-4 col-4 row_one">
               <a href="https://myrankers.com/">
@@ -38,7 +38,7 @@ const Sponsors = () => {
             </div>
           </div>
 
-          <div className="row_sponsors align-items-baseline justify-content-center div-sponsor ">
+          <div className="row_sponsors align-items-center justify-content-center div-sponsor ">
             <div className="col-lg-3 col-md-3 col-4  ">
               <a href="https://amul.com/">
                 <img
@@ -61,255 +61,185 @@ const Sponsors = () => {
             <div className="col-lg-3 col-md-3 col-4 ">
               <a href="https://www.toyotabharat.com/">
                 <img
-                  src="/images/sponsors/2022/toyota.png
-                  "
+                  src="/images/sponsors/2022/toyota.png"
                   className="img-fluid_sponsors img-sponsor"
                   alt="image_alt"
                 />
               </a>
             </div>
           </div>
-          <div className="row_sponsors align-items-baseline justify-content-center pb-5 div-sponsor">
+          <div className="row_sponsors align-items-center justify-content-center pb-5 div-sponsor">
             <div className="col-lg-3 col-md-3 col-4 pt-5 ">
-              <a href="https://www.amarujala.com/">
-                <img
-                  src="/images/sponsors/2022/AmarUjala.jpg"
-                  className="img-fluid_sponsors img-sponsor"
-                  alt="image_alt"
-                />
-              </a>
-            </div>
-            <div className="col-lg-3 col-md-3 col-4 pt-5 ">
+                <a href="https://www.amarujala.com/">
+                  <img
+                    src="/images/sponsors/2022/AmarUjala.jpg"
+                    className="img-fluid_sponsors img-sponsor"
+                    alt="image_alt"
+                  />
+                </a>
+              </div>
+              <div className="col-lg-3 col-md-3 col-4 pt-5 ">
+                <a href="https://spardha.co.in/sponsors" class="disabled">
+                  <img
+                    src="/images/sponsors/2022/ipsator.png"
+                    className="img-fluid_sponsors img-sponsor"
+                    alt="image_alt"
+                  />
+                </a>
+              </div>
+              <div className="col-lg-3 col-md-3 col-4 pt-5 ">
+                <a href="https://www.ballebaazi.com/">
+                  <img
+                    src="/images/sponsors/2022/ballebaazi_logo.png"
+                    className="img-fluid_sponsors img-sponsor"
+                    alt="image_alt"
+                  />
+                </a>
+              </div>
+              <div className="col-lg-3 col-md-3 col-4 pt-5 ">
+                <a href="https://hotelcastillo.in/">
+                  <img
+                    src="/images/sponsors/2022/castillo.jpeg"
+                    className="img-fluid_sponsors img-sponsor"
+                    alt="image_alt"
+                  />
+                </a>
+              </div>
+              <div className="col-lg-3 col-md-3 col-4 pt-5 ">
+                <a href="https://www.paramountdealz.com/">
+                  <img
+                    src="/images/sponsors/2022/paramountdealz.jpeg"
+                    className="img-fluid_sponsors img-sponsor"
+                    alt="image_alt"
+                  />
+                </a>
+              </div>
+              <div className="col-lg-3 col-md-3 col-4 pt-5 ">
+                <a href="https://spardha.co.in/sponsorus" class="disabled">
+                  <img
+                    src="/images/sponsors/2022/cut-&-looks-.png"
+                    className="img-fluid_sponsors img-sponsor"
+                    alt="image_alt"
+                  />
+                </a>
+              </div>
+              <div className="col-lg-3 col-md-3 col-4 pt-5 ">
+                <a href="https://spardha.co.in/sponsorus" class="disabled">
+                  <img
+                    src="/images/sponsors/2022/DGPcafe.png"
+                    className="img-fluid_sponsors img-sponsor"
+                    alt="image_alt"
+                  />
+                </a>
+              </div>
+              <div className="col-lg-3 col-md-3 col-4 pt-5 ">
+                <a href="https://pahuna-kitchen.business.site/">
+                  <img
+                    src="/images/sponsors/2022/NamahPahuna.jpeg"
+                    className="img-fluid_sponsors img-sponsor"
+                    alt="image_alt"
+                  />
+                </a>
+              </div>
+              <div className="col-lg-3 col-md-3 col-4 pt-5 ">
+                <a href="https://terracottacafe.in/">
+                  <img
+                    src="/images/sponsors/2022/TERRACOTTA.png"
+                    className="img-fluid_sponsors img-sponsor"
+                    alt="image_alt"
+                  />
+                </a>
+              </div>
+              <div className="col-lg-3 col-md-3 col-4 pt-5 ">
+                <a href="https://sumangaljewellers.business.site/">
+                  <img
+                    src="/images/sponsors/2022/sumangaljewellers.jpg"
+                    className="img-fluid_sponsors img-sponsor"
+                    alt="image_alt"
+                  />
+                </a>
+              </div>
+              <div className="col-lg-3 col-md-3 col-4 pt-5 ">
+                <a href="https://spardha.co.in/sponsorus" class="disabled">
+                  <img
+                    src="/images/sponsors/2022/Shri_rajbandhu.png"
+                    className="img-fluid_sponsors img-sponsor"
+                    alt="image_alt"
+                  />
+                </a>
+              </div>
+              <div className="col-lg-3 col-md-3 col-4 pt-5 ">
+                <a href="https://spardha.co.in/sponsorus" class="disabled">
+                  <img
+                    src="/images/sponsors/2022/VishalBakers.jpeg"
+                    className="img-fluid_sponsors img-sponsor"
+                    alt="image_alt"
+                  />
+                </a>
+              </div>
+              <div className="col-lg-3 col-md-3 col-4 pt-5 ">
+                <a href="https://spardha.co.in/sponsoru" class="disabled">
+                  <img
+                    src="/images/sponsors/2022/sandeep_sports.png"
+                    className="img-fluid_sponsors img-sponsor"
+                    alt="image_alt"
+                  />
+                </a>
+              </div>
+              <div className="col-lg-3 col-md-3 col-4 pt-5 ">
+                <a href="https://spardha.co.in/sponsoru" class="disabled">
+                  <img
+                    src="/images/sponsors/2022/Sankalan.jpeg"
+                    className="img-fluid_sponsors img-sponsor"
+                    alt="image_alt"
+                  />
+                </a>
+              </div>
 
-              < button type="button" id="btn">
-                <img
-                  src="/images/sponsors/2022/ipsator.png
-                  "
-                  className="img-fluid_sponsors img-sponsor"
-                  alt="image_alt"
-                />
-              </button>
-
-            </div>
-            <div className="col-lg-3 col-md-3 col-4 pt-5 ">
-              <a href="https://www.ballebaazi.com/">
-                <img
-                  src="/images/sponsors/2022/ballebaazi_logo.png
-                  "
-                  className="img-fluid_sponsors img-sponsor"
-                  alt="image_alt"
-                />
-              </a>
-            </div>
-            <div className="col-lg-3 col-md-3 col-4 pt-5 ">
-              <a href="https://hotelcastillo.in/">
-                <img
-                  src="/images/sponsors/2022/castillo.jpeg
-                  "
-                  className="img-fluid_sponsors img-sponsor"
-                  alt="image_alt"
-                />
-              </a>
-            </div>
+              <div className="col-lg-3 col-md-3 col-4 pt-5 ">
+                <a href="https://spardha.co.in/sponsoru" class="disabled">
+                  <img
+                    src="/images/sponsors/2022/laxmi_cycle.png"
+                    className="img-fluid_sponsors img-sponsor"
+                    alt="image_alt"
+                  />
+                </a>
+              </div>
+              <div className="col-lg-3 col-md-3 col-4 pt-5 ">
+                <a href="https://spardha.co.in/sponsoru" class="disabled">
+                  <img
+                    src="/images/sponsors/2022/englishmasala.jpg"
+                    className="img-fluid_sponsors img-sponsor"
+                    alt="image_alt"
+                  />
+                </a>
+              </div>
+              <div className="col-lg-3 col-md-3 col-4 pt-5 ">
+                <a href="https://spardha.co.in/sponsoru" class="disabled">
+                  <img
+                    src="/images/sponsors/2022/cafeDeCoop.jpeg"
+                    className="img-fluid_sponsors img-sponsor"
+                    alt="image_alt"
+                  />
+                </a>
+              </div>
+              <div className="col-lg-3 col-md-3 col-4 pt-5 ">
+                <a href="https://spardha.co.in/sponsoru" class="disabled">
+                  <img
+                    src="/images/sponsors/2022/aao_ji.png"
+                    className="img-fluid_sponsors img-sponsor"
+                    alt="image_alt"
+                  />
+                </a>
+              </div>
           </div>
-          <div className="row_sponsors align-items-baseline justify-content-center pb-5 div-sponsor">
-            <div className="col-lg-3 col-md-3 col-4 pt-5 ">
-              <a href="https://www.paramountdealz.com/">
-                <img
-                  src="/images/sponsors/2022/paramountdealz.jpeg"
-                  className="img-fluid_sponsors img-sponsor"
-                  alt="image_alt"
-                />
-              </a>
-            </div>
-            <div className="col-lg-3 col-md-3 col-4 pt-5 ">
-              < button type="button" id="btn"  >
-                <img
-                  src="/images/sponsors/2022/cut-&-looks-.png
-                  "
-                  className="img-fluid_sponsors img-sponsor"
-                  alt="image_alt"
-                />
-              </button>
-
-            </div>
-            <div className="col-lg-3 col-md-3 col-4 pt-5 ">
-              < button type="button" id="btn">
-                <img
-                  src="/images/sponsors/2022/DGPcafe.png
-                  "
-                  className="img-fluid_sponsors img-sponsor"
-                  alt="image_alt"
-                />
-              </button>
-            </div>
-            <div className="col-lg-3 col-md-3 col-4 pt-5 ">
-              <a href="https://pahuna-kitchen.business.site/">
-                <img
-                  src="/images/sponsors/2022/NamahPahuna.jpeg
-                  "
-                  className="img-fluid_sponsors img-sponsor"
-                  alt="image_alt"
-                />
-              </a>
-            </div>
-          </div>
-          <div className="row_sponsors align-items-baseline justify-content-center pb-5 div-sponsor">
-            <div className="col-lg-3 col-md-3 col-4 pt-5 ">
-              <a href="https://terracottacafe.in/">
-                <img
-                  src="/images/sponsors/2022/TERRACOTTA.png"
-                  className="img-fluid_sponsors img-sponsor"
-                  alt="image_alt"
-                />
-              </a>
-            </div>
-            <div className="col-lg-3 col-md-3 col-4 pt-5 ">
-              <a href="https://sumangaljewellers.business.site/">
-                <img
-                  src="/images/sponsors/2022/sumangaljewellers.jpg
-                  "
-                  className="img-fluid_sponsors img-sponsor"
-                  alt="image_alt"
-                />
-              </a>
-            </div>
-            <div className="col-lg-3 col-md-3 col-4 pt-5 ">
-              < button type="button" id="btn">
-                <img
-                  src="/images/sponsors/2022/Shri_rajbandhu.png
-                  "
-                  className="img-fluid_sponsors img-sponsor"
-                  alt="image_alt" />
-              </button>
-
-
-            </div>
-            <div className="col-lg-3 col-md-3 col-4 pt-5 ">
-              <   button type="button" id="btn"  >
-                <img
-                  src="/images/sponsors/2022/VishalBakers.jpeg
-                  "
-                  className="img-fluid_sponsors img-sponsor"
-                  alt="image_alt"
-                />
-              </button >
-            </div>
-          </div>
-          <div className="row_sponsors align-items-baseline justify-content-center pb-5 div-sponsor">
-            <div className="col-lg-3 col-md-3 col-4 pt-5 ">
-              <   button type="button" id="btn"  >
-                <img
-                  src="/images/sponsors/2022/sandeep_sports.png"
-                  className="img-fluid_sponsors img-sponsor"
-                  alt="image_alt"
-                />
-              </button>
-            </div>
-            <div className="col-lg-3 col-md-3 col-4 pt-5 ">
-              <   button type="button" id="btn">
-                <img
-                  src="/images/sponsors/2022/Sankalan.jpeg"
-                  className="img-fluid_sponsors img-sponsor"
-                  alt="image_alt"
-                />
-              </button>
-            </div>
-            <div className="col-lg-3 col-md-3 col-4 pt-5 ">
-              <  button type="button" id="btn">
-                <img
-                  src="/images/sponsors/2022/laxmi_cycle.png"
-                  className="img-fluid_sponsors img-sponsor"
-                  alt="image_alt"
-                />
-              </button>
-            </div>
-            <div className="col-lg-3 col-md-3 col-4 pt-5 ">
-              <  button type="button" id="btn">
-                <img
-                  src="/images/sponsors/2022/englishmasala.jpg "
-                  className="img-fluid_sponsors img-sponsor"
-                  alt="image_alt"
-                />
-              </button>
-            </div>
-          </div>
-          <div className="row_sponsors align-items-baseline justify-content-center pb-5 div-sponsor">
-            <div className="col-lg-3 col-md-3 col-4 pt-5 ">
-              < button type="button" id="btn" >
-                <img
-                  src="/images/sponsors/2022/cafeDeCoop.jpeg"
-                  className="img-fluid_sponsors img-sponsor"
-                  alt="image_alt"
-                />
-              </button>
-            </div>
-            <div className="col-lg-3 col-md-3 col-4 pt-5 ">
-              <   button type="button" id="btn" >
-                <img
-                  src="/images/sponsors/2022/aao_ji.png"
-                  className="img-fluid_sponsors img-sponsor"
-                  alt="image_alt"
-                />
-              </button>
-            </div>
-             {/* <div className="col-lg-3 col-md-3 col-4 pt-5 ">
-              <a href="#">
-                <img
-                  src="/images/sponsors/2022/laxmicycle.jpeg"
-                  className="img-fluid_sponsors img-sponsor"
-                  alt="image_alt"
-                />
-              </a>
-            </div> */}
-            {/* <div className="col-lg-3 col-md-3 col-4 pt-5 ">
-              <a href="#">
-                <img
-                  src="/images/sponsors/2022/englishmasala.jpg
-                  "
-                  className="img-fluid_sponsors img-sponsor"
-                  alt="image_alt"
-                />
-              </a>
-            </div> */}
-          </div>
-          {/* <div className="col-lg-3 col-md-3 col-4 pt-5 ">
-              <a href="https://iitiantrader.com/">
-                <img
-                  src="/images/sponsors/2022/KTM.jpeg
-                  "
-                  className="img-fluid_sponsors img-sponsor"
-                  alt="image_alt"
-                />
-              </a>
-            </div> */}
-
-          {/* <div className="col-lg-3 col-md-3 col-4 pt-5 ">
-              <a href="https://paytm.com/">
-                <img
-                  src="/images/sponsors/others/paytm.png"
-                  className="img-fluid_sponsors img-sponsor"
-                  alt="image_alt"
-                />
-              </a>
-            </div>
-            <div className="col-lg-3 col-md-3 col-4 pt-5 ">
-              <a href="https://paytm.com/">
-                <img
-                  src="/images/sponsors/others/paytm.png"
-                  className="img-fluid_sponsors img-sponsor"
-                  alt="image_alt"
-                />
-              </a>
-            </div> */}
-
-            <div className="row_sponsors justify-content-center pt-5">
+          <div className="row_sponsors justify-content-center pt-5">
               <div className="col-md-7 heading-section_sponsors text-center ftco-animate_sponsors">
                 <h2 className="mb-1">Our Past Sponsors</h2>
               </div>
-            </div>
+          </div>
             {/* <hr style="margin-left: 30px; margin-right: 30px;"/> */}
-            <div className="row_sponsors align-items-baseline justify-content-center pb-5 div-sponsor">
+          <div className="row_sponsors align-items-center justify-content-center pb-5 div-sponsor">
               <div className="col-lg-3 col-md-3 col-4 pt-5 ">
                 <a href="https://www.jkcement.com/">
                   <img
@@ -1120,8 +1050,8 @@ const Sponsors = () => {
                   />
                 </a>
               </div>
-            </div>
           </div>
+        </div>
       </section >
     </>
   );
