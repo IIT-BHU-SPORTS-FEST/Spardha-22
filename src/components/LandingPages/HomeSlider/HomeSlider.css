@@ -706,20 +706,20 @@ a.home-button1:hover {
   #column1M {
     float: left;
     width: 50%;
-    padding: 10px;
+    padding: 20px 5px;
   }
 
   #column2M {
     float: left;
     width: 50%;
-    padding: 10px;
+    padding: 20px 5px;
   }
 
   #columnLogo {
     float: left;
-    width: 50%;
+    width: 70%;
     padding: 5px;
-    margin-left: 25%;
+    margin-left: 15%;
   }
 
   /* Clear floats after image containers */
