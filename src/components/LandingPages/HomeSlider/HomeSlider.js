@@ -25,15 +25,30 @@ function HomeSlider() {
               data-scrollax-parent="true"
             >
               <div className="col-md-12 col-sm-12 col-12 ftco-animate text-center mt-5" style={{width:"78vw"}}>
-                <div className="container col-lg-4 col-md-5 col-sm-9 col-9">
-                  <img src="/images/logo/spardha-white-home.png" alt="spardha" />
+                <div id="row" className="">
+                  <a href="https://myrankers.com">
+                    <img id="column1" src="/images/logo/powered.svg" alt="Rankers" />
+                  </a>
+                  <img id="columnLogo" src="/images/logo/spardha-white-home.png" alt="spardha" />
+                  <a href="https://iitiantrader.in/">
+                    <img id="column2" src="/images/logo/co-powered.svg" alt="Iitian Traders" />
+                  </a>
                 </div>
-                <h1 className="mt-4 mb-1 text-overflow-center spardha-21">
+                <h1 className="mb-1 text-overflow-center spardha-21">
                   Spardha&nbsp;2022
                 </h1>
                 <h2 className="text-overflow-center home-spardha-subheading">
                   IIT (BHU), Varanasi
                 </h2>
+                <div id="rowM" className="">
+                  <a href="https://myrankers.com">
+                    <img id="column1M" src="/images/logo/powered.svg" alt="Rankers" />
+                  </a>
+
+                  <a href="https://iitiantrader.in/">
+                    <img id="column2M" src="/images/logo/co-powered.svg" alt="Iitian Traders" />
+                  </a>
+                </div>
                 <h2
                   className="text-overflow-center home-spardha-subheading"
                   style={{ color: '#fdcc07' }}
@@ -90,15 +105,29 @@ function HomeSlider() {
               data-scrollax-parent="true"
             >
               <div className="col-md-12 col-sm-12 col-12 ftco-animate text-center mt-5" style={{width:"78vw"}}>
-                <div className="container col-lg-4 col-md-5 col-sm-9 col-9">
-                  <img src="/images/logo/spardha-white-home.png" alt="spardha" />
+                <div id="row" className="">
+                  <a href="https://myrankers.com">
+                    <img id="column1" src="/images/logo/powered.svg" alt="Rankers" />
+                  </a>
+                  <img id="columnLogo" src="/images/logo/spardha-white-home.png" alt="spardha" />
+                  <a href="https://iitiantrader.in/">
+                    <img id="column2" src="/images/logo/co-powered.svg" alt="Iitian Traders" />
+                  </a>
                 </div>
-                <h1 className="mt-4 mb-1 text-overflow-center spardha-21">
+                <h1 className="mb-1 text-overflow-center spardha-21">
                   Spardha&nbsp;2022
                 </h1>
                 <h2 className="text-overflow-center home-spardha-subheading">
                   IIT (BHU), Varanasi
                 </h2>
+                <div id="rowM" className="">
+                  <a href="https://myrankers.com">
+                    <img id="column1M" src="/images/logo/powered.svg" alt="Rankers" />
+                  </a>
+                  <a href="https://iitiantrader.in/">
+                    <img id="column2M" src="/images/logo/co-powered.svg" alt="Iitian Traders" />
+                  </a>
+                </div>
                 <h2
                   className="text-overflow-center home-spardha-subheading"
                   style={{ color: '#fdcc07' }}
@@ -132,7 +161,7 @@ function HomeSlider() {
                       to="/register/signup#register"
                       className="home-button"
                     >
-                      REGISTER&nbsp;/&nbsp;LOGIN
+                      {/* REGISTER&nbsp;/&nbsp; */}LOGIN
                     </HashLink>
                   </div>
                   <div className="ca">
@@ -154,15 +183,29 @@ function HomeSlider() {
               data-scrollax-parent="true"
             >
               <div className="col-md-12 col-sm-12 col-12 ftco-animate text-center mt-5" style={{width:"78vw"}}>
-                <div className="container col-lg-4 col-md-5 col-sm-9 col-9">
-                  <img src="/images/logo/spardha-white-home.png" alt="spardha" />
+                <div id="row" className="">
+                  <a href="https://myrankers.com">
+                    <img id="column1" src="/images/logo/powered.svg" alt="Rankers" />
+                  </a>
+                  <img id="columnLogo" src="/images/logo/spardha-white-home.png" alt="spardha" />
+                  <a href="https://iitiantrader.in/">
+                    <img id="column2" src="/images/logo/co-powered.svg" alt="Iitian Traders" />
+                  </a>
                 </div>
-                <h1 className="mt-4 mb-1 text-overflow-center spardha-21">
+                <h1 className="mb-1 text-overflow-center spardha-21">
                   Spardha&nbsp;2022
                 </h1>
                 <h2 className="text-overflow-center home-spardha-subheading">
                   IIT (BHU), Varanasi
                 </h2>
+                <div id="rowM" className="">
+                  <a href="https://myrankers.com">
+                    <img id="column1M" src="/images/logo/powered.svg" alt="Rankers" />
+                  </a>
+                  <a href="https://iitiantrader.in/">
+                    <img id="column2M" src="/images/logo/co-powered.svg" alt="Iitian Traders" />
+                  </a>
+                </div>
                 <h2
                   className="text-overflow-center home-spardha-subheading"
                   style={{ color: '#fdcc07' }}
@@ -219,15 +262,29 @@ function HomeSlider() {
               data-scrollax-parent="true"
             >
               <div className="col-md-12 col-sm-12 col-12 ftco-animate text-center mt-5" style={{width:"78vw"}}>
-                <div className="container col-lg-4 col-md-5 col-sm-9 col-9">
-                  <img src="/images/logo/spardha-white-home.png" alt="spardha" />
+                <div id="row" className="">
+                  <a href="https://myrankers.com">
+                    <img id="column1" src="/images/logo/powered.svg" alt="Rankers" />
+                  </a>
+                  <img id="columnLogo" src="/images/logo/spardha-white-home.png" alt="spardha" />
+                  <a href="https://iitiantrader.in/">
+                    <img id="column2" src="/images/logo/co-powered.svg" alt="Iitian Traders" />
+                  </a>
                 </div>
-                <h1 className="mt-4 mb-1 text-overflow-center spardha-21">
+                <h1 className="mb-1 text-overflow-center spardha-21">
                   Spardha&nbsp;2022
                 </h1>
                 <h2 className="text-overflow-center home-spardha-subheading">
                   IIT (BHU), Varanasi
                 </h2>
+                <div id="rowM" className="">
+                  <a href="https://myrankers.com">
+                    <img id="column1M" src="/images/logo/powered.svg" alt="Rankers" />
+                  </a>
+                  <a href="https://iitiantrader.in/">
+                    <img id="column2M" src="/images/logo/co-powered.svg" alt="Iitian Traders" />
+                  </a>
+                </div>
                 <h2
                   className="text-overflow-center home-spardha-subheading"
                   style={{ color: '#fdcc07' }}
